@@ -1,0 +1,26 @@
+export enum GemSlotType {
+	// gemstones
+	AMBER = 'AMBER',
+	AMETHYST = 'AMETHYST',
+	AQUAMARINE = 'AQUAMARINE',
+	CITRINE = 'CITRINE',
+	JADE = 'JADE',
+	JASPER = 'JASPER',
+	ONYX = 'ONYX',
+	OPAL = 'OPAL',
+	PERIDOT = 'PERIDOT',
+	RUBY = 'RUBY',
+	SAPPHIRE = 'SAPPHIRE',
+	TOPAZ = 'TOPAZ',
+
+	// special
+	/**
+	 * From Mining V3
+	 */
+	CHISEL = 'CHISEL',
+	COMBAT = 'COMBAT',
+	DEFENSIVE = 'DEFENSIVE',
+	MINING = 'MINING',
+	OFFENSIVE = 'OFFENSIVE',
+	UNIVERSAL = 'UNIVERSAL',
+}

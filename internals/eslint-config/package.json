@@ -1,0 +1,51 @@
+{
+	"bugs": {
+		"url": "https://github.com/skyblock-finance/skyblock-finance-opensource/issues"
+	},
+	"dependencies": {
+		"@eslint/js": "^9.0.0",
+		"eslint-plugin-jsonc": "^2.15.0",
+		"jsonc-eslint-parser": "^2.4.0",
+		"typescript-eslint": "^7.6.0"
+	},
+	"description": "Skyblock Finance Shared ESLint Config",
+	"devDependencies": {
+		"@types/eslint__js": "^8.42.3",
+		"@typescript-eslint/utils": "^7.6.0"
+	},
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/index.js"
+			}
+		}
+	},
+	"files": [
+		"dist/**/!(*.tsbuildinfo)"
+	],
+	"homepage": "https://github.com/skyblock-finance/skyblock-finance-opensource/tree/master/packages/eslint-config",
+	"keywords": [
+		"eslint",
+		"eslint-config"
+	],
+	"license": "MIT",
+	"module": "./dist/index.js",
+	"name": "@skyblock-finance/eslint-config",
+	"peerDependencies": {
+		"eslint": ">= 9",
+		"typescript": ">= 4"
+	},
+	"repository": "git+https://github.com/skyblock-finance/skyblock-finance-opensource.git",
+	"scripts": {
+		"build": "tsc --build",
+		"check:eslint": "bun run eslint --max-warnings=0 .",
+		"check:prettier": "bun --bun run --cwd ../.. prettier --check internals/eslint-config",
+		"check:publint": "bun --bun run publint",
+		"fix:eslint": "bun run check:eslint -- --fix",
+		"fix:prettier": "bun --bun run check:prettier -- --write"
+	},
+	"type": "module",
+	"types": "./dist/index.d.ts",
+	"version": "0.0.1"
+}

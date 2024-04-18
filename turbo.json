@@ -1,0 +1,56 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"globalDependencies": ["bun.lockb"],
+	"pipeline": {
+		"build": {
+			"dependsOn": ["^build"]
+		},
+		"check": {
+			"dependsOn": [
+				"check:eslint",
+				"check:knip",
+				"check:prettier",
+				"check:publint"
+			]
+		},
+		"check:eslint": {
+			"dependsOn": ["@skyblock-finance/eslint-config#build"],
+			"inputs": [
+				"**/*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"../../eslint.config.mjs"
+			],
+			"outputMode": "new-only"
+		},
+		"check:knip": {
+			"outputMode": "new-only"
+		},
+		"check:prettier": {
+			"inputs": ["**/*.{css,js,json,md,scss,ts}"],
+			"outputMode": "new-only"
+		},
+		"check:publint": {
+			"dependsOn": ["build"],
+			"inputs": ["dist/**", "package.json"],
+			"outputMode": "new-only"
+		},
+		"fix": {
+			"dependsOn": ["fix:eslint", "fix:prettier"]
+		},
+		"fix:eslint": {
+			"dependsOn": ["@skyblock-finance/eslint-config#build"],
+			"inputs": [
+				"**/*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"../../eslint.config.mjs"
+			],
+			"outputMode": "new-only",
+			"outputs": [
+				"**/*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"../../eslint.config.mjs"
+			]
+		},
+		"fix:prettier": {
+			"inputs": ["**/*.{css,js,json,md,scss,ts}"],
+			"outputMode": "new-only"
+		}
+	}
+}

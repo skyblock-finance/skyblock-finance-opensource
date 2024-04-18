@@ -1,0 +1,12 @@
+{
+	"name": "fake-root",
+	"private": true,
+	"scripts": {
+		"check:eslint": "bun run --cwd ../.. eslint --max-warnings=0 --ignore-pattern=packages --ignore-pattern=internals .",
+		"check:knip": "bun run --cwd ../.. knip",
+		"check:prettier": "bun --bun run --cwd ../.. prettier --check .",
+		"fix:eslint": "yarn run check:eslint --fix",
+		"fix:prettier": "bun --bun run check:prettier --write"
+	},
+	"version": "0.0.0"
+}

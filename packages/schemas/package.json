@@ -1,0 +1,38 @@
+{
+	"dependencies": {
+		"zod": "^3.22.4"
+	},
+	"devDependencies": {
+		"@types/json-stable-stringify": "^1.0.36",
+		"@types/lodash": "^4.14.188",
+		"@types/node": "^18.11.9",
+		"json-stable-stringify": "^1.1.1",
+		"lodash": "^4.17.21",
+		"tslog": "^4.9.2"
+	},
+	"files": [
+		"dist",
+		"source"
+	],
+	"license": "MIT",
+	"main": "dist/index.js",
+	"name": "@skyblock-finance/schemas",
+	"peerDependencies": {
+		"typescript": ">= 4"
+	},
+	"private": true,
+	"scripts": {
+		"build": "tsc --build",
+		"check:eslint": "bun run eslint --max-warnings=0 .",
+		"check:prettier": "bun --bun run --cwd ../.. prettier --check packages/schemas",
+		"check:publint": "bun --bun run publint",
+		"download": "bun scripts/download-data.ts",
+		"fix:eslint": "bun run check:eslint --fix",
+		"fix:prettier": "bun --bun run check:prettier --write",
+		"start": "bun scripts/check-all.ts",
+		"watch": "nodemon -e ts,json --watch source --watch scripts --exec \"bun run start\""
+	},
+	"type": "commonjs",
+	"types": "dist/index.d.ts",
+	"version": "0.0.1"
+}

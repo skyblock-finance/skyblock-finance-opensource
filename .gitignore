@@ -1,0 +1,23 @@
+# global
+dist/
+
+# per-package
+
+packages/schemas/data/*.json
+
+################################################################################
+
+# bun
+node_modules/
+
+# ide:intellij
+.idea
+
+# os:macOS
+.DS_Store
+
+# turborepo
+.turbo/
+
+# typescript
+*.tsbuildinfo

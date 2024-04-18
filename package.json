@@ -1,0 +1,38 @@
+{
+	"devDependencies": {
+		"@skyblock-finance/eslint-config": "*",
+		"@types/bun": "latest",
+		"eslint": "^9.0.0",
+		"knip": "^5.9.4",
+		"nodemon": "^3.1.0",
+		"prettier": "^3.2.5",
+		"publint": "^0.2.7",
+		"turbo": "^1.13.2",
+		"typescript": "^5.4.5",
+		"typescript-eslint": "^7.7.0"
+	},
+	"license": "MIT",
+	"name": "root",
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"private": true,
+	"scripts": {
+		"build": "turbo run build",
+		"check": "turbo run check",
+		"check:eslint": "turbo run check:eslint",
+		"check:knip": "turbo run check:knip",
+		"check:prettier": "turbo run check:prettier",
+		"check:publint": "turbo run check:publint",
+		"fix": "turbo run fix",
+		"fix:eslint": "turbo run fix:eslint",
+		"fix:prettier": "turbo run fix:prettier",
+		"test": "turbo run test",
+		"watch": "turbo run watch"
+	},
+	"type": "module",
+	"workspaces": [
+		"internals/*",
+		"packages/*"
+	]
+}

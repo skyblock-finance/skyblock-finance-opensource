@@ -1,0 +1,15 @@
+export enum DungeonType {
+	CATACOMBS = 'CATACOMBS',
+	MASTER_CATACOMBS = 'MASTER_CATACOMBS',
+}
+
+export enum EssenceType {
+	CRIMSON = 'CRIMSON',
+	DIAMOND = 'DIAMOND',
+	DRAGON = 'DRAGON',
+	GOLD = 'GOLD',
+	ICE = 'ICE',
+	SPIDER = 'SPIDER',
+	UNDEAD = 'UNDEAD',
+	WITHER = 'WITHER',
+}

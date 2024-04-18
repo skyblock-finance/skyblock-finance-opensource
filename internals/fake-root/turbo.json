@@ -1,0 +1,50 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"extends": ["//"],
+	"pipeline": {
+		"check:eslint": {
+			"inputs": [
+				"../../**/*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"!../../internals/**/*",
+				"!../../packages/**/*",
+				"../../eslint.config.mjs"
+			],
+			"outputMode": "new-only",
+			"outputs": ["./dist/**"]
+		},
+		"check:prettier": {
+			"inputs": [
+				"../../**/*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"!../../packages/**/*",
+				"../../eslint.config.mjs"
+			],
+			"outputMode": "new-only",
+			"outputs": ["./dist/**"]
+		},
+		"download": {},
+		"fix:eslint": {
+			"inputs": [
+				"../../**/*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"!../../internals/**/*",
+				"!../../packages/**/*",
+				"../../eslint.config.mjs"
+			],
+			"outputMode": "new-only",
+			"outputs": ["./dist/**"]
+		},
+		"fix:prettier": {
+			"inputs": [
+				"../../**/*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"!../../packages/**/*",
+				"../../eslint.config.mjs"
+			],
+			"outputMode": "new-only",
+			"outputs": ["./dist/**"]
+		},
+		"watch": {
+			"cache": false,
+			"dependsOn": ["^build", "download"],
+			"persistent": true
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"extends": ["//"],
+	"pipeline": {
+		"build": {
+			"inputs": ["./source/**", "tsconfig.json"],
+			"outputMode": "new-only",
+			"outputs": ["./dist/**"]
+		},
+		"download": {
+			"dependsOn": ["^build"],
+			"inputs": ["./scripts/**"],
+			"outputMode": "new-only",
+			"outputs": ["./data"]
+		},
+		"start": {
+			"dependsOn": ["^build", "download"]
+		},
+		"watch": {
+			"cache": false,
+			"dependsOn": ["^build", "download"],
+			"persistent": true
+		}
+	}
+}
