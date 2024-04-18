@@ -38,7 +38,12 @@ export default tseslint.config(
 	 * @see {@link https://eslint.org/docs/latest/use/configure/ignore#ignoring-files}
 	 */
 	{
-		ignores: ['**/dist/**', '**/.turbo/**', 'packages/schemas/data/*.json'],
+		ignores: [
+			'**/dist/**',
+			'**/.turbo/**',
+			'.github/custom/cla-signatures.json',
+			'packages/schemas/data/*.json',
+		],
 	},
 	{
 		extends: [...eslintConfig.configs.default],
