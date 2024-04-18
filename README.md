@@ -9,3 +9,7 @@ This repo contains the opensource parts of <https://skyblock.finance>
 3. `bun run watch --filter=schemas`
 4. Make your changes
 5. Submit a pull request and [agree to the CLA](/CLA.md) so we can publish and use your improvements
+
+## Recommendations
+
+It is recommended, but not required, to use Visual Studio Code. However, please be aware that it is the only officially supported IDE.
