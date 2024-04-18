@@ -1,3 +1,12 @@
 {
-   "signedContributors": []
+  "signedContributors": [
+    {
+      "name": "FlorianWendelborn",
+      "id": 1133858,
+      "comment_id": 2062837712,
+      "created_at": "2024-04-18T01:38:07Z",
+      "repoId": 788003777,
+      "pullRequestNo": 1
+    }
+  ]
 }
