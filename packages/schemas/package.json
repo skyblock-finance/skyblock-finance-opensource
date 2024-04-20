@@ -14,13 +14,17 @@
 		"dist",
 		"source"
 	],
+	"keywords": [
+		"hypixel-skyblock",
+		"hypixel",
+		"skyblock-finance"
+	],
 	"license": "MIT",
 	"main": "dist/index.js",
 	"name": "@skyblock-finance/schemas",
 	"peerDependencies": {
 		"typescript": ">= 4"
 	},
-	"private": true,
 	"scripts": {
 		"build": "tsc --build",
 		"check:eslint": "bun run eslint --max-warnings=0 .",
