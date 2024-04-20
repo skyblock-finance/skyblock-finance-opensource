@@ -1,15 +1,19 @@
 {
 	"compilerOptions": {
+		"composite": true,
+		"declaration": true,
+		"forceConsistentCasingInFileNames": true,
 		"lib": ["ESNext"],
-		"module": "ESNext",
-		"moduleDetection": "force",
-		"moduleResolution": "bundler",
-		"noEmit": true,
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
 		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
 		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"strict": true,
-		"target": "ESNext",
-		"verbatimModuleSyntax": true
+		"strictNullChecks": true,
+		"target": "ESNext"
 	}
 }
