@@ -7,7 +7,7 @@ const packageJsonSchema = z.object({ name: z.string(), version: z.string() })
 
 const getRemoteVersion = async (name: string): Promise<string | null> => {
 	try {
-		return await $`npm view ${name} version`.text()
+		return (await $`npm view ${name} version`.text()).trim()
 	} catch {
 		return null
 	}
@@ -27,6 +27,7 @@ for (const path of packagesToConsider) {
 
 	const shouldPublish =
 		remoteVersion === null || semver.order(version, remoteVersion) === 1
+
 	if (!shouldPublish) {
 		console.info(`${path}: already up-to-date, skipping`)
 		continue
