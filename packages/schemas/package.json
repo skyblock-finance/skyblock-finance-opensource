@@ -1,4 +1,7 @@
 {
+	"bugs": {
+		"url": "https://github.com/skyblock-finance/skyblock-finance-opensource/issues"
+	},
 	"dependencies": {
 		"zod": "^3.22.4"
 	},
@@ -25,6 +28,10 @@
 	"peerDependencies": {
 		"typescript": ">= 4"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/skyblock-finance/skyblock-finance-opensource"
+	},
 	"scripts": {
 		"build": "tsc --build",
 		"check:eslint": "bun run eslint --max-warnings=0 .",
@@ -37,6 +44,7 @@
 		"start": "bun scripts/check-all.ts",
 		"watch": "nodemon -e ts,json --watch source --watch scripts --exec \"bun run start\""
 	},
+	"sideEffects": false,
 	"type": "commonjs",
 	"types": "dist/index.d.ts",
 	"version": "0.0.1"
