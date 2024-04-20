@@ -1,21 +1,13 @@
 {
 	"compilerOptions": {
-		"composite": true,
-		"declaration": true,
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
 		"module": "commonjs",
-		"noImplicitAny": true,
-		"noUnusedLocals": true,
+		"moduleResolution": "Node",
 		"outDir": "./dist",
-		"resolveJsonModule": true,
 		"rootDir": "./source",
-		"strict": true,
-		"strictNullChecks": true,
-		"target": "es5",
 		"tsBuildInfoFile": "./dist/.tsbuildinfo",
-		"types": ["node"]
+		"types": ["bun"]
 	},
 	"exclude": ["source/**/*.test.ts"],
+	"extends": "../../tsconfig.json",
 	"include": ["source/**/*.ts"]
 }

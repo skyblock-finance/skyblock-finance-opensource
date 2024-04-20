@@ -38,7 +38,7 @@
 	},
 	"repository": "git+https://github.com/skyblock-finance/skyblock-finance-opensource.git",
 	"scripts": {
-		"build": "tsc --build",
+		"build": "rm -rf dist && tsc --build",
 		"check:eslint": "bun run eslint --max-warnings=0 .",
 		"check:prettier": "bun --bun run --cwd ../.. prettier --check internals/eslint-config",
 		"check:publint": "bun --bun run publint",
