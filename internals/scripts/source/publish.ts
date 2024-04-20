@@ -43,4 +43,4 @@ if (toPublish.length === 0) {
 
 console.info(`attempting to publish ${toPublish.join(', ')}`)
 
-await $`turbo run publish-package --continue ${toPublish.map((packageName) => `--filter=${packageName}`).join(' ')}`
+await $`bun run turbo run publish-package --continue ${toPublish.map((packageName) => `--filter=${packageName}`).join(' ')}`
