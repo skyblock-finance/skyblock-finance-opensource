@@ -4,9 +4,9 @@ This repo contains the opensource parts of <https://skyblock.finance>
 
 ## Packages
 
-|                        Name | What does this do?                           | Getting Started                       |
-| --------------------------: | :------------------------------------------- | :------------------------------------ |
-| `@skyblock-finance/schemas` | Strong validation for Skyblock API responses | [README](/packages/schemas/README.md) |
+|                        Name | What does this do?                           | Getting Started                    |
+| --------------------------: | :------------------------------------------- | :--------------------------------- |
+| `@skyblock-finance/schemas` | Strong validation for Skyblock API responses | [README](/packages/schemas#readme) |
 
 ## Contributing
 
