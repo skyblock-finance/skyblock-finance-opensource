@@ -10,5 +10,8 @@
 		"jsonc",
 		"typescript",
 		"typescriptreact"
-	]
+	],
+	"files.associations": {
+		"turbo.json": "jsonc"
+	}
 }

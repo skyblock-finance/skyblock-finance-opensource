@@ -1,7 +1,7 @@
 {
 	"devDependencies": {
+		"@arethetypeswrong/cli": "^0.15.3",
 		"@skyblock-finance/eslint-config": "*",
-		"@types/bun": "latest",
 		"eslint": "^9.0.0",
 		"knip": "^5.9.4",
 		"nodemon": "^3.1.0",
@@ -20,6 +20,7 @@
 	"scripts": {
 		"build": "turbo run build",
 		"check": "turbo run check",
+		"check:arethetypeswrong": "turbo run check:arethetypeswrong",
 		"check:eslint": "turbo run check:eslint",
 		"check:knip": "turbo run check:knip",
 		"check:prettier": "turbo run check:prettier",

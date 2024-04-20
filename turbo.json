@@ -3,15 +3,22 @@
 	"globalDependencies": ["bun.lockb"],
 	"pipeline": {
 		"build": {
-			"dependsOn": ["^build"]
+			"dependsOn": ["^build"],
+			"outputMode": "new-only"
 		},
 		"check": {
 			"dependsOn": [
+				"check:arethetypeswrong",
 				"check:eslint",
 				"check:knip",
 				"check:prettier",
 				"check:publint"
 			]
+		},
+		"check:arethetypeswrong": {
+			"dependsOn": ["build"],
+			"inputs": ["dist/**", "package.json"],
+			"outputMode": "new-only"
 		},
 		"check:eslint": {
 			"dependsOn": ["@skyblock-finance/eslint-config#build"],

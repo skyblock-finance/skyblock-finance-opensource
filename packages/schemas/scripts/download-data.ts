@@ -6,7 +6,7 @@ import { Logger } from 'tslog'
 
 export const log = new Logger()
 
-interface Common {
+type Common = {
 	name: string
 }
 

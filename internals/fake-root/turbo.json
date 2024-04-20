@@ -4,47 +4,28 @@
 	"pipeline": {
 		"check:eslint": {
 			"inputs": [
-				"../../**/*.{cjs,js,mjs,json,mjs,mts,ts}",
-				"!../../internals/**/*",
-				"!../../packages/**/*",
+				"../../*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"../../.vscode/**/*",
 				"../../eslint.config.mjs"
-			],
-			"outputMode": "new-only",
-			"outputs": ["./dist/**"]
+			]
+		},
+		"check:knip": {
+			"inputs": [
+				"../../internals/*/scripts/**/*",
+				"../../internals/*/source/**/*",
+				"../../knip.json",
+				"../../packages/*/scripts/**/*",
+				"../../packages/*/source/**/*"
+			]
 		},
 		"check:prettier": {
-			"inputs": [
-				"../../**/*.{cjs,js,mjs,json,mjs,mts,ts}",
-				"!../../packages/**/*",
-				"../../eslint.config.mjs"
-			],
-			"outputMode": "new-only",
-			"outputs": ["./dist/**"]
+			"inputs": ["../../*.{cjs,js,mjs,json,mjs,mts,ts}", "../../.vscode/**/*"]
 		},
-		"download": {},
 		"fix:eslint": {
-			"inputs": [
-				"../../**/*.{cjs,js,mjs,json,mjs,mts,ts}",
-				"!../../internals/**/*",
-				"!../../packages/**/*",
-				"../../eslint.config.mjs"
-			],
-			"outputMode": "new-only",
-			"outputs": ["./dist/**"]
+			"inputs": ["../../*.{cjs,js,mjs,json,mjs,mts,ts}", "../../.vscode/**/*"]
 		},
 		"fix:prettier": {
-			"inputs": [
-				"../../**/*.{cjs,js,mjs,json,mjs,mts,ts}",
-				"!../../packages/**/*",
-				"../../eslint.config.mjs"
-			],
-			"outputMode": "new-only",
-			"outputs": ["./dist/**"]
-		},
-		"watch": {
-			"cache": false,
-			"dependsOn": ["^build", "download"],
-			"persistent": true
+			"inputs": ["../../*.{cjs,js,mjs,json,mjs,mts,ts}", "../../.vscode/**/*"]
 		}
 	}
 }

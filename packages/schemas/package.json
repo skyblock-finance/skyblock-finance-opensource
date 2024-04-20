@@ -6,9 +6,9 @@
 		"zod": "^3.22.4"
 	},
 	"devDependencies": {
+		"@types/bun": "latest",
 		"@types/json-stable-stringify": "^1.0.36",
 		"@types/lodash": "^4.14.188",
-		"@types/node": "^18.11.9",
 		"json-stable-stringify": "^1.1.1",
 		"lodash": "^4.17.21",
 		"tslog": "^4.9.2"
@@ -34,6 +34,7 @@
 	},
 	"scripts": {
 		"build": "rm -rf dist && tsc --build",
+		"check:arethetypeswrong": "bun --bun run attw --pack .",
 		"check:eslint": "bun run eslint --max-warnings=0 .",
 		"check:prettier": "bun --bun run --cwd ../.. prettier --check packages/schemas",
 		"check:publint": "bun --bun run publint",
