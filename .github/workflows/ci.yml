@@ -2,34 +2,14 @@ name: CI
 on:
   - push
 jobs:
-  check-eslint:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4 # node is required by arethetypeswrong
       - uses: oven-sh/setup-bun@v1
       - run: bun install
-      - run: bun run check:eslint
-  check-knip:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v1
-      - run: bun install
-      - run: bun run check:knip
-  check-prettier:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v1
-      - run: bun install
-      - run: bun run check:prettier
-  check-publint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v1
-      - run: bun install
-      - run: bun run check:publint
+      - run: bun run check
   validate-schemas:
     runs-on: ubuntu-latest
     steps:

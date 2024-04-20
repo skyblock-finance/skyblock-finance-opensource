@@ -34,7 +34,7 @@
 	},
 	"scripts": {
 		"build": "rm -rf dist && tsc --build",
-		"check:arethetypeswrong": "bun --bun run attw --pack .",
+		"check:arethetypeswrong": "bun run attw --pack .",
 		"check:eslint": "bun run eslint --max-warnings=0 .",
 		"check:prettier": "bun --bun run --cwd ../.. prettier --check packages/schemas",
 		"check:publint": "bun --bun run publint",
