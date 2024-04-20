@@ -1,0 +1,13 @@
+{
+	"dependencies": {
+		"zod": "^3.22.5"
+	},
+	"name": "@skyblock-finance/scripts",
+	"private": true,
+	"scripts": {
+		"check:eslint": "bun run eslint --max-warnings=0 .",
+		"check:prettier": "bun --bun run --cwd ../.. prettier --check internals/scripts",
+		"fix:eslint": "bun run check:eslint --fix",
+		"fix:prettier": "bun --bun run check:prettier --write"
+	}
+}

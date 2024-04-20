@@ -51,6 +51,11 @@
 		"fix:prettier": {
 			"inputs": ["**/*.{css,js,json,md,scss,ts}"],
 			"outputMode": "new-only"
-		}
+		},
+		"publish-package": {
+			"cache": false,
+			"dependsOn": ["build", "check", "test"]
+		},
+		"test": {}
 	}
 }

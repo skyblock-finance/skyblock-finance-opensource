@@ -29,6 +29,7 @@
 		"download": "bun scripts/download-data.ts",
 		"fix:eslint": "bun run check:eslint --fix",
 		"fix:prettier": "bun --bun run check:prettier --write",
+		"publish-package": "npm publish --provenance",
 		"start": "bun scripts/check-all.ts",
 		"watch": "nodemon -e ts,json --watch source --watch scripts --exec \"bun run start\""
 	},
