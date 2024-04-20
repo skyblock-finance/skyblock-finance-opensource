@@ -7,6 +7,10 @@
 			"entry": ["scripts/*.ts", "source/index.ts"],
 			"project": ["source/**/*.ts"]
 		},
+		"internals/scripts": {
+			"entry": ["source/*.ts"],
+			"project": ["source/**/*.ts"]
+		},
 		"packages/*": {
 			"entry": ["scripts/*.ts", "source/index.ts"],
 			"project": ["source/**/*.ts"]
