@@ -20,6 +20,7 @@ export default {
 				reportUnusedDisableDirectives: 'error',
 			},
 			rules: {
+				'@typescript-eslint/consistent-type-definitions': ['warn', 'type'],
 				'@typescript-eslint/no-unused-vars': [
 					'warn',
 					{
@@ -37,7 +38,7 @@ export default {
 		json: tseslint.config(
 			{
 				files: ['**/*.json'],
-				ignores: ['**/tsconfig*.json'],
+				ignores: ['**/tsconfig*.json', '**/turbo.json'],
 				languageOptions: {
 					parser: jsoncEslintParser,
 				},
@@ -61,7 +62,7 @@ export default {
 				},
 			},
 			{
-				files: ['**/tsconfig*.json'],
+				files: ['**/tsconfig*.json', '**/turbo.json'],
 				languageOptions: {
 					parser: jsoncEslintParser,
 				},

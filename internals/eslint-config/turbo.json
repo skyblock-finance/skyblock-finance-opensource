@@ -4,7 +4,6 @@
 	"pipeline": {
 		"build": {
 			"inputs": ["./scripts/**", "./source/**", "tsconfig.*"],
-			"outputMode": "new-only",
 			"outputs": ["./dist/**"]
 		}
 	}
