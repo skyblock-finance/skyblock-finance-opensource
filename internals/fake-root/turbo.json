@@ -5,6 +5,7 @@
 		"check:eslint": {
 			"inputs": [
 				"../../*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"../../.github/**/*",
 				"../../.vscode/**/*",
 				"../../eslint.config.mjs"
 			]
@@ -19,13 +20,25 @@
 			]
 		},
 		"check:prettier": {
-			"inputs": ["../../*.{cjs,js,mjs,json,mjs,mts,ts}", "../../.vscode/**/*"]
+			"inputs": [
+				"../../*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"../../.github/**/*",
+				"../../.vscode/**/*"
+			]
 		},
 		"fix:eslint": {
-			"inputs": ["../../*.{cjs,js,mjs,json,mjs,mts,ts}", "../../.vscode/**/*"]
+			"inputs": [
+				"../../*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"../../.github/**/*",
+				"../../.vscode/**/*"
+			]
 		},
 		"fix:prettier": {
-			"inputs": ["../../*.{cjs,js,mjs,json,mjs,mts,ts}", "../../.vscode/**/*"]
+			"inputs": [
+				"../../*.{cjs,js,mjs,json,mjs,mts,ts}",
+				"../../.github/**/*",
+				"../../.vscode/**/*"
+			]
 		}
 	}
 }
