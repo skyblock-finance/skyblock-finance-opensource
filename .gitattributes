@@ -1,0 +1,2 @@
+# fix Windows causing CRLF issues with git and prettier
+* text=auto eol=lf
