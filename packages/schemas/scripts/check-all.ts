@@ -116,7 +116,6 @@ for (const toCheck of TO_CHECK) {
 			await checkSchema({
 				file: toCheck.file,
 				getMessage: toCheck.getMessage,
-				// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 				json,
 				schema: toCheck.basicSchema,
 				type: 'basic',
@@ -124,7 +123,6 @@ for (const toCheck of TO_CHECK) {
 		await checkSchema({
 			file: toCheck.file,
 			getMessage: toCheck.getMessage,
-			// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 			json,
 			schema: toCheck.runtimeSchema,
 			type: 'runtime',
@@ -132,7 +130,6 @@ for (const toCheck of TO_CHECK) {
 		await checkSchema({
 			file: toCheck.file,
 			getMessage: toCheck.getMessage,
-			// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 			json,
 			schema: toCheck.strictSchema,
 			type: 'strict',
