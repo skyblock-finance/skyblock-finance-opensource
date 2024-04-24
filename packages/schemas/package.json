@@ -43,7 +43,7 @@
 		"fix:prettier": "bun --bun run check:prettier --write",
 		"publish-package": "npm publish --access public --provenance",
 		"start": "bun scripts/check-all.ts",
-		"watch": "nodemon -e ts,json --watch source --watch scripts --exec \"bun run start\""
+		"watch": "bun --watch scripts/check-all.ts"
 	},
 	"sideEffects": false,
 	"type": "commonjs",
