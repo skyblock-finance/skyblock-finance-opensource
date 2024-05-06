@@ -4,9 +4,9 @@
 	"pipeline": {
 		"download": {
 			"dependsOn": ["^build"],
-			"inputs": ["./scripts/**"],
+			"inputs": ["scripts/**"],
 			"outputMode": "new-only",
-			"outputs": ["./data"]
+			"outputs": ["data"]
 		},
 		"start": {
 			"dependsOn": ["^build", "download"]

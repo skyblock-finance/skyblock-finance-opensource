@@ -4,9 +4,9 @@
 	"pipeline": {
 		"build": {
 			"dependsOn": ["^build"],
-			"inputs": ["./source/**", "tsconfig.json"],
+			"inputs": ["source/**", "tsconfig.json"],
 			"outputMode": "new-only",
-			"outputs": ["./dist/**"]
+			"outputs": ["dist/**"]
 		},
 		"check": {
 			"dependsOn": [
