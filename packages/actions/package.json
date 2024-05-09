@@ -1,0 +1,42 @@
+{
+	"bugs": {
+		"url": "https://github.com/skyblock-finance/skyblock-finance-opensource/issues"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"files": [
+		"dist",
+		"source"
+	],
+	"keywords": [
+		"hypixel-skyblock",
+		"hypixel",
+		"skyblock-finance"
+	],
+	"license": "MIT",
+	"main": "dist/index.js",
+	"name": "@skyblock-finance/actions",
+	"peerDependencies": {
+		"typescript": ">= 4"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/skyblock-finance/skyblock-finance-opensource"
+	},
+	"scripts": {
+		"build": "rm -rf dist && tsc --build",
+		"check:arethetypeswrong": "bun run attw --pack .",
+		"check:eslint": "bun run eslint --max-warnings=0 .",
+		"check:prettier": "bun --bun run --cwd ../.. prettier --check packages/actions",
+		"check:publint": "bun --bun run publint",
+		"fix:eslint": "bun run check:eslint --fix",
+		"fix:prettier": "bun --bun run check:prettier --write",
+		"publish-package": "npm publish --access public --provenance"
+	},
+	"sideEffects": false,
+	"type": "commonjs",
+	"types": "dist/index.d.ts",
+	"version": "0.0.1"
+}

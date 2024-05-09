@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "Node",
+		"outDir": "./dist",
+		"rootDir": "./source",
+		"tsBuildInfoFile": "./dist/.tsbuildinfo",
+		"types": ["bun"]
+	},
+	"exclude": ["source/**/*.test.ts"],
+	"extends": "../../tsconfig.json",
+	"include": ["source/**/*.ts"]
+}

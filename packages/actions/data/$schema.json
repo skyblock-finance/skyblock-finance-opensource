@@ -1,0 +1,131 @@
+{
+	"$schema": "https://json-schema.org/draft-07/schema",
+	"additionalProperties": false,
+	"definitions": {
+		"currencyAction": {
+			"additionalProperties": false,
+			"properties": {
+				"amount": {
+					"type": "number"
+				},
+				"type": {
+					"enum": ["bit", "coin", "mote", "north-star"],
+					"type": "string"
+				}
+			},
+			"required": ["amount", "type"]
+		},
+		"itemAction": {
+			"additionalProperties": false,
+			"properties": {
+				"amount": {
+					"type": "number"
+				},
+				"id": {
+					"type": "string"
+				},
+				"type": {
+					"const": "item"
+				}
+			},
+			"required": ["id", "amount", "type"],
+			"type": "object"
+		}
+	},
+	"properties": {
+		"$schema": {
+			"type": "string"
+		},
+		"actions": {
+			"items": {
+				"additionalProperties": false,
+				"properties": {
+					"inputs": {
+						"items": {
+							"oneOf": [
+								{ "$ref": "#/definitions/currencyAction" },
+								{ "$ref": "#/definitions/itemAction" }
+							],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"outputs": {
+						"items": {
+							"oneOf": [
+								{ "$ref": "#/definitions/currencyAction" },
+								{ "$ref": "#/definitions/itemAction" }
+							],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"place": {
+						"items": {
+							"oneOf": [
+								{
+									"additionalProperties": false,
+									"properties": {
+										"id": {
+											"type": "string"
+										},
+										"type": {
+											"const": "item"
+										}
+									},
+									"required": ["id", "type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"grid": {
+											"items": {
+												"maxLength": 9,
+												"minLength": 9,
+												"oneOf": [
+													{ "$ref": "#/definitions/itemAction" },
+													{ "type": "null" }
+												]
+											},
+											"type": "array"
+										},
+										"type": {
+											"const": "workbench"
+										}
+									},
+									"required": ["type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"id": {
+											"type": "string"
+										},
+										"type": {
+											"const": "npc"
+										}
+									},
+									"required": ["id", "type"],
+									"type": "object"
+								}
+							],
+							"type": "object"
+						},
+						"type": "array"
+					},
+					"requirements": {
+						"items": {},
+						"type": "array"
+					}
+				},
+				"required": ["inputs", "outputs", "place"],
+				"type": "object"
+			},
+			"type": "array"
+		}
+	},
+	"required": ["actions"],
+	"type": "object"
+}
