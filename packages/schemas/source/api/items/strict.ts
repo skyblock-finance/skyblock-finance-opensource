@@ -18,6 +18,7 @@ import { UPPER_SNAKE_CASE_REGEX } from '../bazaar/common'
 import { apiResponseSchema } from '../../common'
 
 import { skinSchema } from './common'
+import { EasterRabbit } from '../../enums/easter'
 
 const statsSchemaStrict = z
 	.preprocess(
@@ -476,6 +477,12 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 										dungeon_type: z.nativeEnum(DungeonType),
 										tier: z.number().int().min(1),
 										type: z.literal('DUNGEON_TIER'),
+									})
+									.strict(),
+								z
+									.object({
+										rabbit: z.nativeEnum(EasterRabbit),
+										type: z.literal('EASTER_RABBIT'),
 									})
 									.strict(),
 								z

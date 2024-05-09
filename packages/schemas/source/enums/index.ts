@@ -1,5 +1,6 @@
 export * from './crimson-isle-faction'
 export * from './dungeons'
+export * from './easter'
 export * from './gems'
 export * from './items'
 export * from './minions'
