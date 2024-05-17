@@ -9,5 +9,5 @@
 	},
 	"exclude": ["source/**/*.test.ts"],
 	"extends": "../../tsconfig.json",
-	"include": ["source/**/*.ts"]
+	"include": ["source/**/*.ts", "scripts/index.ts", "scripts/minions.ts", "scripts/auction_data.ts", "scripts/attempt_connection.ts"]
 }
