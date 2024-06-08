@@ -1,0 +1,350 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 1500, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "GOD_POTION_2", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1350, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "KISMET_FEATHER", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 500, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "KAT_FLOWER", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 2500, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "KAT_BOUQUET", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 3000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "HEAT_CORE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 300, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "HYPER_CATALYST_UPGRADE", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 8000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "ULTIMATE_CARROT_CANDY_UPGRADE", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1200, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "COLOSSAL_EXP_BOTTLE_UPGRADE", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 4000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "JUMBO_BACKPACK_UPGRADE", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1500, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "MINION_STORAGE_EXPANDER", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1200, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "MATRIARCH_PARFUM", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 2000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "HOLOGRAM", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 2000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "DITTO_BLOB", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 12000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "BUILDERS_WAND", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "BLOCK_ZAPPER", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 15000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "BITS_TALISMAN", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 8000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "POCKET_SACK_IN_A_SACK", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 14000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "LARGE_DUNGEON_SACK", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 14000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "RUNE_SACK", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 14000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "FLOWER_SACK", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 14000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "DWARVEN_MINES_SACK", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 14000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "CRYSTAL_HOLLOWS_SACK", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 4800, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "PORTALIZER", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 6450, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "TRIO_CONTACTS_ADDON", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 15000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 25000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 26000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 17000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 17000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 17000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 17000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 17000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 21000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "AUTOPET_RULES_2", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 250000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "DYE_PURE_WHITE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 250000, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "DYE_PURE_BLACK", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 75, "type": "bit" }],
+			"outputs": [{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 3600, "type": "bit" }],
+			"outputs": [{ "amount": 64, "id": "INFERNO_FUEL_BLOCK", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 4000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_EXPERTISE_1", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 4000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_COMPACT_1", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 4000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_CULTIVATING_1", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 4000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_CHAMPION_1", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 6000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_HECATOMB_1", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 4000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_TOXOPHILITE_1", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "TALISMAN_ENRICHMENT_ATTACK_SPEED",
+					"type": "item"
+				}
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "TALISMAN_ENRICHMENT_CRITICAL_CHANCE",
+					"type": "item"
+				}
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "TALISMAN_ENRICHMENT_CRITICAL_DAMAGE",
+					"type": "item"
+				}
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "TALISMAN_ENRICHMENT_DEFENSE", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "TALISMAN_ENRICHMENT_FEROCITY", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "TALISMAN_ENRICHMENT_HEALTH", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "TALISMAN_ENRICHMENT_INTELLIGENCE",
+					"type": "item"
+				}
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "TALISMAN_ENRICHMENT_MAGIC_FIND", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "TALISMAN_ENRICHMENT_SEA_CREATURE_CHANCE",
+					"type": "item"
+				}
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "TALISMAN_ENRICHMENT_STRENGTH", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "TALISMAN_ENRICHMENT_WALK_SPEED", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 200, "type": "bit" }],
+			"outputs": [
+				{ "amount": 1, "id": "TALISMAN_ENRICHMENT_SWAPPER", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		}
+	]
+}

@@ -65,6 +65,8 @@
 			"cache": false,
 			"dependsOn": ["build", "check", "test"]
 		},
-		"test": {}
+		"test": {
+			"outputMode": "new-only"
+		}
 	}
 }

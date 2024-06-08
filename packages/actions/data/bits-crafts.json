@@ -1,0 +1,921 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 160, "id": "IRON", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_IRON", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "IRON", "type": "item" },
+						{ "amount": 64, "id": "IRON", "type": "item" },
+						{ "amount": 32, "id": "IRON", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "IRON", "type": "item" },
+						null,
+						{ "amount": 32, "id": "IRON", "type": "item" },
+						{ "amount": 32, "id": "IRON", "type": "item" },
+						{ "amount": 32, "id": "IRON", "type": "item" },
+						null,
+						{ "amount": 32, "id": "IRON", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "ENCHANTED_COAL", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTED_COAL_BLOCK", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "ENCHANTED_COAL", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_COAL", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_COAL", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "ENCHANTED_COAL", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_COAL", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_COAL", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_COAL", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_COAL", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "ENCHANTED_COAL_BLOCK", "type": "item" },
+				{ "amount": 3, "id": "ENCHANTED_IRON", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTED_LAVA_BUCKET", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "ENCHANTED_IRON", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_COAL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_IRON", "type": "item" },
+						null,
+						{ "amount": 1, "id": "ENCHANTED_IRON", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "HEAT_CORE", "type": "item" },
+				{ "amount": 2, "id": "ENCHANTED_LAVA_BUCKET", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "MAGMA_BUCKET", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						null,
+						null,
+						{ "amount": 1, "id": "ENCHANTED_LAVA_BUCKET", "type": "item" },
+						{ "amount": 1, "id": "HEAT_CORE", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_LAVA_BUCKET", "type": "item" },
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "HEAT_CORE", "type": "item" },
+				{ "amount": 2, "id": "MAGMA_BUCKET", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "PLASMA_BUCKET", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						null,
+						null,
+						{ "amount": 1, "id": "MAGMA_BUCKET", "type": "item" },
+						{ "amount": 1, "id": "HEAT_CORE", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_BUCKET", "type": "item" },
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "MITHRIL", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_MITHRIL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "MITHRIL", "type": "item" },
+						{ "amount": 64, "id": "MITHRIL", "type": "item" },
+						{ "amount": 32, "id": "MITHRIL", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "MITHRIL", "type": "item" },
+						null,
+						{ "amount": 32, "id": "MITHRIL", "type": "item" },
+						{ "amount": 32, "id": "MITHRIL", "type": "item" },
+						{ "amount": 32, "id": "MITHRIL", "type": "item" },
+						null,
+						{ "amount": 32, "id": "MITHRIL", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MAGMA_BUCKET", "type": "item" },
+				{ "amount": 512, "id": "ENCHANTED_MITHRIL", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_INFUSION", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "ENCHANTED_MITHRIL", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_MITHRIL", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_MITHRIL", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_MITHRIL", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_BUCKET", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_MITHRIL", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_MITHRIL", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_MITHRIL", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_MITHRIL", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CRYSTAL_FRAGMENT", "type": "item" },
+				{ "amount": 64, "id": "ENDER_STONE", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "CATALYST", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 8, "id": "ENDER_STONE", "type": "item" },
+						{ "amount": 8, "id": "ENDER_STONE", "type": "item" },
+						{ "amount": 8, "id": "ENDER_STONE", "type": "item" },
+						{ "amount": 8, "id": "ENDER_STONE", "type": "item" },
+						{ "amount": 1, "id": "CRYSTAL_FRAGMENT", "type": "item" },
+						{ "amount": 8, "id": "ENDER_STONE", "type": "item" },
+						{ "amount": 8, "id": "ENDER_STONE", "type": "item" },
+						{ "amount": 8, "id": "ENDER_STONE", "type": "item" },
+						{ "amount": 8, "id": "ENDER_STONE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "HYPER_CATALYST_UPGRADE", "type": "item" },
+				{ "amount": 8, "id": "CATALYST", "type": "item" }
+			],
+			"outputs": [{ "amount": 8, "id": "HYPER_CATALYST", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "CATALYST", "type": "item" },
+						{ "amount": 1, "id": "CATALYST", "type": "item" },
+						{ "amount": 1, "id": "CATALYST", "type": "item" },
+						{ "amount": 1, "id": "CATALYST", "type": "item" },
+						{ "amount": 1, "id": "HYPER_CATALYST_UPGRADE", "type": "item" },
+						{ "amount": 1, "id": "CATALYST", "type": "item" },
+						{ "amount": 1, "id": "CATALYST", "type": "item" },
+						{ "amount": 1, "id": "CATALYST", "type": "item" },
+						{ "amount": 1, "id": "CATALYST", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 576, "id": "CARROT_ITEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "SIMPLE_CARROT_CANDY", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "CARROT_ITEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_CARROT", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 64, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 32, "id": "CARROT_ITEM", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "CARROT_ITEM", "type": "item" },
+						null,
+						{ "amount": 32, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 32, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 32, "id": "CARROT_ITEM", "type": "item" },
+						null,
+						{ "amount": 32, "id": "CARROT_ITEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 1, "id": "GOLD_INGOT", "type": "item" }],
+			"outputs": [{ "amount": 9, "id": "GOLD_NUGGET", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						null,
+						null,
+						null,
+						{ "amount": 1, "id": "GOLD_INGOT", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 15, "type": "coin" }],
+			"outputs": [{ "amount": 1, "id": "GOLDEN_CARROT", "type": "item" }],
+			"place": [{ "id": "ALCHEMIST", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 8, "id": "GOLD_NUGGET", "type": "item" },
+				{ "amount": 1, "id": "CARROT_ITEM", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "GOLDEN_CARROT", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "GOLD_NUGGET", "type": "item" },
+						{ "amount": 1, "id": "GOLD_NUGGET", "type": "item" },
+						{ "amount": 1, "id": "GOLD_NUGGET", "type": "item" },
+						{ "amount": 1, "id": "GOLD_NUGGET", "type": "item" },
+						{ "amount": 1, "id": "CARROT_ITEM", "type": "item" },
+						{ "amount": 1, "id": "GOLD_NUGGET", "type": "item" },
+						{ "amount": 1, "id": "GOLD_NUGGET", "type": "item" },
+						{ "amount": 1, "id": "GOLD_NUGGET", "type": "item" },
+						{ "amount": 1, "id": "GOLD_NUGGET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 128, "id": "ENCHANTED_CARROT", "type": "item" },
+				{ "amount": 32, "id": "GOLDEN_CARROT", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "ENCHANTED_CARROT", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_CARROT", "type": "item" },
+						{ "amount": 32, "id": "GOLDEN_CARROT", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_CARROT", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_CARROT", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SIMPLE_CARROT_CANDY", "type": "item" },
+				{ "amount": 320, "id": "ENCHANTED_CARROT", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "GREAT_CARROT_CANDY", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 40, "id": "ENCHANTED_CARROT", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_CARROT", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_CARROT", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_CARROT", "type": "item" },
+						{ "amount": 1, "id": "SIMPLE_CARROT_CANDY", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_CARROT", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_CARROT", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_CARROT", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_CARROT", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GREAT_CARROT_CANDY", "type": "item" },
+				{ "amount": 24, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "SUPERB_CARROT_CANDY", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 3, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 1, "id": "GREAT_CARROT_CANDY", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 8, "id": "SUPERB_CARROT_CANDY", "type": "item" },
+				{ "amount": 1, "id": "ULTIMATE_CARROT_CANDY_UPGRADE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "ULTIMATE_CARROT_CANDY", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "SUPERB_CARROT_CANDY", "type": "item" },
+						{ "amount": 1, "id": "SUPERB_CARROT_CANDY", "type": "item" },
+						{ "amount": 1, "id": "SUPERB_CARROT_CANDY", "type": "item" },
+						{ "amount": 1, "id": "SUPERB_CARROT_CANDY", "type": "item" },
+						{
+							"amount": 1,
+							"id": "ULTIMATE_CARROT_CANDY_UPGRADE",
+							"type": "item"
+						},
+						{ "amount": 1, "id": "SUPERB_CARROT_CANDY", "type": "item" },
+						{ "amount": 1, "id": "SUPERB_CARROT_CANDY", "type": "item" },
+						{ "amount": 1, "id": "SUPERB_CARROT_CANDY", "type": "item" },
+						{ "amount": 1, "id": "SUPERB_CARROT_CANDY", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "INK_SACK:4", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "INK_SACK:4", "type": "item" },
+						{ "amount": 64, "id": "INK_SACK:4", "type": "item" },
+						{ "amount": 32, "id": "INK_SACK:4", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "INK_SACK:4", "type": "item" },
+						null,
+						{ "amount": 32, "id": "INK_SACK:4", "type": "item" },
+						{ "amount": 32, "id": "INK_SACK:4", "type": "item" },
+						{ "amount": 32, "id": "INK_SACK:4", "type": "item" },
+						null,
+						{ "amount": 32, "id": "INK_SACK:4", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 160, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTED_LAPIS_LAZULI_BLOCK", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 3, "id": "GLASS", "type": "item" }],
+			"outputs": [{ "amount": 3, "id": "GLASS_BOTTLE", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						null,
+						null,
+						{ "amount": 1, "id": "GLASS", "type": "item" },
+						null,
+						{ "amount": 1, "id": "GLASS", "type": "item" },
+						null,
+						{ "amount": 1, "id": "GLASS", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GLASS_BOTTLE", "type": "item" },
+				{ "amount": 6, "id": "ENCHANTED_LAPIS_LAZULI_BLOCK", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIC_EXP_BOTTLE", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{
+							"amount": 1,
+							"id": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+							"type": "item"
+						},
+						null,
+						{
+							"amount": 1,
+							"id": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+							"type": "item"
+						},
+						{ "amount": 1, "id": "GLASS_BOTTLE", "type": "item" },
+						{
+							"amount": 1,
+							"id": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+							"type": "item"
+						},
+						{
+							"amount": 1,
+							"id": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+							"type": "item"
+						},
+						{
+							"amount": 1,
+							"id": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+							"type": "item"
+						},
+						{
+							"amount": 1,
+							"id": "ENCHANTED_LAPIS_LAZULI_BLOCK",
+							"type": "item"
+						}
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "COLOSSAL_EXP_BOTTLE_UPGRADE", "type": "item" },
+				{ "amount": 1, "id": "TITANIC_EXP_BOTTLE", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "COLOSSAL_EXP_BOTTLE", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{
+							"amount": 1,
+							"id": "COLOSSAL_EXP_BOTTLE_UPGRADE",
+							"type": "item"
+						},
+						null,
+						null,
+						{ "amount": 1, "id": "TITANIC_EXP_BOTTLE", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "LEATHER", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "SMALL_BACKPACK", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 10, "id": "LEATHER", "type": "item" },
+						{ "amount": 10, "id": "LEATHER", "type": "item" },
+						{ "amount": 10, "id": "LEATHER", "type": "item" },
+						{ "amount": 10, "id": "LEATHER", "type": "item" },
+						null,
+						{ "amount": 10, "id": "LEATHER", "type": "item" },
+						{ "amount": 10, "id": "LEATHER", "type": "item" },
+						{ "amount": 10, "id": "LEATHER", "type": "item" },
+						{ "amount": 10, "id": "LEATHER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SMALL_BACKPACK", "type": "item" },
+				{ "amount": 512, "id": "LEATHER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "MEDIUM_BACKPACK", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "LEATHER", "type": "item" },
+						{ "amount": 64, "id": "LEATHER", "type": "item" },
+						{ "amount": 64, "id": "LEATHER", "type": "item" },
+						{ "amount": 64, "id": "LEATHER", "type": "item" },
+						{ "amount": 1, "id": "SMALL_BACKPACK", "type": "item" },
+						{ "amount": 64, "id": "LEATHER", "type": "item" },
+						{ "amount": 64, "id": "LEATHER", "type": "item" },
+						{ "amount": 64, "id": "LEATHER", "type": "item" },
+						{ "amount": 64, "id": "LEATHER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "LEATHER", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_LEATHER", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "LEATHER", "type": "item" },
+						{ "amount": 64, "id": "LEATHER", "type": "item" },
+						{ "amount": 32, "id": "LEATHER", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "LEATHER", "type": "item" },
+						null,
+						{ "amount": 32, "id": "LEATHER", "type": "item" },
+						{ "amount": 32, "id": "LEATHER", "type": "item" },
+						{ "amount": 32, "id": "LEATHER", "type": "item" },
+						null,
+						{ "amount": 32, "id": "LEATHER", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MEDIUM_BACKPACK", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_LEATHER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "LARGE_BACKPACK", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 2, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 1, "id": "MEDIUM_BACKPACK", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_LEATHER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "LARGE_BACKPACK", "type": "item" },
+				{ "amount": 32, "id": "ENCHANTED_LEATHER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "GREATER_BACKPACK", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 4, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 1, "id": "LARGE_BACKPACK", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_LEATHER", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_LEATHER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "JUMBO_BACKPACK_UPGRADE", "type": "item" },
+				{ "amount": 1, "id": "GREATER_BACKPACK", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "JUMBO_BACKPACK", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 1, "id": "JUMBO_BACKPACK_UPGRADE", "type": "item" },
+						null,
+						null,
+						{ "amount": 1, "id": "GREATER_BACKPACK", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 64, "id": "LOG", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "SMALL_ENCHANTED_CHEST", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 8, "id": "LOG", "type": "item" },
+						{ "amount": 8, "id": "LOG", "type": "item" },
+						{ "amount": 8, "id": "LOG", "type": "item" },
+						{ "amount": 8, "id": "LOG", "type": "item" },
+						null,
+						{ "amount": 8, "id": "LOG", "type": "item" },
+						{ "amount": 8, "id": "LOG", "type": "item" },
+						{ "amount": 8, "id": "LOG", "type": "item" },
+						{ "amount": 8, "id": "LOG", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "LOG", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_OAK_LOG", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "LOG", "type": "item" },
+						{ "amount": 64, "id": "LOG", "type": "item" },
+						{ "amount": 32, "id": "LOG", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "LOG", "type": "item" },
+						null,
+						{ "amount": 32, "id": "LOG", "type": "item" },
+						{ "amount": 32, "id": "LOG", "type": "item" },
+						{ "amount": 32, "id": "LOG", "type": "item" },
+						null,
+						{ "amount": 32, "id": "LOG", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SMALL_ENCHANTED_CHEST", "type": "item" },
+				{ "amount": 8, "id": "ENCHANTED_OAK_LOG", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "MEDIUM_ENCHANTED_CHEST", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 1, "id": "SMALL_ENCHANTED_CHEST", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_OAK_LOG", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MEDIUM_ENCHANTED_CHEST", "type": "item" },
+				{ "amount": 256, "id": "ENCHANTED_OAK_LOG", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "LARGE_ENCHANTED_CHEST", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 32, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 1, "id": "MEDIUM_ENCHANTED_CHEST", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_OAK_LOG", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_OAK_LOG", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MINION_STORAGE_EXPANDER", "type": "item" },
+				{ "amount": 1, "id": "LARGE_ENCHANTED_CHEST", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "XLARGE_ENCHANTED_CHEST", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 1, "id": "MINION_STORAGE_EXPANDER", "type": "item" },
+						null,
+						null,
+						{ "amount": 1, "id": "LARGE_ENCHANTED_CHEST", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MINION_STORAGE_EXPANDER", "type": "item" },
+				{ "amount": 1, "id": "XLARGE_ENCHANTED_CHEST", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "XXLARGE_ENCHANTED_CHEST", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 1, "id": "MINION_STORAGE_EXPANDER", "type": "item" },
+						null,
+						null,
+						{ "amount": 1, "id": "XLARGE_ENCHANTED_CHEST", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}

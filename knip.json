@@ -14,6 +14,7 @@
 		},
 		"packages/*": {
 			"entry": ["scripts/*.ts", "source/index.ts"],
+			"ignore": ["**/*.test.ts"],
 			"project": ["source/**/*.ts"]
 		}
 	}

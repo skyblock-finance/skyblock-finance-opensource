@@ -2,7 +2,9 @@
 	"bugs": {
 		"url": "https://github.com/skyblock-finance/skyblock-finance-opensource/issues"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"zod": "^3.23.8"
+	},
 	"devDependencies": {
 		"@types/bun": "latest"
 	},
@@ -33,7 +35,8 @@
 		"check:publint": "bun --bun run publint",
 		"fix:eslint": "bun run check:eslint --fix",
 		"fix:prettier": "bun --bun run check:prettier --write",
-		"publish-package": "npm publish --access public --provenance"
+		"publish-package": "npm publish --access public --provenance",
+		"test": "bun test"
 	},
 	"sideEffects": false,
 	"type": "commonjs",
