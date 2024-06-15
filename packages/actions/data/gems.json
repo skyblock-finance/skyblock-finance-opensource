@@ -1,0 +1,90 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 4.99, "id": "usd", "type": "currency" }],
+			"outputs": [{ "amount": 675, "id": "gem", "type": "currency" }],
+			"place": [
+				{
+					"id": "ELIZABETH",
+					"type": "npc"
+				},
+				{
+					"type": "website",
+					"url": "https://store.hypixel.net/category/skyblock-gems"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 9.99, "id": "usd", "type": "currency" }],
+			"outputs": [{ "amount": 1390, "id": "gem", "type": "currency" }],
+			"place": [
+				{
+					"id": "ELIZABETH",
+					"type": "npc"
+				},
+				{
+					"type": "website",
+					"url": "https://store.hypixel.net/category/skyblock-gems"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 24.99, "id": "usd", "type": "currency" }],
+			"outputs": [{ "amount": 3600, "id": "gem", "type": "currency" }],
+			"place": [
+				{
+					"id": "ELIZABETH",
+					"type": "npc"
+				},
+				{
+					"type": "website",
+					"url": "https://store.hypixel.net/category/skyblock-gems"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 49.99, "id": "usd", "type": "currency" }],
+			"outputs": [{ "amount": 7300, "id": "gem", "type": "currency" }],
+			"place": [
+				{
+					"id": "ELIZABETH",
+					"type": "npc"
+				},
+				{
+					"type": "website",
+					"url": "https://store.hypixel.net/category/skyblock-gems"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 99.99, "id": "usd", "type": "currency" }],
+			"outputs": [{ "amount": 16400, "id": "gem", "type": "currency" }],
+			"place": [
+				{
+					"id": "ELIZABETH",
+					"type": "npc"
+				},
+				{
+					"type": "website",
+					"url": "https://store.hypixel.net/category/skyblock-gems"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 325, "id": "gem", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BOOSTER_COOKIE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1950, "id": "gem", "type": "currency" }],
+			"outputs": [{ "amount": 6, "id": "BOOSTER_COOKIE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 3900, "id": "gem", "type": "currency" }],
+			"outputs": [{ "amount": 12, "id": "BOOSTER_COOKIE", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		}
+	]
+}

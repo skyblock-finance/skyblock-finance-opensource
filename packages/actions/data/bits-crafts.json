@@ -320,7 +320,7 @@
 			]
 		},
 		{
-			"inputs": [{ "amount": 15, "type": "coin" }],
+			"inputs": [{ "amount": 15, "id": "coin", "type": "currency" }],
 			"outputs": [{ "amount": 1, "id": "GOLDEN_CARROT", "type": "item" }],
 			"place": [{ "id": "ALCHEMIST", "type": "npc" }]
 		},
