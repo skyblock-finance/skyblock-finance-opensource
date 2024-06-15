@@ -2,37 +2,36 @@ import { z } from 'zod'
 
 export const actionIoItemSchema = z
 	.object({
-		amount: z.number().int().finite(),
+		amount: z.number().finite(),
 		id: z.string(),
 		type: z.literal('item'),
 	})
 	.strict()
 
-export type ActionIoItem = z.output<typeof actionIoItemSchema>
+export const actionIoCurrencySchema = z
+	.object({
+		amount: z.number().finite(),
+		id: z.enum(['bit', 'coin', 'gem', 'northStar', 'second', 'usd']),
+		type: z.literal('currency'),
+	})
+	.strict()
 
 export const actionIoSchema = z.discriminatedUnion('type', [
-	z
-		.object({
-			amount: z.number().int().finite(),
-			type: z.literal('bit'),
-		})
-		.strict(),
-	z
-		.object({
-			amount: z.number().int().finite(),
-			type: z.literal('coin'),
-		})
-		.strict(),
+	actionIoCurrencySchema,
 	actionIoItemSchema,
 ])
-
-export type ActionIo = z.output<typeof actionIoSchema>
 
 export const actionPlaceSchema = z.discriminatedUnion('type', [
 	z
 		.object({
 			id: z.string(),
 			type: z.literal('npc'),
+		})
+		.strict(),
+	z
+		.object({
+			type: z.literal('website'),
+			url: z.string().url(),
 		})
 		.strict(),
 	z
@@ -50,5 +49,3 @@ export const actionSchema = z
 		place: z.array(actionPlaceSchema),
 	})
 	.strict()
-
-export type Action = z.output<typeof actionSchema>

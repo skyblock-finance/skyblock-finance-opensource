@@ -8,12 +8,15 @@
 				"amount": {
 					"type": "number"
 				},
-				"type": {
-					"enum": ["bit", "coin", "mote", "north-star"],
+				"id": {
+					"enum": ["bit", "coin", "gem", "mote", "north-star", "usd"],
 					"type": "string"
+				},
+				"type": {
+					"const": "currency"
 				}
 			},
-			"required": ["amount", "type"]
+			"required": ["amount", "id", "type"]
 		},
 		"itemAction": {
 			"additionalProperties": false,
@@ -79,6 +82,32 @@
 								{
 									"additionalProperties": false,
 									"properties": {
+										"id": {
+											"type": "string"
+										},
+										"type": {
+											"const": "npc"
+										}
+									},
+									"required": ["id", "type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"type": {
+											"const": "website"
+										},
+										"url": {
+											"type": "string"
+										}
+									},
+									"required": ["type", "url"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
 										"grid": {
 											"items": {
 												"maxLength": 9,
@@ -95,19 +124,6 @@
 										}
 									},
 									"required": ["type"],
-									"type": "object"
-								},
-								{
-									"additionalProperties": false,
-									"properties": {
-										"id": {
-											"type": "string"
-										},
-										"type": {
-											"const": "npc"
-										}
-									},
-									"required": ["id", "type"],
 									"type": "object"
 								}
 							],

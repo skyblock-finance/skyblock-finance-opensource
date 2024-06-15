@@ -1,2 +1,14 @@
 export * from './data'
-export * from './schema'
+export {
+	Action,
+	ActionCurrency,
+	ActionIo,
+	ActionIoCurrency,
+	ActionIoItem,
+} from './types'
+export {
+	actionIoItemSchema,
+	actionIoSchema,
+	actionPlaceSchema,
+	actionSchema,
+} from './schema'
