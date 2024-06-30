@@ -34,7 +34,7 @@
 	"name": "@skyblock-finance/eslint-config",
 	"peerDependencies": {
 		"eslint": ">= 9",
-		"typescript": ">= 4"
+		"typescript": "^5.5"
 	},
 	"repository": "git+https://github.com/skyblock-finance/skyblock-finance-opensource.git",
 	"scripts": {

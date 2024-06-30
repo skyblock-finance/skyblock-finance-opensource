@@ -2,19 +2,17 @@
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.15.3",
 		"@skyblock-finance/eslint-config": "*",
-		"eslint": "^9.0.0",
-		"knip": "^5.9.4",
-		"prettier": "^3.2.5",
-		"publint": "^0.2.7",
-		"turbo": "^1.13.2",
-		"typescript": "^5.4.5",
-		"typescript-eslint": "^7.7.0"
+		"eslint": "^9.6.0",
+		"knip": "^5.23.2",
+		"prettier": "^3.3.2",
+		"publint": "^0.2.8",
+		"sherif": "^0.9.0",
+		"turbo": "^1.13.4",
+		"typescript": "^5.5",
+		"typescript-eslint": "^7.14.1"
 	},
 	"license": "MIT",
 	"name": "root",
-	"peerDependencies": {
-		"typescript": "^5.0.0"
-	},
 	"private": true,
 	"scripts": {
 		"build": "turbo run build",
@@ -24,6 +22,7 @@
 		"check:knip": "turbo run check:knip",
 		"check:prettier": "turbo run check:prettier",
 		"check:publint": "turbo run check:publint",
+		"check:sherif": "turbo run check:sherif",
 		"fix": "turbo run fix",
 		"fix:eslint": "turbo run fix:eslint",
 		"fix:prettier": "turbo run fix:prettier",

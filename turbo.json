@@ -14,7 +14,8 @@
 				"check:eslint",
 				"check:knip",
 				"check:prettier",
-				"check:publint"
+				"check:publint",
+				"check:sherif"
 			]
 		},
 		"check:arethetypeswrong": {
@@ -41,6 +42,11 @@
 			"dependsOn": ["build"],
 			"inputs": ["dist/**", "package.json"],
 			"outputMode": "new-only"
+		},
+		"check:sherif": {
+			"inputs": ["../../**/*"],
+			"outputMode": "new-only",
+			"outputs": []
 		},
 		"fix": {
 			"dependsOn": ["fix:eslint", "fix:prettier"]

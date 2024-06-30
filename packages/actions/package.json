@@ -22,7 +22,7 @@
 	"main": "dist/index.js",
 	"name": "@skyblock-finance/actions",
 	"peerDependencies": {
-		"typescript": ">= 4"
+		"typescript": "^5.5"
 	},
 	"repository": {
 		"type": "git",

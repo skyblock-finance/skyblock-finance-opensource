@@ -1,8 +1,12 @@
 {
 	"$schema": "https://unpkg.com/knip@5/schema.json",
 	"ignore": ["dist/**"],
-	"ignoreBinaries": ["prettier", "publint"],
-	"ignoreDependencies": ["@arethetypeswrong/cli"],
+	"ignoreDependencies": [
+		"@arethetypeswrong/cli",
+		"prettier",
+		"publint",
+		"sherif"
+	],
 	"workspaces": {
 		"internals/*": {
 			"entry": ["scripts/*.ts", "source/index.ts"],

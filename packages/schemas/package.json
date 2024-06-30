@@ -3,7 +3,7 @@
 		"url": "https://github.com/skyblock-finance/skyblock-finance-opensource/issues"
 	},
 	"dependencies": {
-		"zod": "^3.22.4"
+		"zod": "^3.23.8"
 	},
 	"devDependencies": {
 		"@types/bun": "latest",
@@ -26,7 +26,7 @@
 	"main": "dist/index.js",
 	"name": "@skyblock-finance/schemas",
 	"peerDependencies": {
-		"typescript": ">= 4"
+		"typescript": "^5.5"
 	},
 	"repository": {
 		"type": "git",
