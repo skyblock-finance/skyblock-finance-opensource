@@ -2,14 +2,14 @@
 	"$schema": "./$schema.json",
 	"actions": [
 		{
-			"inputs": [{ "amount": 160, "id": "IRON", "type": "item" }],
+			"inputs": [{ "amount": 160, "id": "IRON_INGOT", "type": "item" }],
 			"outputs": [{ "amount": 1, "id": "ENCHANTED_IRON", "type": "item" }],
 			"place": [
 				{
 					"grid": [
-						{ "amount": 64, "id": "IRON", "type": "item" },
-						{ "amount": 64, "id": "IRON", "type": "item" },
-						{ "amount": 32, "id": "IRON", "type": "item" },
+						{ "amount": 64, "id": "IRON_INGOT", "type": "item" },
+						{ "amount": 64, "id": "IRON_INGOT", "type": "item" },
+						{ "amount": 32, "id": "IRON_INGOT", "type": "item" },
 						null,
 						null,
 						null,
@@ -22,13 +22,13 @@
 				{
 					"grid": [
 						null,
-						{ "amount": 32, "id": "IRON", "type": "item" },
+						{ "amount": 32, "id": "IRON_INGOT", "type": "item" },
 						null,
-						{ "amount": 32, "id": "IRON", "type": "item" },
-						{ "amount": 32, "id": "IRON", "type": "item" },
-						{ "amount": 32, "id": "IRON", "type": "item" },
+						{ "amount": 32, "id": "IRON_INGOT", "type": "item" },
+						{ "amount": 32, "id": "IRON_INGOT", "type": "item" },
+						{ "amount": 32, "id": "IRON_INGOT", "type": "item" },
 						null,
-						{ "amount": 32, "id": "IRON", "type": "item" },
+						{ "amount": 32, "id": "IRON_INGOT", "type": "item" },
 						null
 					],
 					"type": "workbench"
