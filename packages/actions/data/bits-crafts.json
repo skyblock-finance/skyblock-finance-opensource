@@ -36,6 +36,40 @@
 			]
 		},
 		{
+			"inputs": [{ "amount": 160, "id": "COAL", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_COAL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "COAL", "type": "item" },
+						{ "amount": 64, "id": "COAL", "type": "item" },
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						null,
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						null,
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
 			"inputs": [{ "amount": 160, "id": "ENCHANTED_COAL", "type": "item" }],
 			"outputs": [
 				{ "amount": 1, "id": "ENCHANTED_COAL_BLOCK", "type": "item" }
