@@ -458,7 +458,7 @@
 				{ "amount": 1, "id": "ULTIMATE_CARROT_CANDY_UPGRADE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "ULTIMATE_CARROT_CANDY", "type": "item" }
+				{ "amount": 10, "id": "ULTIMATE_CARROT_CANDY", "type": "item" }
 			],
 			"place": [
 				{
