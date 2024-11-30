@@ -508,7 +508,7 @@ export const allItems = new Map<string, ItemMetadata>([
 			links: {},
 			metadata: {
 				description: '',
-				id: 'ABICASE_SUMSUNG_1',
+				id: 'SF:ABICASE_SUMSUNG_1',
 				name: 'Sumsung© G3 Abicase',
 				textureUrl: null,
 			},
