@@ -137,42 +137,54 @@
 		},
 		{
 			"inputs": [{ "amount": 15000, "id": "bit", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "SF:ABICASE_SUMSUNG_1", "type": "item" }
+			],
 			"place": [{ "id": "ELIZABETH", "type": "npc" }]
 		},
 		{
 			"inputs": [{ "amount": 25000, "id": "bit", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "SF:ABICASE_SUMSUNG_2", "type": "item" }
+			],
 			"place": [{ "id": "ELIZABETH", "type": "npc" }]
 		},
 		{
 			"inputs": [{ "amount": 26000, "id": "bit", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "SF:ABICASE_REZAR", "type": "item" }],
 			"place": [{ "id": "ELIZABETH", "type": "npc" }]
 		},
 		{
 			"inputs": [{ "amount": 17000, "id": "bit", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "SF:ABICASE_BLUE_RED", "type": "item" }],
 			"place": [{ "id": "ELIZABETH", "type": "npc" }]
 		},
 		{
 			"inputs": [{ "amount": 17000, "id": "bit", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "SF:ABICASE_BLUE_BLUE", "type": "item" }
+			],
 			"place": [{ "id": "ELIZABETH", "type": "npc" }]
 		},
 		{
 			"inputs": [{ "amount": 17000, "id": "bit", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "SF:ABICASE_BLUE_GREEN", "type": "item" }
+			],
 			"place": [{ "id": "ELIZABETH", "type": "npc" }]
 		},
 		{
 			"inputs": [{ "amount": 17000, "id": "bit", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "SF:ABICASE_BLUE_YELLOW", "type": "item" }
+			],
 			"place": [{ "id": "ELIZABETH", "type": "npc" }]
 		},
 		{
 			"inputs": [{ "amount": 17000, "id": "bit", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "ABICASE", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "SF:ABICASE_BLUE_AQUA", "type": "item" }
+			],
 			"place": [{ "id": "ELIZABETH", "type": "npc" }]
 		},
 		{
