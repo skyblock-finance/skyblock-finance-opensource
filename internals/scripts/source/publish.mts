@@ -1,7 +1,11 @@
 import { $, semver } from 'bun'
 import { z } from 'zod'
 
-const packagesToConsider = ['packages/actions', 'packages/schemas']
+const packagesToConsider = [
+	'packages/actions',
+	'packages/items',
+	'packages/schemas',
+]
 
 const packageJsonSchema = z.object({ name: z.string(), version: z.string() })
 
