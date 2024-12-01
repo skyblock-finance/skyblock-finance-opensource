@@ -3,7 +3,7 @@ import { ItemMetadata, ItemMetadataTradesOn } from './types'
 const BZ = { ah: false, bz: true } satisfies ItemMetadataTradesOn
 const AH = { ah: true, bz: true } satisfies ItemMetadataTradesOn
 
-export const allItems = new Map<string, ItemMetadata>([
+export const bitsItems = new Map<string, ItemMetadata>([
 	[
 		'GOD_POTION_2',
 		{
@@ -507,7 +507,7 @@ export const allItems = new Map<string, ItemMetadata>([
 			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_SUMSUNG_1' },
 			links: {},
 			metadata: {
-				description: '',
+				description: null,
 				id: 'SF:ABICASE_SUMSUNG_1',
 				name: 'Sumsung© G3 Abicase',
 				textureUrl: null,
@@ -522,7 +522,7 @@ export const allItems = new Map<string, ItemMetadata>([
 			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_SUMSUNG_2' },
 			links: {},
 			metadata: {
-				description: '',
+				description: null,
 				id: 'SF:ABICASE_SUMSUNG_2',
 				name: 'Sumsung© GG Abicase',
 				textureUrl: null,
@@ -537,7 +537,7 @@ export const allItems = new Map<string, ItemMetadata>([
 			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_SUMSUNG_2' },
 			links: {},
 			metadata: {
-				description: '',
+				description: null,
 				id: 'SF:ABICASE_SUMSUNG_2',
 				name: 'Sumsung© GG Abicase',
 				textureUrl: null,
@@ -552,7 +552,7 @@ export const allItems = new Map<string, ItemMetadata>([
 			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_REZAR' },
 			links: {},
 			metadata: {
-				description: '',
+				description: null,
 				id: 'SF:ABICASE_REZAR',
 				name: 'Rezar® Abicase',
 				textureUrl: null,
@@ -567,7 +567,7 @@ export const allItems = new Map<string, ItemMetadata>([
 			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_BLUE_RED' },
 			links: {},
 			metadata: {
-				description: '',
+				description: null,
 				id: 'SF:ABICASE_BLUE_RED',
 				name: 'Blue™ But Red Abicase',
 				textureUrl: null,
@@ -582,7 +582,7 @@ export const allItems = new Map<string, ItemMetadata>([
 			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_BLUE_BLUE' },
 			links: {},
 			metadata: {
-				description: '',
+				description: null,
 				id: 'SF:ABICASE_BLUE_BLUE',
 				name: 'Actually Blue™ Abicase',
 				textureUrl: null,
@@ -597,7 +597,7 @@ export const allItems = new Map<string, ItemMetadata>([
 			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_BLUE_GREEN' },
 			links: {},
 			metadata: {
-				description: '',
+				description: null,
 				id: 'SF:ABICASE_BLUE_GREEN',
 				name: 'Blue™ But Green Abicase',
 				textureUrl: null,
@@ -612,7 +612,7 @@ export const allItems = new Map<string, ItemMetadata>([
 			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_BLUE_YELLOW' },
 			links: {},
 			metadata: {
-				description: '',
+				description: null,
 				id: 'SF:ABICASE_BLUE_YELLOW',
 				name: 'Blue™ But Yellow Abicase',
 				textureUrl: null,
@@ -627,11 +627,34 @@ export const allItems = new Map<string, ItemMetadata>([
 			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_BLUE_AQUA' },
 			links: {},
 			metadata: {
-				description: '',
+				description: null,
 				id: 'SF:ABICASE_BLUE_AQUA',
 				name: 'Lighter Blue™ Abicase',
 				textureUrl: null,
 			},
 		},
 	],
+])
+
+export const petsItems = new Map<string, ItemMetadata>([
+	[
+		'SF:PET_REINDEER',
+		{
+			tradesOn: AH,
+			type: 'missing',
+			ids: { skyblock: 'PET', cofl: 'PET_REINDEER' },
+			links: {},
+			metadata: {
+				description: null,
+				id: 'SF:PET_REINDEER',
+				name: 'Reindeer',
+				textureUrl: null,
+			},
+		},
+	],
+])
+
+export const allItems = new Map<string, ItemMetadata>([
+	...bitsItems.entries(),
+	...petsItems.entries(),
 ])
