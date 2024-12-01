@@ -1,0 +1,120 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 20, "id": "north-star", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "WHITE_GIFT_TALISMAN", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "WHITE_GIFT_TALISMAN", "type": "item" },
+				{ "amount": 40, "id": "north-star", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GREEN_GIFT_TALISMAN", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GREEN_GIFT_TALISMAN", "type": "item" },
+				{ "amount": 60, "id": "north-star", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BLUE_GIFT_TALISMAN", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "BLUE_GIFT_TALISMAN", "type": "item" },
+				{ "amount": 100, "id": "north-star", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "PURPLE_GIFT_TALISMAN", "type": "item" }
+			],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "PURPLE_GIFT_TALISMAN", "type": "item" },
+				{ "amount": 1, "id": "GOLD_GIFT", "type": "item" },
+				{ "amount": 200, "id": "north-star", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GOLD_GIFT_TALISMAN", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 60, "id": "north-star", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SF:PET_REINDEER", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "north-star", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SNOW_CLOAK", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "north-star", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SNOW_BELT", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "north-star", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SNOW_GLOVES", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "north-star", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SNOW_NECKLACE", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ICE_GENERATOR_11", "type": "item" },
+				{ "amount": 1024, "id": "ENCHANTED_SNOW_BLOCK", "type": "item" },
+				{ "amount": 1000000, "id": "coin", "type": "currency" },
+				{ "amount": 300, "id": "north-star", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "ICE_GENERATOR_12", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SNOW_GENERATOR_11", "type": "item" },
+				{ "amount": 1024, "id": "ENCHANTED_ICE", "type": "item" },
+				{ "amount": 2000000, "id": "coin", "type": "currency" },
+				{ "amount": 500, "id": "north-star", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "SNOW_GENERATOR_12", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "VOLCANIC_ROCK", "type": "item" },
+				{ "amount": 10, "id": "north-star", "type": "currency" }
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_1",
+					"type": "item"
+				}
+			],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 10, "id": "VOLCANIC_ROCK", "type": "item" },
+				{ "amount": 500, "id": "north-star", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MAGIC_TOP_HAT", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "VOLCANIC_ROCK", "type": "item" },
+				{ "amount": 10, "id": "north-star", "type": "currency" }
+			],
+			"outputs": [{ "amount": 2, "id": "WINTER_FRAGMENT", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		}
+	]
+}

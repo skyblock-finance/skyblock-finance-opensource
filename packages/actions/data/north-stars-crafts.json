@@ -1,0 +1,78 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GLACIAL_SCYTHE", "type": "item" },
+				{ "amount": 8, "id": "WINTER_FRAGMENT", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "STARRED_GLACIAL_SCYTHE", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "GLACIAL_SCYTHE", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "YETI_SWORD", "type": "item" },
+				{ "amount": 8, "id": "WINTER_FRAGMENT", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "STARRED_YETI_SWORD", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "YETI_SWORD", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ICE_SPRAY_WAND", "type": "item" },
+				{ "amount": 8, "id": "WINTER_FRAGMENT", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "STARRED_ICE_SPRAY_WAND", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "ICE_SPRAY_WAND", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" },
+						{ "amount": 1, "id": "WINTER_FRAGMENT", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}
