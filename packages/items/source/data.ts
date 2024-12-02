@@ -839,6 +839,60 @@ export const northStarItems = new Map<string, ItemMetadata>([
 			links: {},
 		},
 	],
+	[
+		'GLACIAL_SCYTHE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'GLACIAL_SCYTHE' },
+			links: {},
+		},
+	],
+	[
+		'YETI_SWORD',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'YETI_SWORD' },
+			links: {},
+		},
+	],
+	[
+		'ICE_SPRAY_WAND',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'ICE_SPRAY_WAND' },
+			links: {},
+		},
+	],
+	[
+		'STARRED_GLACIAL_SCYTHE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'STARRED_GLACIAL_SCYTHE' },
+			links: {},
+		},
+	],
+	[
+		'STARRED_YETI_SWORD',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'STARRED_YETI_SWORD' },
+			links: {},
+		},
+	],
+	[
+		'STARRED_ICE_SPRAY_WAND',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'STARRED_ICE_SPRAY_WAND' },
+			links: {},
+		},
+	],
 ])
 
 export const allItems = new Map<string, ItemMetadata>([
