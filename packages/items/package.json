@@ -39,5 +39,5 @@
 	"sideEffects": false,
 	"type": "commonjs",
 	"types": "dist/index.d.ts",
-	"version": "0.0.5"
+	"version": "0.0.6"
 }

@@ -1,7 +1,7 @@
 import { ItemMetadata, ItemMetadataTradesOn } from './types'
 
 const BZ = { ah: false, bz: true } satisfies ItemMetadataTradesOn
-const AH = { ah: true, bz: true } satisfies ItemMetadataTradesOn
+const AH = { ah: true, bz: false } satisfies ItemMetadataTradesOn
 const NOWHERE = { ah: false, bz: false } satisfies ItemMetadataTradesOn
 
 export const bitsItems = new Map<string, ItemMetadata>([
