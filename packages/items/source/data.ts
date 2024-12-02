@@ -505,7 +505,7 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		{
 			tradesOn: AH,
 			type: 'missing',
-			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_SUMSUNG_1' },
+			ids: { skyblock: 'ABICASE', cofl: 'ABICASE_SUMSUNG_1' },
 			links: {},
 			metadata: {
 				description: null,
@@ -520,7 +520,7 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		{
 			tradesOn: AH,
 			type: 'missing',
-			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_SUMSUNG_2' },
+			ids: { skyblock: 'ABICASE', cofl: 'ABICASE_SUMSUNG_2' },
 			links: {},
 			metadata: {
 				description: null,
@@ -535,7 +535,7 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		{
 			tradesOn: AH,
 			type: 'missing',
-			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_SUMSUNG_2' },
+			ids: { skyblock: 'ABICASE', cofl: 'ABICASE_SUMSUNG_2' },
 			links: {},
 			metadata: {
 				description: null,
@@ -550,7 +550,7 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		{
 			tradesOn: AH,
 			type: 'missing',
-			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_REZAR' },
+			ids: { skyblock: 'ABICASE', cofl: 'ABICASE_REZAR' },
 			links: {},
 			metadata: {
 				description: null,
@@ -565,7 +565,7 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		{
 			tradesOn: AH,
 			type: 'missing',
-			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_BLUE_RED' },
+			ids: { skyblock: 'ABICASE', cofl: 'ABICASE_BLUE_RED' },
 			links: {},
 			metadata: {
 				description: null,
@@ -580,7 +580,7 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		{
 			tradesOn: AH,
 			type: 'missing',
-			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_BLUE_BLUE' },
+			ids: { skyblock: 'ABICASE', cofl: 'ABICASE_BLUE_BLUE' },
 			links: {},
 			metadata: {
 				description: null,
@@ -595,7 +595,7 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		{
 			tradesOn: AH,
 			type: 'missing',
-			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_BLUE_GREEN' },
+			ids: { skyblock: 'ABICASE', cofl: 'ABICASE_BLUE_GREEN' },
 			links: {},
 			metadata: {
 				description: null,
@@ -610,7 +610,7 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		{
 			tradesOn: AH,
 			type: 'missing',
-			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_BLUE_YELLOW' },
+			ids: { skyblock: 'ABICASE', cofl: 'ABICASE_BLUE_YELLOW' },
 			links: {},
 			metadata: {
 				description: null,
@@ -625,7 +625,7 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		{
 			tradesOn: AH,
 			type: 'missing',
-			ids: { skyblock: 'ABIPHONE', cofl: 'ABICASE_BLUE_AQUA' },
+			ids: { skyblock: 'ABICASE', cofl: 'ABICASE_BLUE_AQUA' },
 			links: {},
 			metadata: {
 				description: null,
