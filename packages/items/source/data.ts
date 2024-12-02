@@ -2,6 +2,7 @@ import { ItemMetadata, ItemMetadataTradesOn } from './types'
 
 const BZ = { ah: false, bz: true } satisfies ItemMetadataTradesOn
 const AH = { ah: true, bz: true } satisfies ItemMetadataTradesOn
+const NOWHERE = { ah: false, bz: false } satisfies ItemMetadataTradesOn
 
 export const bitsItems = new Map<string, ItemMetadata>([
 	[
@@ -636,7 +637,61 @@ export const bitsItems = new Map<string, ItemMetadata>([
 	],
 ])
 
-export const petsItems = new Map<string, ItemMetadata>([
+export const northStarItems = new Map<string, ItemMetadata>([
+	[
+		'WHITE_GIFT_TALISMAN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'WHITE_GIFT_TALISMAN' },
+			links: {},
+		},
+	],
+	[
+		'GREEN_GIFT_TALISMAN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'GREEN_GIFT_TALISMAN' },
+			links: {},
+		},
+	],
+	[
+		'BLUE_GIFT_TALISMAN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BLUE_GIFT_TALISMAN' },
+			links: {},
+		},
+	],
+	[
+		'PURPLE_GIFT_TALISMAN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PURPLE_GIFT_TALISMAN' },
+			links: {},
+		},
+	],
+	[
+		'GOLD_GIFT_TALISMAN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'GOLD_GIFT_TALISMAN' },
+			links: {},
+		},
+	],
+	[
+		'GOLD_GIFT',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'GOLD_GIFT' },
+			links: {},
+		},
+	],
 	[
 		'SF:PET_REINDEER',
 		{
@@ -652,9 +707,141 @@ export const petsItems = new Map<string, ItemMetadata>([
 			},
 		},
 	],
+	[
+		'SNOW_CLOAK',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'SNOW_CLOAK' },
+			links: {},
+		},
+	],
+	[
+		'SNOW_BELT',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'SNOW_BELT' },
+			links: {},
+		},
+	],
+	[
+		'SNOW_GLOVES',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'SNOW_GLOVES' },
+			links: {},
+		},
+	],
+	[
+		'SNOW_NECKLACE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'SNOW_NECKLACE' },
+			links: {},
+		},
+	],
+	[
+		'ICE_GENERATOR_11',
+		{
+			tradesOn: NOWHERE,
+			type: 'basic',
+			ids: { skyblock: 'ICE_GENERATOR_11' },
+			links: {},
+		},
+	],
+	[
+		'ICE_GENERATOR_12',
+		{
+			tradesOn: NOWHERE,
+			type: 'basic',
+			ids: { skyblock: 'ICE_GENERATOR_12' },
+			links: {},
+		},
+	],
+	[
+		'ENCHANTED_ICE',
+		{
+			tradesOn: BZ,
+			type: 'basic',
+			ids: { skyblock: 'ENCHANTED_ICE' },
+			links: {},
+		},
+	],
+	[
+		'SNOW_GENERATOR_11',
+		{
+			tradesOn: NOWHERE,
+			type: 'basic',
+			ids: { skyblock: 'SNOW_GENERATOR_11' },
+			links: {},
+		},
+	],
+	[
+		'SNOW_GENERATOR_12',
+		{
+			tradesOn: NOWHERE,
+			type: 'basic',
+			ids: { skyblock: 'SNOW_GENERATOR_12' },
+			links: {},
+		},
+	],
+	[
+		'ENCHANTED_SNOW_BLOCK',
+		{
+			tradesOn: BZ,
+			type: 'basic',
+			ids: { skyblock: 'ENCHANTED_SNOW_BLOCK' },
+			links: {},
+		},
+	],
+	[
+		'VOLCANIC_ROCK',
+		{
+			tradesOn: BZ,
+			type: 'basic',
+			ids: { skyblock: 'VOLCANIC_ROCK' },
+			links: {},
+		},
+	],
+	[
+		'ENCHANTMENT_ULTIMATE_REFRIGERATE_1',
+		{
+			tradesOn: BZ,
+			type: 'missing',
+			ids: { skyblock: 'ENCHANTMENT_ULTIMATE_REFRIGERATE_1' },
+			links: {},
+			metadata: {
+				name: 'Ultimate Refrigerate I',
+				description: null,
+				id: 'ENCHANTMENT_ULTIMATE_REFRIGERATE_1',
+				textureUrl: null,
+			},
+		},
+	],
+	[
+		'MAGIC_TOP_HAT',
+		{
+			tradesOn: BZ,
+			type: 'basic',
+			ids: { skyblock: 'MAGIC_TOP_HAT' },
+			links: {},
+		},
+	],
+	[
+		'WINTER_FRAGMENT',
+		{
+			tradesOn: BZ,
+			type: 'basic',
+			ids: { skyblock: 'WINTER_FRAGMENT' },
+			links: {},
+		},
+	],
 ])
 
 export const allItems = new Map<string, ItemMetadata>([
 	...bitsItems.entries(),
-	...petsItems.entries(),
+	...northStarItems.entries(),
 ])
