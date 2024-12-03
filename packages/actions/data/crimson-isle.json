@@ -1,0 +1,690 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 160, "id": "COAL", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_COAL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "COAL", "type": "item" },
+						{ "amount": 64, "id": "COAL", "type": "item" },
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						null,
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						null,
+						{ "amount": 32, "id": "COAL", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "SULPHUR_ORE", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_SULPHUR", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "SULPHUR_ORE", "type": "item" },
+						{ "amount": 64, "id": "SULPHUR_ORE", "type": "item" },
+						{ "amount": 32, "id": "SULPHUR_ORE", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "SULPHUR_ORE", "type": "item" },
+						null,
+						{ "amount": 32, "id": "SULPHUR_ORE", "type": "item" },
+						{ "amount": 32, "id": "SULPHUR_ORE", "type": "item" },
+						{ "amount": 32, "id": "SULPHUR_ORE", "type": "item" },
+						null,
+						{ "amount": 32, "id": "SULPHUR_ORE", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "ENCHANTED_SULPHUR", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTED_SULPHUR_CUBE", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "ENCHANTED_SULPHUR", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_SULPHUR", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_SULPHUR", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "ENCHANTED_SULPHUR", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_SULPHUR", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_SULPHUR", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_SULPHUR", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_SULPHUR", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 16, "id": "ENCHANTED_COAL", "type": "item" },
+				{ "amount": 1, "id": "ENCHANTED_SULPHUR", "type": "item" }
+			],
+			"outputs": [{ "amount": 4, "id": "SULPHURIC_COAL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 4, "id": "ENCHANTED_COAL", "type": "item" },
+						null,
+						{ "amount": 4, "id": "ENCHANTED_COAL", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_SULPHUR", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_COAL", "type": "item" },
+						null,
+						{ "amount": 4, "id": "ENCHANTED_COAL", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 16, "id": "ENCHANTED_COAL", "type": "item" },
+				{ "amount": 4, "id": "CHILI_PEPPER", "type": "item" },
+				{ "amount": 1, "id": "ENCHANTED_SULPHUR", "type": "item" }
+			],
+			"outputs": [{ "amount": 12, "id": "SULPHURIC_COAL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "CHILI_PEPPER", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_COAL", "type": "item" },
+						{ "amount": 1, "id": "CHILI_PEPPER", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_COAL", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_SULPHUR", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_COAL", "type": "item" },
+						{ "amount": 1, "id": "CHILI_PEPPER", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_COAL", "type": "item" },
+						{ "amount": 1, "id": "CHILI_PEPPER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 192, "id": "CRUDE_GABAGOOL", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "VERY_CRUDE_GABAGOOL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 24, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 24, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 24, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 24, "id": "CRUDE_GABAGOOL", "type": "item" },
+						null,
+						{ "amount": 24, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 24, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 24, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 24, "id": "CRUDE_GABAGOOL", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 24, "id": "CRUDE_GABAGOOL", "type": "item" },
+				{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 3, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" },
+						{ "amount": 3, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "CRUDE_GABAGOOL", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "VERY_CRUDE_GABAGOOL", "type": "item" },
+				{ "amount": 8, "id": "SULPHURIC_COAL", "type": "item" }
+			],
+			"outputs": [{ "amount": 8, "id": "FUEL_GABAGOOL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" },
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" },
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" },
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" },
+						{ "amount": 1, "id": "VERY_CRUDE_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" },
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" },
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" },
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 24, "id": "FUEL_GABAGOOL", "type": "item" },
+				{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" }
+			],
+			"outputs": [{ "amount": 8, "id": "HEAVY_GABAGOOL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 3, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" },
+						{ "amount": 3, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 3, "id": "FUEL_GABAGOOL", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 12, "id": "HEAVY_GABAGOOL", "type": "item" },
+				{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" }
+			],
+			"outputs": [{ "amount": 8, "id": "HYPERGOLIC_GABAGOOL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 3, "id": "HEAVY_GABAGOOL", "type": "item" },
+						null,
+						{ "amount": 3, "id": "HEAVY_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "SULPHURIC_COAL", "type": "item" },
+						{ "amount": 3, "id": "HEAVY_GABAGOOL", "type": "item" },
+						null,
+						{ "amount": 3, "id": "HEAVY_GABAGOOL", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_FUEL_MAGMA_CREAM", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_FUEL_GLOWSTONE_DUST", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "NETHER_STALK_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_FUEL_NETHER_STALK", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "BLAZE_ROD_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_FUEL_BLAZE_ROD", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_FUEL_CRUDE_GABAGOOL", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "FUEL_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "HEAVY_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_HEAVY_MAGMA_CREAM", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "HEAVY_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "HEAVY_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_HEAVY_GLOWSTONE_DUST", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "HEAVY_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "HEAVY_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "NETHER_STALK_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_HEAVY_NETHER_STALK", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "HEAVY_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "HEAVY_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "BLAZE_ROD_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_HEAVY_BLAZE_ROD", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "HEAVY_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "HEAVY_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_HEAVY_CRUDE_GABAGOOL", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "HEAVY_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "HYPERGOLIC_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_HYPERGOLIC_MAGMA_CREAM", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "HYPERGOLIC_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "MAGMA_CREAM_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "HYPERGOLIC_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "INFERNO_HYPERGOLIC_GLOWSTONE_DUST",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "HYPERGOLIC_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "GLOWSTONE_DUST_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "HYPERGOLIC_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "NETHER_STALK_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_HYPERGOLIC_NETHER_STALK", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "HYPERGOLIC_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "NETHER_STALK_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "HYPERGOLIC_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "BLAZE_ROD_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFERNO_HYPERGOLIC_BLAZE_ROD", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "HYPERGOLIC_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "BLAZE_ROD_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "HYPERGOLIC_GABAGOOL", "type": "item" },
+				{ "amount": 6, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" }
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "INFERNO_HYPERGOLIC_CRUDE_GABAGOOL",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "HYPERGOLIC_GABAGOOL", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" },
+						{ "amount": 1, "id": "INFERNO_FUEL_BLOCK", "type": "item" },
+						{ "amount": 1, "id": "CRUDE_GABAGOOL_DISTILLATE", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 32, "id": "CHILI_PEPPER", "type": "item" },
+				{ "amount": 16, "id": "HEAVY_GABAGOOL", "type": "item" },
+				{ "amount": 4, "id": "KELVIN_INVERTER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ENTROPY_SUPPRESSOR", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 8, "id": "CHILI_PEPPER", "type": "item" },
+						{ "amount": 4, "id": "HEAVY_GABAGOOL", "type": "item" },
+						{ "amount": 8, "id": "CHILI_PEPPER", "type": "item" },
+						{ "amount": 4, "id": "HEAVY_GABAGOOL", "type": "item" },
+						{ "amount": 4, "id": "KELVIN_INVERTER", "type": "item" },
+						{ "amount": 4, "id": "HEAVY_GABAGOOL", "type": "item" },
+						{ "amount": 8, "id": "CHILI_PEPPER", "type": "item" },
+						{ "amount": 4, "id": "HEAVY_GABAGOOL", "type": "item" },
+						{ "amount": 8, "id": "CHILI_PEPPER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}
