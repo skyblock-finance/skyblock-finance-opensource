@@ -637,6 +637,234 @@ export const bitsItems = new Map<string, ItemMetadata>([
 	],
 ])
 
+export const crimsonIsleItems = new Map<string, ItemMetadata>([
+	[
+		'INFERNO_FUEL_MAGMA_CREAM',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_FUEL_MAGMA_CREAM' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Fuel Magma Cream)',
+				description: null,
+				id: 'INFERNO_FUEL_MAGMA_CREAM',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_FUEL_GLOWSTONE_DUST',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_FUEL_GLOWSTONE_DUST' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Fuel Glowstone Dust)',
+				description: null,
+				id: 'INFERNO_FUEL_GLOWSTONE_DUST',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_FUEL_NETHER_STALK',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_FUEL_NETHER_STALK' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Fuel Nether Stalk)',
+				description: null,
+				id: 'INFERNO_FUEL_NETHER_STALK',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_FUEL_BLAZE_ROD',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_FUEL_BLAZE_ROD' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Fuel Blaze Rod)',
+				description: null,
+				id: 'INFERNO_FUEL_BLAZE_ROD',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_FUEL_CRUDE_GABAGOOL',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_FUEL_CRUDE_GABAGOOL' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Fuel Crude Gabagool)',
+				description: null,
+				id: 'INFERNO_FUEL_CRUDE_GABAGOOL',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_HEAVY_MAGMA_CREAM',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_HEAVY_MAGMA_CREAM' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Heavy Magma Cream)',
+				description: null,
+				id: 'INFERNO_HEAVY_MAGMA_CREAM',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_HEAVY_GLOWSTONE_DUST',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_HEAVY_GLOWSTONE_DUST' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Heavy Glowstone Dust)',
+				description: null,
+				id: 'INFERNO_HEAVY_GLOWSTONE_DUST',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_HEAVY_NETHER_STALK',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_HEAVY_NETHER_STALK' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Heavy Nether Stalk)',
+				description: null,
+				id: 'INFERNO_HEAVY_NETHER_STALK',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_HEAVY_BLAZE_ROD',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_HEAVY_BLAZE_ROD' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Heavy Blaze Rod)',
+				description: null,
+				id: 'INFERNO_HEAVY_BLAZE_ROD',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_HEAVY_CRUDE_GABAGOOL',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_HEAVY_CRUDE_GABAGOOL' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Heavy Crude Gabagool)',
+				description: null,
+				id: 'INFERNO_HEAVY_CRUDE_GABAGOOL',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_HYPERGOLIC_MAGMA_CREAM',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_HYPERGOLIC_MAGMA_CREAM' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Hypergolic Magma Cream)',
+				description: null,
+				id: 'INFERNO_HYPERGOLIC_MAGMA_CREAM',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_HYPERGOLIC_GLOWSTONE_DUST',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_HYPERGOLIC_GLOWSTONE_DUST' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Hypergolic Glowstone Dust)',
+				description: null,
+				id: 'INFERNO_HYPERGOLIC_GLOWSTONE_DUST',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_HYPERGOLIC_NETHER_STALK',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_HYPERGOLIC_NETHER_STALK' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Hypergolic Nether Stalk)',
+				description: null,
+				id: 'INFERNO_HYPERGOLIC_NETHER_STALK',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_HYPERGOLIC_BLAZE_ROD',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_HYPERGOLIC_BLAZE_ROD' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Hypergolic Blaze Rod)',
+				description: null,
+				id: 'INFERNO_HYPERGOLIC_BLAZE_ROD',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+	[
+		'INFERNO_HYPERGOLIC_CRUDE_GABAGOOL',
+		{
+			type: 'missing',
+			ids: { skyblock: 'INFERNO_HYPERGOLIC_CRUDE_GABAGOOL' },
+			links: {},
+			metadata: {
+				name: 'Inferno Minion Fuel (Hypergolic Crude Gabagool)',
+				description: null,
+				id: 'INFERNO_HYPERGOLIC_CRUDE_GABAGOOL',
+				textureUrl: null,
+			},
+			tradesOn: AH,
+		},
+	],
+])
+
 export const northStarItems = new Map<string, ItemMetadata>([
 	[
 		'WHITE_GIFT_TALISMAN',
@@ -897,5 +1125,6 @@ export const northStarItems = new Map<string, ItemMetadata>([
 
 export const allItems = new Map<string, ItemMetadata>([
 	...bitsItems.entries(),
+	...crimsonIsleItems.entries(),
 	...northStarItems.entries(),
 ])
