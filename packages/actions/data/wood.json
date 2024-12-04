@@ -1,0 +1,45 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 1, "id": "LOG", "type": "item" }],
+			"outputs": [{ "amount": 4, "id": "WOOD", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "LOG", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 2, "id": "WOOD", "type": "item" }],
+			"outputs": [{ "amount": 4, "id": "STICK", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "WOOD", "type": "item" },
+						null,
+						null,
+						{ "amount": 1, "id": "WOOD", "type": "item" },
+						null,
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}
