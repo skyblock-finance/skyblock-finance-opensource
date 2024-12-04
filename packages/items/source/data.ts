@@ -1128,6 +1128,15 @@ export const northStarItems = new Map<string, ItemMetadata>([
 		},
 	],
 	[
+		'FROZEN_SCYTHE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'FROZEN_SCYTHE' },
+			links: {},
+		},
+	],
+	[
 		'GLACIAL_SCYTHE',
 		{
 			tradesOn: AH,
