@@ -24,6 +24,13 @@ export const actionIoSchema = z.discriminatedUnion('type', [
 export const actionPlaceSchema = z.discriminatedUnion('type', [
 	z
 		.object({
+			left: actionIoItemSchema,
+			right: actionIoItemSchema,
+			type: z.literal('anvil'),
+		})
+		.strict(),
+	z
+		.object({
 			id: z.string(),
 			type: z.literal('npc'),
 		})

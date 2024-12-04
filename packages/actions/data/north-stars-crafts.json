@@ -73,6 +73,130 @@
 					"type": "workbench"
 				}
 			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
 		}
 	]
 }

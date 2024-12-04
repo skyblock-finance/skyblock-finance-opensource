@@ -68,7 +68,7 @@ test('sumUp works', () => {
 	)
 })
 
-describe('every action’s inputs match its crafing grid', () => {
+describe('every action’s workbench inputs match its crafing grid', () => {
 	for (const action of allActions) {
 		for (const grid of action.place.filter((x) => x.type === 'workbench')) {
 			test(`${JSON.stringify(action.outputs)} is valid`, () => {
@@ -77,6 +77,22 @@ describe('every action’s inputs match its crafing grid', () => {
 				const actual = sumUp(action.inputs.filter((x) => x.type === 'item'))
 
 				const expected = sumUp(grid.grid.filter((x) => x !== null))
+
+				expect(actual).toEqual(expected)
+			})
+		}
+	}
+})
+
+describe('every action’s anvil inputs match its crafing grid', () => {
+	for (const action of allActions) {
+		for (const grid of action.place.filter((x) => x.type === 'anvil')) {
+			test(`${JSON.stringify(action.outputs)} is valid`, () => {
+				assert(grid.type === 'anvil')
+
+				const actual = sumUp(action.inputs.filter((x) => x.type === 'item'))
+
+				const expected = sumUp([grid.left, grid.right])
 
 				expect(actual).toEqual(expected)
 			})
