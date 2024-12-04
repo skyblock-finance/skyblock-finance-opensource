@@ -1050,6 +1050,66 @@ export const northStarItems = new Map<string, ItemMetadata>([
 		},
 	],
 	[
+		'ENCHANTMENT_ULTIMATE_REFRIGERATE_2',
+		{
+			tradesOn: BZ,
+			type: 'missing',
+			ids: { skyblock: 'ENCHANTMENT_ULTIMATE_REFRIGERATE_2' },
+			links: {},
+			metadata: {
+				name: 'Ultimate Refrigerate II',
+				description: null,
+				id: 'ENCHANTMENT_ULTIMATE_REFRIGERATE_2',
+				textureUrl: null,
+			},
+		},
+	],
+	[
+		'ENCHANTMENT_ULTIMATE_REFRIGERATE_3',
+		{
+			tradesOn: BZ,
+			type: 'missing',
+			ids: { skyblock: 'ENCHANTMENT_ULTIMATE_REFRIGERATE_3' },
+			links: {},
+			metadata: {
+				name: 'Ultimate Refrigerate III',
+				description: null,
+				id: 'ENCHANTMENT_ULTIMATE_REFRIGERATE_3',
+				textureUrl: null,
+			},
+		},
+	],
+	[
+		'ENCHANTMENT_ULTIMATE_REFRIGERATE_4',
+		{
+			tradesOn: BZ,
+			type: 'missing',
+			ids: { skyblock: 'ENCHANTMENT_ULTIMATE_REFRIGERATE_4' },
+			links: {},
+			metadata: {
+				name: 'Ultimate Refrigerate IV',
+				description: null,
+				id: 'ENCHANTMENT_ULTIMATE_REFRIGERATE_4',
+				textureUrl: null,
+			},
+		},
+	],
+	[
+		'ENCHANTMENT_ULTIMATE_REFRIGERATE_5',
+		{
+			tradesOn: BZ,
+			type: 'missing',
+			ids: { skyblock: 'ENCHANTMENT_ULTIMATE_REFRIGERATE_5' },
+			links: {},
+			metadata: {
+				name: 'Ultimate Refrigerate V',
+				description: null,
+				id: 'ENCHANTMENT_ULTIMATE_REFRIGERATE_5',
+				textureUrl: null,
+			},
+		},
+	],
+	[
 		'MAGIC_TOP_HAT',
 		{
 			tradesOn: BZ,
