@@ -1,4 +1,4 @@
-export * as api from './api'
-export * as common from './common'
-export * as enums from './enums'
-export * as utilities from './utilities'
+export * as api from '../source/api'
+export * as common from '../source/common'
+export * as enums from '../source/enums'
+export * as utilities from '../source/utilities'
