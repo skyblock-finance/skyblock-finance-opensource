@@ -1341,9 +1341,15 @@ export const pestItems = new Map<string, ItemMetadata>([
 		'SF:PET_HEDGEHOG',
 		{
 			tradesOn: AH,
-			type: 'basic',
+			type: 'missing',
 			ids: { skyblock: 'PET', cofl: 'PET_HEDGEHOG' },
 			links: {},
+			metadata: {
+				description: null,
+				id: 'SF:PET_HEDGEHOG',
+				name: 'Hedgehog',
+				textureUrl: null,
+			},
 		},
 	],
 ])
