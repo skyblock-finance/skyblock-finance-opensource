@@ -1192,8 +1192,165 @@ export const northStarItems = new Map<string, ItemMetadata>([
 	],
 ])
 
+export const pestItems = new Map<string, ItemMetadata>([
+	[
+		'PESTHUNTER_BADGE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PESTHUNTER_BADGE' },
+			links: {},
+		},
+	],
+	[
+		'PESTHUNTER_RING',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PESTHUNTER_RING' },
+			links: {},
+		},
+	],
+	[
+		'PESTHUNTER_ARTIFACT',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PESTHUNTER_ARTIFACT' },
+			links: {},
+		},
+	],
+	[
+		'MUSHROOM_HELMET',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'MUSHROOM_HELMET' },
+			links: {},
+		},
+	],
+	[
+		'BIOHAZARD_HELMET',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BIOHAZARD_HELMET' },
+			links: {},
+		},
+	],
+	[
+		'MUSHROOM_CHESTPLATE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'MUSHROOM_CHESTPLATE' },
+			links: {},
+		},
+	],
+	[
+		'BIOHAZARD_SUIT',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BIOHAZARD_SUIT' },
+			links: {},
+		},
+	],
+	[
+		'MUSHROOM_LEGGINGS',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'MUSHROOM_LEGGINGS' },
+			links: {},
+		},
+	],
+	[
+		'BIOHAZARD_LEGGINGS',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BIOHAZARD_LEGGINGS' },
+			links: {},
+		},
+	],
+	[
+		'MUSHROOM_BOOTS',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'MUSHROOM_BOOTS' },
+			links: {},
+		},
+	],
+	[
+		'BIOHAZARD_BOOTS',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BIOHAZARD_BOOTS' },
+			links: {},
+		},
+	],
+	[
+		'PESTHUNTERS_GLOVES',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PESTHUNTERS_GLOVES' },
+			links: {},
+		},
+	],
+	[
+		'PEST_TRAP',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PEST_TRAP' },
+			links: {},
+		},
+	],
+	[
+		'MOUSE_PEST_TRAP',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'MOUSE_PEST_TRAP' },
+			links: {},
+		},
+	],
+	[
+		'PESTHUNTING_GUIDE',
+		{
+			tradesOn: BZ,
+			type: 'basic',
+			ids: { skyblock: 'PESTHUNTING_GUIDE' },
+			links: {},
+		},
+	],
+	[
+		'PESTHUNTERS_LAIR_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PESTHUNTERS_LAIR_BARN_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'SF:PET_HEDGEHOG',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PET', cofl: 'PET_HEDGEHOG' },
+			links: {},
+		},
+	],
+])
+
 export const allItems = new Map<string, ItemMetadata>([
 	...bitsItems.entries(),
 	...crimsonIsleItems.entries(),
 	...northStarItems.entries(),
+	...pestItems.entries(),
 ])
