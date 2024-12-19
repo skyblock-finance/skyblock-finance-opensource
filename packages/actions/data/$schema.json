@@ -9,7 +9,7 @@
 					"type": "number"
 				},
 				"id": {
-					"enum": ["bit", "coin", "gem", "mote", "north-star", "usd"],
+					"enum": ["bit", "coin", "gem", "mote", "north-star", "pest", "usd"],
 					"type": "string"
 				},
 				"type": {

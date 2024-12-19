@@ -1,0 +1,178 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 25, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTER_BADGE", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "PESTHUNTER_BADGE", "type": "item" },
+				{ "amount": 50, "id": "pest", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTER_RING", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "PESTHUNTER_RING", "type": "item" },
+				{ "amount": 100, "id": "pest", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTER_ARTIFACT", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5, "id": "RED_MUSHROOM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "MUSHROOM_HELMET", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						null,
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MUSHROOM_HELMET", "type": "item" },
+				{ "amount": 50, "id": "pest", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BIOHAZARD_HELMET", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 8, "id": "RED_MUSHROOM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "MUSHROOM_CHESTPLATE", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						null,
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MUSHROOM_CHESTPLATE", "type": "item" },
+				{ "amount": 80, "id": "pest", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BIOHAZARD_SUIT", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 7, "id": "RED_MUSHROOM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "MUSHROOM_LEGGINGS", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						null,
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						null,
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MUSHROOM_LEGGINGS", "type": "item" },
+				{ "amount": 70, "id": "pest", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BIOHAZARD_LEGGINGS", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 4, "id": "RED_MUSHROOM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "MUSHROOM_BOOTS", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						null,
+						null,
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						null,
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" },
+						null,
+						{ "amount": 1, "id": "RED_MUSHROOM", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MUSHROOM_BOOTS", "type": "item" },
+				{ "amount": 40, "id": "pest", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BIOHAZARD_BOOTS", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 40, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTERS_GLOVES", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 40, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTERS_GLOVES", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 50, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PEST_TRAP", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "PEST_TRAP", "type": "item" },
+				{ "amount": 75, "id": "pest", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MOUSE_PEST_TRAP", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 500, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTING_GUIDE", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1500, "id": "pest", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "PESTHUNTERS_LAIR_BARN_SKIN", "type": "item" }
+			],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 500, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SF:PET_HEDGEHOG", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		}
+	]
+}
