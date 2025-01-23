@@ -136,7 +136,19 @@
 		},
 		{
 			"inputs": [{ "amount": 40, "id": "pest", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "PESTHUNTERS_GLOVES", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "PESTHUNTERS_NECKLACE", "type": "item" }
+			],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 40, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTERS_CLOAK", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 40, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTERS_BELT", "type": "item" }],
 			"place": [{ "id": "PHILLIP", "type": "npc" }]
 		},
 		{
