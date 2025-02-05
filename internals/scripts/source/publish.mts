@@ -46,6 +46,9 @@ if (toPublish.length === 0) {
 	process.exit(0)
 }
 
-console.info(`attempting to publish ${toPublish.join(', ')}`)
+for (const packageName of toPublish) {
+	console.info(`attempting to publish ${packageName}`)
+	await $`bun run turbo run publish-package --filter=${packageName}`
+}
 
-await $`bun run turbo run publish-package --continue ${toPublish.map((packageName) => `--filter=${packageName}`).join(' ')}`
+console.info('done ✅')
