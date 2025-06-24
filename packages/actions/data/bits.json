@@ -92,6 +92,11 @@
 			"place": [{ "id": "ELIZABETH", "type": "npc" }]
 		},
 		{
+			"inputs": [{ "amount": 5000, "id": "bit", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SHARD_BITBUG", "type": "item" }],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
 			"inputs": [{ "amount": 8000, "id": "bit", "type": "currency" }],
 			"outputs": [
 				{ "amount": 1, "id": "POCKET_SACK_IN_A_SACK", "type": "item" }
@@ -230,6 +235,13 @@
 			"inputs": [{ "amount": 4000, "id": "bit", "type": "currency" }],
 			"outputs": [
 				{ "amount": 1, "id": "ENCHANTMENT_CULTIVATING_1", "type": "item" }
+			],
+			"place": [{ "id": "ELIZABETH", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 4000, "id": "bit", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_ABSORB_1", "type": "item" }
 			],
 			"place": [{ "id": "ELIZABETH", "type": "npc" }]
 		},
