@@ -231,6 +231,15 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		},
 	],
 	[
+		'SHARD_BITBUG',
+		{
+			tradesOn: BZ,
+			type: 'basic',
+			ids: { skyblock: 'SHARD_BITBUG' },
+			links: {},
+		},
+	],
+	[
 		'POCKET_SACK_IN_A_SACK',
 		{
 			tradesOn: AH,
@@ -335,6 +344,15 @@ export const bitsItems = new Map<string, ItemMetadata>([
 			tradesOn: BZ,
 			type: 'basic',
 			ids: { skyblock: 'INFERNO_FUEL_BLOCK' },
+			links: {},
+		},
+	],
+	[
+		'ENCHANTMENT_ABSORB_1',
+		{
+			tradesOn: BZ,
+			type: 'basic',
+			ids: { skyblock: 'ENCHANTMENT_ABSORB_1' },
 			links: {},
 		},
 	],
