@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from 'zod/v4'
 
 import { apiResponseSchema } from '../../common'
 
@@ -15,5 +15,7 @@ const bazaarProductSchema = z.object({
 })
 
 export const bazaarResponseSchemaRuntime = apiResponseSchema.extend({
-	products: z.record(bazaarProductSchema).transform(removeUselessItems),
+	products: z
+		.record(z.string(), bazaarProductSchema)
+		.transform(removeUselessItems),
 })

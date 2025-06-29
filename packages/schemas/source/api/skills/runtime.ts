@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from 'zod/v4'
 
 import { apiResponseSchema } from '../../common'
 
@@ -12,6 +12,6 @@ const skillSchema = z.object({
 })
 
 export const skillsResponseSchemaRuntime = apiResponseSchema.extend({
-	skills: z.record(skillSchema),
+	skills: z.record(z.string(), skillSchema),
 	version: z.string(),
 })

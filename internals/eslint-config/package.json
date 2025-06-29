@@ -3,15 +3,14 @@
 		"url": "https://github.com/skyblock-finance/skyblock-finance-opensource/issues"
 	},
 	"dependencies": {
-		"@eslint/js": "^9.0.0",
-		"eslint-plugin-jsonc": "^2.15.0",
+		"@eslint/js": "^9.30.0",
+		"eslint-plugin-jsonc": "^2.20.1",
 		"jsonc-eslint-parser": "^2.4.0",
-		"typescript-eslint": "^7.6.0"
+		"typescript-eslint": "^8.35.0"
 	},
 	"description": "Skyblock Finance Shared ESLint Config",
 	"devDependencies": {
-		"@types/eslint__js": "^8.42.3",
-		"@typescript-eslint/utils": "^7.6.0"
+		"@typescript-eslint/utils": "^8.35.0"
 	},
 	"exports": {
 		".": {
@@ -22,7 +21,9 @@
 		}
 	},
 	"files": [
-		"dist/**/!(*.tsbuildinfo)"
+		"dist/index.js",
+		"dist/index.d.ts",
+		"dist/index.js.map"
 	],
 	"homepage": "https://github.com/skyblock-finance/skyblock-finance-opensource/tree/master/packages/eslint-config",
 	"keywords": [

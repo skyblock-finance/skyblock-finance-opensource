@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from 'zod/v4'
 
 export const UPPER_SNAKE_CASE_REGEX = /[A-Z]+(_[A-Z]+)*/
 

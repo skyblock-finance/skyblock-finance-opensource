@@ -42,7 +42,9 @@ export default tseslint.config(
 			'**/dist/**',
 			'**/.turbo/**',
 			'.github/custom/cla-signatures.json',
+			'eslint.config.mjs',
 			'packages/schemas/data/*.json',
+			'prettier.config.mjs',
 		],
 	},
 	{

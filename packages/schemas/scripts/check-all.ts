@@ -2,9 +2,8 @@ import fs from 'fs/promises'
 import path from 'path'
 import jsonStableStringify from 'json-stable-stringify'
 
-import _ from 'lodash'
 import { Logger } from 'tslog'
-import { z } from 'zod'
+import { z } from 'zod/v4'
 
 import {
 	bazaarResponseSchemaRuntime,
@@ -79,7 +78,7 @@ const checkSchema = async ({
 }: {
 	file: string
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	getMessage(result: any): string
+	getMessage: (result: any) => string
 	json: unknown
 	schema: z.ZodSchema<unknown>
 	type: string
@@ -93,7 +92,7 @@ const checkSchema = async ({
 	log.info(`${fileName}: writing parsed data`)
 	await fs.writeFile(
 		path.join(__dirname, '..', 'data', fileName),
-		jsonStableStringify(resultRuntime, { space: '\t' }),
+		jsonStableStringify(resultRuntime, { space: '\t' })!,
 	)
 }
 
@@ -138,15 +137,7 @@ for (const toCheck of TO_CHECK) {
 		const e = error as z.ZodError<unknown>
 
 		if (e.issues) {
-			log.error(
-				e.issues
-					.map((i) => ({
-						...i,
-						// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-						'=': _.get(json, i.path),
-					}))
-					.filter((_, index) => index < 3),
-			)
+			log.error(e.issues.filter((_, index) => index < 3))
 
 			log.info(`failed with ${e.issues.length} issues`)
 		} else log.error(error)

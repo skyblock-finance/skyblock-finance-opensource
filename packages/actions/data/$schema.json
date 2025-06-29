@@ -1,40 +1,6 @@
 {
-	"$schema": "https://json-schema.org/draft-07/schema",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"additionalProperties": false,
-	"definitions": {
-		"currencyAction": {
-			"additionalProperties": false,
-			"properties": {
-				"amount": {
-					"type": "number"
-				},
-				"id": {
-					"enum": ["bit", "coin", "gem", "mote", "north-star", "pest", "usd"],
-					"type": "string"
-				},
-				"type": {
-					"const": "currency"
-				}
-			},
-			"required": ["amount", "id", "type"]
-		},
-		"itemAction": {
-			"additionalProperties": false,
-			"properties": {
-				"amount": {
-					"type": "number"
-				},
-				"id": {
-					"type": "string"
-				},
-				"type": {
-					"const": "item"
-				}
-			},
-			"required": ["id", "amount", "type"],
-			"type": "object"
-		}
-	},
 	"properties": {
 		"$schema": {
 			"type": "string"
@@ -45,38 +11,150 @@
 				"properties": {
 					"inputs": {
 						"items": {
-							"oneOf": [
-								{ "$ref": "#/definitions/currencyAction" },
-								{ "$ref": "#/definitions/itemAction" }
-							],
-							"type": "object"
+							"anyOf": [
+								{
+									"additionalProperties": false,
+									"properties": {
+										"amount": {
+											"type": "number"
+										},
+										"id": {
+											"enum": [
+												"bit",
+												"coin",
+												"gem",
+												"north-star",
+												"pest",
+												"second",
+												"usd"
+											],
+											"type": "string"
+										},
+										"type": {
+											"const": "currency",
+											"type": "string"
+										}
+									},
+									"required": ["amount", "id", "type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"amount": {
+											"type": "number"
+										},
+										"id": {
+											"type": "string"
+										},
+										"type": {
+											"const": "item",
+											"type": "string"
+										}
+									},
+									"required": ["amount", "id", "type"],
+									"type": "object"
+								}
+							]
 						},
 						"type": "array"
 					},
 					"outputs": {
 						"items": {
-							"oneOf": [
-								{ "$ref": "#/definitions/currencyAction" },
-								{ "$ref": "#/definitions/itemAction" }
-							],
-							"type": "object"
+							"anyOf": [
+								{
+									"additionalProperties": false,
+									"properties": {
+										"amount": {
+											"type": "number"
+										},
+										"id": {
+											"enum": [
+												"bit",
+												"coin",
+												"gem",
+												"north-star",
+												"pest",
+												"second",
+												"usd"
+											],
+											"type": "string"
+										},
+										"type": {
+											"const": "currency",
+											"type": "string"
+										}
+									},
+									"required": ["amount", "id", "type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"amount": {
+											"type": "number"
+										},
+										"id": {
+											"type": "string"
+										},
+										"type": {
+											"const": "item",
+											"type": "string"
+										}
+									},
+									"required": ["amount", "id", "type"],
+									"type": "object"
+								}
+							]
 						},
 						"type": "array"
 					},
 					"place": {
 						"items": {
-							"oneOf": [
+							"anyOf": [
 								{
 									"additionalProperties": false,
 									"properties": {
-										"id": {
-											"type": "string"
+										"left": {
+											"additionalProperties": false,
+											"properties": {
+												"amount": {
+													"type": "number"
+												},
+												"id": {
+													"type": "string"
+												},
+												"type": {
+													"const": "item",
+													"type": "string"
+												}
+											},
+											"required": ["amount", "id", "type"],
+											"type": "object"
+										},
+										"right": {
+											"additionalProperties": false,
+											"properties": {
+												"amount": {
+													"type": "number"
+												},
+												"id": {
+													"type": "string"
+												},
+												"type": {
+													"const": "item",
+													"type": "string"
+												}
+											},
+											"required": ["amount", "id", "type"],
+											"type": "object"
 										},
 										"type": {
-											"const": "item"
+											"const": "anvil",
+											"type": "string"
 										}
 									},
-									"required": ["id", "type"],
+									"required": ["left", "right", "type"],
 									"type": "object"
 								},
 								{
@@ -86,7 +164,8 @@
 											"type": "string"
 										},
 										"type": {
-											"const": "npc"
+											"const": "npc",
+											"type": "string"
 										}
 									},
 									"required": ["id", "type"],
@@ -96,9 +175,11 @@
 									"additionalProperties": false,
 									"properties": {
 										"type": {
-											"const": "website"
+											"const": "website",
+											"type": "string"
 										},
 										"url": {
+											"format": "uri",
 											"type": "string"
 										}
 									},
@@ -110,47 +191,43 @@
 									"properties": {
 										"grid": {
 											"items": {
-												"maxLength": 9,
-												"minLength": 9,
-												"oneOf": [
-													{ "$ref": "#/definitions/itemAction" },
-													{ "type": "null" }
+												"anyOf": [
+													{
+														"additionalProperties": false,
+														"properties": {
+															"amount": {
+																"type": "number"
+															},
+															"id": {
+																"type": "string"
+															},
+															"type": {
+																"const": "item",
+																"type": "string"
+															}
+														},
+														"required": ["amount", "id", "type"],
+														"type": "object"
+													},
+													{
+														"type": "null"
+													}
 												]
 											},
+											"maxItems": 9,
+											"minItems": 9,
 											"type": "array"
 										},
 										"type": {
-											"const": "workbench"
+											"const": "workbench",
+											"type": "string"
 										}
 									},
-									"required": ["type", "grid"],
-									"type": "object"
-								},
-								{
-									"additionalProperties": false,
-									"properties": {
-										"left": {
-											"$ref": "#/definitions/itemAction",
-											"type": "object"
-										},
-										"right": {
-											"$ref": "#/definitions/itemAction",
-											"type": "object"
-										},
-										"type": {
-											"const": "anvil"
-										}
-									},
-									"required": ["type", "left", "right"],
+									"required": ["grid", "type"],
 									"type": "object"
 								}
-							],
-							"type": "object"
+							]
 						},
-						"type": "array"
-					},
-					"requirements": {
-						"items": {},
 						"type": "array"
 					}
 				},
