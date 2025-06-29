@@ -1,8 +1,8 @@
-import { z } from 'zod'
+import { z } from 'zod/v4'
 
 export const actionIoItemSchema = z
 	.object({
-		amount: z.number().finite(),
+		amount: z.number(),
 		id: z.string(),
 		type: z.literal('item'),
 	})
@@ -10,7 +10,7 @@ export const actionIoItemSchema = z
 
 export const actionIoCurrencySchema = z
 	.object({
-		amount: z.number().finite(),
+		amount: z.number(),
 		id: z.enum(['bit', 'coin', 'gem', 'north-star', 'pest', 'second', 'usd']),
 		type: z.literal('currency'),
 	})
@@ -38,7 +38,7 @@ export const actionPlaceSchema = z.discriminatedUnion('type', [
 	z
 		.object({
 			type: z.literal('website'),
-			url: z.string().url(),
+			url: z.url(),
 		})
 		.strict(),
 	z
@@ -54,5 +54,12 @@ export const actionSchema = z
 		inputs: z.array(actionIoSchema),
 		outputs: z.array(actionIoSchema),
 		place: z.array(actionPlaceSchema),
+	})
+	.strict()
+
+export const actionDefinitionSchema = z
+	.object({
+		actions: z.array(actionSchema),
+		$schema: z.string().optional(),
 	})
 	.strict()

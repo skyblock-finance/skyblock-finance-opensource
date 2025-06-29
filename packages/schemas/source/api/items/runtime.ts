@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from 'zod/v4'
 
 import { GemSlotType } from '../../enums'
 import { Soulbound } from '../../enums/soulbound'

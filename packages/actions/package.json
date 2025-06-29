@@ -3,10 +3,11 @@
 		"url": "https://github.com/skyblock-finance/skyblock-finance-opensource/issues"
 	},
 	"dependencies": {
-		"zod": "^3.23.8"
+		"zod": "^3.25.67"
 	},
 	"devDependencies": {
-		"@types/bun": "latest"
+		"@types/bun": "latest",
+		"json-stable-stringify": "^1.3.0"
 	},
 	"files": [
 		"data",

@@ -1,11 +1,11 @@
 {
-	"$schema": "https://turbo.build/schema.v1.json",
+	"$schema": "https://turbo.build/schema.v2.json",
 	"globalDependencies": ["bun.lockb"],
-	"pipeline": {
+	"tasks": {
 		"build": {
 			"dependsOn": ["^build"],
 			"inputs": ["source/**", "tsconfig.json"],
-			"outputMode": "new-only",
+			"outputLogs": "new-only",
 			"outputs": ["dist/**"]
 		},
 		"check": {
@@ -21,7 +21,7 @@
 		"check:arethetypeswrong": {
 			"dependsOn": ["build"],
 			"inputs": ["dist/**", "package.json"],
-			"outputMode": "new-only"
+			"outputLogs": "new-only"
 		},
 		"check:eslint": {
 			"dependsOn": ["@skyblock-finance/eslint-config#build"],
@@ -29,23 +29,23 @@
 				"**/*.{cjs,js,mjs,json,mjs,mts,ts}",
 				"../../eslint.config.mjs"
 			],
-			"outputMode": "new-only"
+			"outputLogs": "new-only"
 		},
 		"check:knip": {
-			"outputMode": "new-only"
+			"outputLogs": "new-only"
 		},
 		"check:prettier": {
 			"inputs": ["**/*.{css,js,json,md,scss,ts}"],
-			"outputMode": "new-only"
+			"outputLogs": "new-only"
 		},
 		"check:publint": {
 			"dependsOn": ["build"],
 			"inputs": ["dist/**", "package.json"],
-			"outputMode": "new-only"
+			"outputLogs": "new-only"
 		},
 		"check:sherif": {
 			"inputs": ["../../**/*"],
-			"outputMode": "new-only",
+			"outputLogs": "new-only",
 			"outputs": []
 		},
 		"fix": {
@@ -57,7 +57,7 @@
 				"**/*.{cjs,js,mjs,json,mjs,mts,ts}",
 				"../../eslint.config.mjs"
 			],
-			"outputMode": "new-only",
+			"outputLogs": "new-only",
 			"outputs": [
 				"**/*.{cjs,js,mjs,json,mjs,mts,ts}",
 				"../../eslint.config.mjs"
@@ -65,14 +65,14 @@
 		},
 		"fix:prettier": {
 			"inputs": ["**/*.{css,js,json,md,scss,ts}"],
-			"outputMode": "new-only"
+			"outputLogs": "new-only"
 		},
 		"publish-package": {
 			"cache": false,
 			"dependsOn": ["build", "check", "test"]
 		},
 		"test": {
-			"outputMode": "new-only"
+			"outputLogs": "new-only"
 		}
 	}
 }

@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import { z } from 'zod/v4'
 
 import {
 	CrimsonIsleFaction,
@@ -323,6 +323,7 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 							tick_interval: z.number().int().optional(),
 							tiers: z
 								.record(
+									z.string(),
 									z
 										.object({
 											stats: statsSchemaStrict,

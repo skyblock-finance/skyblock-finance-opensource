@@ -1,11 +1,11 @@
 {
-	"$schema": "https://turbo.build/schema.v1.json",
+	"$schema": "https://turbo.build/schema.v2.json",
 	"extends": ["//"],
-	"pipeline": {
+	"tasks": {
 		"download": {
 			"dependsOn": ["^build"],
 			"inputs": ["scripts/**"],
-			"outputMode": "new-only",
+			"outputLogs": "new-only",
 			"outputs": ["data"]
 		},
 		"start": {

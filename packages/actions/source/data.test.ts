@@ -1,6 +1,6 @@
 import { actionSchema } from './schema'
 import { allActions } from './data'
-import { z } from 'zod'
+import { z } from 'zod/v4'
 import { describe, expect, test } from 'bun:test'
 import assert from 'node:assert'
 import { ActionIoItem } from './types'
