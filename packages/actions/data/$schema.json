@@ -160,6 +160,22 @@
 								{
 									"additionalProperties": false,
 									"properties": {
+										"type": {
+											"const": "fusion-machine",
+											"type": "string"
+										}
+									},
+									"required": ["type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"dailyLimit": {
+											"maximum": 9007199254740991,
+											"minimum": -9007199254740991,
+											"type": "integer"
+										},
 										"id": {
 											"type": "string"
 										},

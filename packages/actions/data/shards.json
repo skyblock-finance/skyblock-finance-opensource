@@ -1,0 +1,33 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 100000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SHARD_VIPER", "type": "item" }],
+			"place": [{ "dailyLimit": 10, "id": "KIARA", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 300000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SHARD_CROCODILE", "type": "item" }],
+			"place": [{ "dailyLimit": 6, "id": "KIARA", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 350000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SHARD_EEL", "type": "item" }],
+			"place": [{ "dailyLimit": 6, "id": "KIARA", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 600000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SHARD_GECKO", "type": "item" }],
+			"place": [{ "dailyLimit": 4, "id": "KIARA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "SHARD_LAPIS_ZOMBIE", "type": "item" },
+				{ "amount": 5, "id": "SHARD_TANK_ZOMBIE", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "SHARD_ZEALOT", "type": "item" }],
+			"place": [{ "type": "fusion-machine" }]
+		}
+	]
+}

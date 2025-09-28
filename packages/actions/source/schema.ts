@@ -31,6 +31,12 @@ export const actionPlaceSchema = z.discriminatedUnion('type', [
 		.strict(),
 	z
 		.object({
+			type: z.literal('fusion-machine'),
+		})
+		.strict(),
+	z
+		.object({
+			dailyLimit: z.number().int().optional(),
 			id: z.string(),
 			type: z.literal('npc'),
 		})
