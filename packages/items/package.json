@@ -23,7 +23,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/skyblock-finance/skyblock-finance-opensource"
+		"url": "git+https://github.com/skyblock-finance/skyblock-finance-opensource.git"
 	},
 	"scripts": {
 		"build": "rm -rf dist && tsc --build",
