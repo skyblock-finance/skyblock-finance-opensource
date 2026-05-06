@@ -48,7 +48,7 @@ if (toPublish.length === 0) {
 
 for (const packageName of toPublish) {
 	console.info(`attempting to publish ${packageName}`)
-	await $`bun run turbo run publish-package --filter=${packageName}`
+	await $`bun run turbo run --env-mode=loose publish-package --filter=${packageName}`
 }
 
 console.info('done ✅')
