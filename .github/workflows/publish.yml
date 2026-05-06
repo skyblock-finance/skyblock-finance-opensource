@@ -31,5 +31,3 @@ jobs:
 
       - name: publish
         run: bun internals/scripts/source/publish.mts
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
