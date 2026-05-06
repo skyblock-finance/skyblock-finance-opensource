@@ -23,7 +23,13 @@ const candidateSchema = z
 	.object({
 		key: z.nativeEnum(MayorKey),
 		name: z.string(),
-		perks: z.array(perkSchema.strict()),
+		perks: z.array(
+			perkSchema
+				.extend({
+					minister: z.boolean(),
+				})
+				.strict(),
+		),
 		votes: z.number().int(),
 	})
 	.strict()
@@ -49,7 +55,14 @@ export const electionResponseSchemaStrict = apiResponseSchema
 						year: yearSchema,
 					})
 					.strict(),
-				key: z.nativeEnum(MayorKey),
+				key: z.enum(MayorKey),
+				minister: z
+					.object({
+						key: z.enum(MayorKey),
+						name: z.string(),
+						perk: perkSchema.extend({ minister: z.boolean() }).strict(),
+					})
+					.strict(),
 				name: z.string(),
 				perks: z.array(perkSchema.strict()),
 			})
