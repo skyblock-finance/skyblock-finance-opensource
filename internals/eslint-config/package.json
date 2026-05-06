@@ -37,7 +37,10 @@
 		"eslint": ">= 9",
 		"typescript": "^5.5"
 	},
-	"repository": "git+https://github.com/skyblock-finance/skyblock-finance-opensource.git",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/skyblock-finance/skyblock-finance-opensource.git"
+	},
 	"scripts": {
 		"build": "rm -rf dist && tsc --build",
 		"check:eslint": "bun run eslint --max-warnings=0 .",
