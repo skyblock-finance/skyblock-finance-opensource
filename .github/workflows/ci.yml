@@ -5,24 +5,24 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4 # node is required by arethetypeswrong
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6 # node is required by arethetypeswrong
         with:
-          node-version: '22.x'
-      - uses: oven-sh/setup-bun@v1
+          node-version: '24.x'
+      - uses: oven-sh/setup-bun@v2
       - run: bun install
       - run: bun run check
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v1
+      - uses: actions/checkout@v6
+      - uses: oven-sh/setup-bun@v2
       - run: bun install
       - run: bun run test
   validate-schemas:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v1
+      - uses: actions/checkout@v6
+      - uses: oven-sh/setup-bun@v2
       - run: bun install
       - run: bun run turbo run start --filter=@skyblock-finance/schemas
