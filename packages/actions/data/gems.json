@@ -2,8 +2,8 @@
 	"$schema": "./$schema.json",
 	"actions": [
 		{
-			"inputs": [{ "amount": 4.99, "id": "usd", "type": "currency" }],
-			"outputs": [{ "amount": 675, "id": "gem", "type": "currency" }],
+			"inputs": [{ "amount": 5.99, "id": "usd", "type": "currency" }],
+			"outputs": [{ "amount": 700, "id": "gem", "type": "currency" }],
 			"place": [
 				{
 					"id": "ELIZABETH",
@@ -16,8 +16,8 @@
 			]
 		},
 		{
-			"inputs": [{ "amount": 9.99, "id": "usd", "type": "currency" }],
-			"outputs": [{ "amount": 1390, "id": "gem", "type": "currency" }],
+			"inputs": [{ "amount": 14.99, "id": "usd", "type": "currency" }],
+			"outputs": [{ "amount": 1800, "id": "gem", "type": "currency" }],
 			"place": [
 				{
 					"id": "ELIZABETH",
@@ -30,8 +30,8 @@
 			]
 		},
 		{
-			"inputs": [{ "amount": 24.99, "id": "usd", "type": "currency" }],
-			"outputs": [{ "amount": 3600, "id": "gem", "type": "currency" }],
+			"inputs": [{ "amount": 29.99, "id": "usd", "type": "currency" }],
+			"outputs": [{ "amount": 3750, "id": "gem", "type": "currency" }],
 			"place": [
 				{
 					"id": "ELIZABETH",
@@ -44,8 +44,8 @@
 			]
 		},
 		{
-			"inputs": [{ "amount": 49.99, "id": "usd", "type": "currency" }],
-			"outputs": [{ "amount": 7300, "id": "gem", "type": "currency" }],
+			"inputs": [{ "amount": 59.99, "id": "usd", "type": "currency" }],
+			"outputs": [{ "amount": 7600, "id": "gem", "type": "currency" }],
 			"place": [
 				{
 					"id": "ELIZABETH",
@@ -58,8 +58,8 @@
 			]
 		},
 		{
-			"inputs": [{ "amount": 99.99, "id": "usd", "type": "currency" }],
-			"outputs": [{ "amount": 16400, "id": "gem", "type": "currency" }],
+			"inputs": [{ "amount": 119.99, "id": "usd", "type": "currency" }],
+			"outputs": [{ "amount": 17000, "id": "gem", "type": "currency" }],
 			"place": [
 				{
 					"id": "ELIZABETH",
