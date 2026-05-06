@@ -22,9 +22,6 @@ jobs:
 
       - run: bun install
 
-      # update npm for provenance support
-      - run: npm --version && npm install -g npm && npm --version
-
       # make extra sure this publish wouldn’t break anything
       - run: bun run build check test
 
