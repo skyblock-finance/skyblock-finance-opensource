@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  id-token: write # Required for OIDC (https://docs.npmjs.com/trusted-publishers#github-actions-configuration)
+
 jobs:
   publish:
     runs-on: ubuntu-latest
