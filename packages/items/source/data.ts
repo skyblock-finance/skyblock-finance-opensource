@@ -1682,7 +1682,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_WHEAT_1',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_WHEAT_1' },
 			links: {},
@@ -1691,7 +1691,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_WHEAT_2',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_WHEAT_2' },
 			links: {},
@@ -1700,7 +1700,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_WHEAT_3',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_WHEAT_3' },
 			links: {},
@@ -1709,7 +1709,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_CARROT_1',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_CARROT_1' },
 			links: {},
@@ -1718,7 +1718,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_CARROT_2',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_CARROT_2' },
 			links: {},
@@ -1727,7 +1727,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_CARROT_3',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_CARROT_3' },
 			links: {},
@@ -1736,7 +1736,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_POTATO_1',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_POTATO_1' },
 			links: {},
@@ -1745,7 +1745,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_POTATO_2',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_POTATO_2' },
 			links: {},
@@ -1754,7 +1754,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_POTATO_3',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_POTATO_3' },
 			links: {},
@@ -1763,7 +1763,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'PUMPKIN_DICER',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'PUMPKIN_DICER' },
 			links: {},
@@ -1772,7 +1772,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'PUMPKIN_DICER_2',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'PUMPKIN_DICER_2' },
 			links: {},
@@ -1781,7 +1781,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'PUMPKIN_DICER_3',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'PUMPKIN_DICER_3' },
 			links: {},
@@ -1790,7 +1790,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_CANE_1',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_CANE_1' },
 			links: {},
@@ -1799,7 +1799,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_CANE_2',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_CANE_2' },
 			links: {},
@@ -1808,7 +1808,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_CANE_3',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_CANE_3' },
 			links: {},
@@ -1817,7 +1817,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'COCO_CHOPPER',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'COCO_CHOPPER' },
 			links: {},
@@ -1826,7 +1826,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'COCO_CHOPPER_2',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'COCO_CHOPPER_2' },
 			links: {},
@@ -1835,7 +1835,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'COCO_CHOPPER_3',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'COCO_CHOPPER_3' },
 			links: {},
@@ -1844,7 +1844,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'FUNGI_CUTTER',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'FUNGI_CUTTER' },
 			links: {},
@@ -1853,7 +1853,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'FUNGI_CUTTER_2',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'FUNGI_CUTTER_2' },
 			links: {},
@@ -1862,7 +1862,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'FUNGI_CUTTER_3',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'FUNGI_CUTTER_3' },
 			links: {},
@@ -1871,7 +1871,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_WARTS_1',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_WARTS_1' },
 			links: {},
@@ -1880,7 +1880,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_WARTS_2',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_WARTS_2' },
 			links: {},
@@ -1889,7 +1889,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_WARTS_3',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_WARTS_3' },
 			links: {},
@@ -1898,7 +1898,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_SUNFLOWER_1',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_SUNFLOWER_1' },
 			links: {},
@@ -1907,7 +1907,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_SUNFLOWER_2',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_SUNFLOWER_2' },
 			links: {},
@@ -1916,7 +1916,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_SUNFLOWER_3',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_SUNFLOWER_3' },
 			links: {},
@@ -1925,7 +1925,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_WILD_ROSE_1',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_WILD_ROSE_1' },
 			links: {},
@@ -1934,7 +1934,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_WILD_ROSE_2',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_WILD_ROSE_2' },
 			links: {},
@@ -1943,7 +1943,7 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	[
 		'THEORETICAL_HOE_WILD_ROSE_3',
 		{
-			tradesOn: AH,
+			tradesOn: NOWHERE,
 			type: 'basic',
 			ids: { skyblock: 'THEORETICAL_HOE_WILD_ROSE_3' },
 			links: {},
