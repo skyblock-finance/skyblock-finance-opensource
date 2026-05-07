@@ -11,7 +11,16 @@ export const actionIoItemSchema = z
 export const actionIoCurrencySchema = z
 	.object({
 		amount: z.number(),
-		id: z.enum(['bit', 'coin', 'gem', 'north-star', 'pest', 'second', 'usd']),
+		id: z.enum([
+			'bit',
+			'coin',
+			'copper',
+			'gem',
+			'north-star',
+			'pest',
+			'second',
+			'usd',
+		]),
 		type: z.literal('currency'),
 	})
 	.strict()

@@ -22,6 +22,7 @@
 											"enum": [
 												"bit",
 												"coin",
+												"copper",
 												"gem",
 												"north-star",
 												"pest",
@@ -72,6 +73,7 @@
 											"enum": [
 												"bit",
 												"coin",
+												"copper",
 												"gem",
 												"north-star",
 												"pest",

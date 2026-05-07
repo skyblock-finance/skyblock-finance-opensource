@@ -5,6 +5,7 @@ import { actions as _gems } from '../data/gems.json'
 import { actions as _northStars } from '../data/north-stars.json'
 import { actions as _northStarsCrafts } from '../data/north-stars-crafts.json'
 import { actions as _pests } from '../data/pests.json'
+import { actions as _skymart } from '../data/skymart.json'
 import { actions as _wood } from '../data/wood.json'
 import { Action } from './types'
 
@@ -19,6 +20,8 @@ export const northStarsCrafts = _northStarsCrafts as Action[]
 
 export const pests = _pests as Action[]
 
+export const skymart = _skymart as Action[]
+
 export const wood = _wood as Action[]
 
 export const allActions = [
@@ -29,5 +32,6 @@ export const allActions = [
 	...northStars,
 	...northStarsCrafts,
 	...pests,
+	...skymart,
 	...wood,
 ]
