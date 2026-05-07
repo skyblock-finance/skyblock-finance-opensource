@@ -1399,9 +1399,805 @@ export const pestItems = new Map<string, ItemMetadata>([
 	],
 ])
 
+export const skymartItems = new Map<string, ItemMetadata>([
+	[
+		'BIOFUEL',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BIOFUEL' },
+			links: {},
+		},
+	],
+	[
+		'SAM_SCYTHE',
+		{
+			tradesOn: NOWHERE,
+			type: 'basic',
+			ids: { skyblock: 'SAM_SCYTHE' },
+			links: {},
+		},
+	],
+	[
+		'GARDEN_SCYTHE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'GARDEN_SCYTHE' },
+			links: {},
+		},
+	],
+	[
+		'BASIC_GARDENING_HOE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BASIC_GARDENING_HOE' },
+			links: {},
+		},
+	],
+	[
+		'ADVANCED_GARDENING_HOE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'ADVANCED_GARDENING_HOE' },
+			links: {},
+		},
+	],
+	[
+		'BASIC_GARDENING_AXE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BASIC_GARDENING_AXE' },
+			links: {},
+		},
+	],
+	[
+		'ADVANCED_GARDENING_AXE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'ADVANCED_GARDENING_AXE' },
+			links: {},
+		},
+	],
+	[
+		'ENCHANTMENT_DEDICATION_1',
+		{
+			tradesOn: BZ,
+			type: 'basic',
+			ids: { skyblock: 'ENCHANTMENT_DEDICATION_1' },
+			links: {},
+		},
+	],
+	[
+		'ENCHANTMENT_GREEN_THUMB_1',
+		{
+			tradesOn: BZ,
+			type: 'basic',
+			ids: { skyblock: 'ENCHANTMENT_GREEN_THUMB_1' },
+			links: {},
+		},
+	],
+	[
+		'LOTUS_BRACELET',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'LOTUS_BRACELET' },
+			links: {},
+		},
+	],
+	[
+		'LOTUS_BELT',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'LOTUS_BELT' },
+			links: {},
+		},
+	],
+	[
+		'LOTUS_NECKLACE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'LOTUS_NECKLACE' },
+			links: {},
+		},
+	],
+	[
+		'LOTUS_CLOAK',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'LOTUS_CLOAK' },
+			links: {},
+		},
+	],
+	[
+		'SF:YELLOW_BANDANA',
+		{
+			tradesOn: AH,
+			type: 'missing',
+			ids: {
+				cofl: 'YELLOW_BANDANA',
+				skyblock: 'YELLOW_BANDANA',
+			},
+			links: {},
+			metadata: {
+				description: null,
+				id: 'YELLOW_BANDANA',
+				name: 'Yellow Bandana',
+				textureUrl: null,
+			},
+		},
+	],
+	[
+		'BLOSSOM_BRACELET',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BLOSSOM_BRACELET' },
+			links: {},
+		},
+	],
+	[
+		'BLOSSOM_BELT',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BLOSSOM_BELT' },
+			links: {},
+		},
+	],
+	[
+		'BLOSSOM_NECKLACE',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BLOSSOM_NECKLACE' },
+			links: {},
+		},
+	],
+	[
+		'BLOSSOM_CLOAK',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BLOSSOM_CLOAK' },
+			links: {},
+		},
+	],
+	[
+		'COPPER_TALISMAN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'COPPER_TALISMAN' },
+			links: {},
+		},
+	],
+	[
+		'COPPER_RING',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'COPPER_RING' },
+			links: {},
+		},
+	],
+	[
+		'COPPER_ARTIFACT',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'COPPER_ARTIFACT' },
+			links: {},
+		},
+	],
+	[
+		'HYDRO_CAN_1000',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'HYDRO_CAN_1000' },
+			links: {},
+		},
+	],
+	[
+		'HYDRO_CAN_TURBO_2000',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'HYDRO_CAN_TURBO_2000' },
+			links: {},
+		},
+	],
+	[
+		'HYDRO_CAN_ULTRA_3000',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'HYDRO_CAN_ULTRA_3000' },
+			links: {},
+		},
+	],
+	[
+		'AQUAMASTER_X',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'AQUAMASTER_X' },
+			links: {},
+		},
+	],
+	[
+		'AQUAMASTER_X',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'AQUAMASTER_X' },
+			links: {},
+		},
+	],
+	[
+		'AQUAMASTER_HYDROMAX',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'AQUAMASTER_HYDROMAX' },
+			links: {},
+		},
+	],
+	[
+		'SUNFLOWER_GENERATOR_11',
+		{
+			tradesOn: NOWHERE,
+			type: 'basic',
+			ids: { skyblock: 'SUNFLOWER_GENERATOR_11' },
+			links: {},
+		},
+	],
+	[
+		'SUNFLOWER_GENERATOR_12',
+		{
+			tradesOn: NOWHERE,
+			type: 'basic',
+			ids: { skyblock: 'SUNFLOWER_GENERATOR_12' },
+			links: {},
+		},
+	],
+	[
+		'PLANT_DIAGNOSTICS_TOOL',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PLANT_DIAGNOSTICS_TOOL' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_WHEAT_1',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_WHEAT_1' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_WHEAT_2',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_WHEAT_2' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_WHEAT_3',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_WHEAT_3' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_CARROT_1',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_CARROT_1' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_CARROT_2',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_CARROT_2' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_CARROT_3',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_CARROT_3' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_POTATO_1',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_POTATO_1' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_POTATO_2',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_POTATO_2' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_POTATO_3',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_POTATO_3' },
+			links: {},
+		},
+	],
+	[
+		'PUMPKIN_DICER',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PUMPKIN_DICER' },
+			links: {},
+		},
+	],
+	[
+		'PUMPKIN_DICER_2',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PUMPKIN_DICER_2' },
+			links: {},
+		},
+	],
+	[
+		'PUMPKIN_DICER_3',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PUMPKIN_DICER_3' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_CANE_1',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_CANE_1' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_CANE_2',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_CANE_2' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_CANE_3',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_CANE_3' },
+			links: {},
+		},
+	],
+	[
+		'COCO_CHOPPER',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'COCO_CHOPPER' },
+			links: {},
+		},
+	],
+	[
+		'COCO_CHOPPER_2',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'COCO_CHOPPER_2' },
+			links: {},
+		},
+	],
+	[
+		'COCO_CHOPPER_3',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'COCO_CHOPPER_3' },
+			links: {},
+		},
+	],
+	[
+		'FUNGI_CUTTER',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'FUNGI_CUTTER' },
+			links: {},
+		},
+	],
+	[
+		'FUNGI_CUTTER_2',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'FUNGI_CUTTER_2' },
+			links: {},
+		},
+	],
+	[
+		'FUNGI_CUTTER_3',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'FUNGI_CUTTER_3' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_WARTS_1',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_WARTS_1' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_WARTS_2',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_WARTS_2' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_WARTS_3',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_WARTS_3' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_SUNFLOWER_1',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_SUNFLOWER_1' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_SUNFLOWER_2',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_SUNFLOWER_2' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_SUNFLOWER_3',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_SUNFLOWER_3' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_WILD_ROSE_1',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_WILD_ROSE_1' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_WILD_ROSE_2',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_WILD_ROSE_2' },
+			links: {},
+		},
+	],
+	[
+		'THEORETICAL_HOE_WILD_ROSE_3',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'THEORETICAL_HOE_WILD_ROSE_3' },
+			links: {},
+		},
+	],
+	[
+		'FARMING_TOOLKIT',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'FARMING_TOOLKIT' },
+			links: {},
+		},
+	],
+	[
+		'TRADING_POST_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'TRADING_POST_BARN_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'AUTUMN_HUT_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'AUTUMN_HUT_BARN_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'BAMBOO_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BAMBOO_BARN_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'HIVE_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'HIVE_BARN_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'CASTLE_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'CASTLE_BARN_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'CUBE_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'CUBE_BARN_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'COZY_COTTAGE_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'COZY_COTTAGE_BARN_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'WINDMILL_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'WINDMILL_BARN_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'TAVERN_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'TAVERN_BARN_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'SF:MELON_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'missing',
+			ids: {
+				cofl: 'MELON_BARN_SKIN',
+				skyblock: 'MELON_BARN_SKIN',
+			},
+			links: {},
+			metadata: {
+				description: null,
+				id: 'MELON_BARN_SKIN',
+				name: 'Melon Barn Skin',
+				textureUrl: null,
+			},
+		},
+	],
+	[
+		'SF:LUCKY_BARN_SKIN',
+		{
+			tradesOn: AH,
+			type: 'missing',
+			ids: {
+				cofl: 'LUCKY_BARN_SKIN',
+				skyblock: 'LUCKY_BARN_SKIN',
+			},
+			links: {},
+			metadata: {
+				description: null,
+				id: 'LUCKY_BARN_SKIN',
+				name: 'Lucky Barn Skin',
+				textureUrl: null,
+			},
+		},
+	],
+	[
+		'COUNTRY_GREENHOUSE_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'COUNTRY_GREENHOUSE_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'MOON_GREENHOUSE_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'MOON_GREENHOUSE_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'ORCHARD_GREENHOUSE_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'ORCHARD_GREENHOUSE_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'BOTANICAL_GREENHOUSE_SKIN',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'BOTANICAL_GREENHOUSE_SKIN' },
+			links: {},
+		},
+	],
+	[
+		'PORTABLE_WASHER',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PORTABLE_WASHER' },
+			links: {},
+		},
+	],
+	[
+		'SKYMART_VACUUM',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'SKYMART_VACUUM' },
+			links: {},
+		},
+	],
+	[
+		'SKYMART_TURBO_VACUUM',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'SKYMART_TURBO_VACUUM' },
+			links: {},
+		},
+	],
+	[
+		'SKYMART_HYPER_VACUUM',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'SKYMART_HYPER_VACUUM' },
+			links: {},
+		},
+	],
+	[
+		'INFINI_VACUUM',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'INFINI_VACUUM' },
+			links: {},
+		},
+	],
+	[
+		'INFINI_VACUUM_HOOVERIUS',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'INFINI_VACUUM_HOOVERIUS' },
+			links: {},
+		},
+	],
+	[
+		'SPRAYONATOR',
+		{
+			tradesOn: NOWHERE,
+			type: 'basic',
+			ids: { skyblock: 'SPRAYONATOR' },
+			links: {},
+		},
+	],
+	[
+		'PEST_REPELLENT',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PEST_REPELLENT' },
+			links: {},
+		},
+	],
+	[
+		'PEST_REPELLENT_MAX',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'PEST_REPELLENT_MAX' },
+			links: {},
+		},
+	],
+])
+
 export const allItems = new Map<string, ItemMetadata>([
 	...bitsItems.entries(),
 	...crimsonIsleItems.entries(),
 	...northStarItems.entries(),
 	...pestItems.entries(),
+	...skymartItems.entries(),
 ])

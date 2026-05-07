@@ -1,0 +1,984 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 20000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BIOFUEL", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 2000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SAM_SCYTHE", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SAM_SCYTHE", "type": "item" },
+				{ "amount": 20, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GARDEN_SCYTHE", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BASIC_GARDENING_HOE", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "BASIC_GARDENING_HOE", "type": "item" },
+				{ "amount": 20, "id": "copper", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "ADVANCED_GARDENING_HOE", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BASIC_GARDENING_AXE", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "BASIC_GARDENING_AXE", "type": "item" },
+				{ "amount": 20, "id": "copper", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "ADVANCED_GARDENING_AXE", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_DEDICATION_1", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1500, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_GREEN_THUMB_1", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 50, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "LOTUS_BRACELET", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "LOTUS_BELT", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 200, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "LOTUS_NECKLACE", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 500, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "LOTUS_CLOAK", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 300, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SF:YELLOW_BANDANA", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 150, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "LARGE_WALNUT", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "LOTUS_BRACELET", "type": "item" },
+				{ "amount": 2500, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BLOSSOM_BRACELET", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "LOTUS_BELT", "type": "item" },
+				{ "amount": 5000, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BLOSSOM_BELT", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "LOTUS_NECKLACE", "type": "item" },
+				{ "amount": 7500, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BLOSSOM_NECKLACE", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "LOTUS_CLOAK", "type": "item" },
+				{ "amount": 10000, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BLOSSOM_CLOAK", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "COPPER_TALISMAN", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "COPPER_TALISMAN", "type": "item" },
+				{ "amount": 20000, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "COPPER_RING", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "COPPER_RING", "type": "item" },
+				{ "amount": 50000, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "COPPER_ARTIFACT", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 200, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "SOWLEDGE_GARDEN_CHIP", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 500, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "CROPSHOT_GARDEN_CHIP", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "HYDRO_CAN_1000", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "HYDRO_CAN_1000", "type": "item" },
+				{ "amount": 200, "id": "copper", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "HYDRO_CAN_TURBO_2000", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "HYDRO_CAN_TURBO_2000", "type": "item" },
+				{ "amount": 500, "id": "copper", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "HYDRO_CAN_ULTRA_3000", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "HYDRO_CAN_ULTRA_3000", "type": "item" },
+				{ "amount": 1000, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "AQUAMASTER_X", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "HYDRO_CAN_ULTRA_3000", "type": "item" },
+				{ "amount": 1000, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "AQUAMASTER_X", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "AQUAMASTER_X", "type": "item" },
+				{ "amount": 1, "id": "IRIDIUM", "type": "item" },
+				{ "amount": 2500, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "AQUAMASTER_HYDROMAX", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SUNFLOWER_GENERATOR_11", "type": "item" },
+				{ "amount": 32, "id": "COMPACTED_SUNFLOWER", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "SUNFLOWER_GENERATOR_12", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 50, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "PLANT_DIAGNOSTICS_TOOL", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WHEAT_1", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WHEAT_1", "type": "item" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 20, "id": "ENCHANTED_HAY_BALE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WHEAT_2", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 5, "id": "ENCHANTED_HAY_BALE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 5, "id": "ENCHANTED_HAY_BALE", "type": "item" },
+						{ "amount": 1, "id": "THEORETICAL_HOE_WHEAT_1", "type": "item" },
+						{ "amount": 5, "id": "ENCHANTED_HAY_BALE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 5, "id": "ENCHANTED_HAY_BALE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WHEAT_2", "type": "item" },
+				{ "amount": 256, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 80, "id": "ENCHANTED_HAY_BALE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WHEAT_3", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 20, "id": "ENCHANTED_HAY_BALE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 20, "id": "ENCHANTED_HAY_BALE", "type": "item" },
+						{ "amount": 1, "id": "THEORETICAL_HOE_WHEAT_2", "type": "item" },
+						{ "amount": 20, "id": "ENCHANTED_HAY_BALE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 20, "id": "ENCHANTED_HAY_BALE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_CARROT_1", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_CARROT_1", "type": "item" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 64, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_CARROT_2", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 1, "id": "THEORETICAL_HOE_CARROT_1", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_CARROT_2", "type": "item" },
+				{ "amount": 256, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 256, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_CARROT_3", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 1, "id": "THEORETICAL_HOE_CARROT_2", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GOLDEN_CARROT", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_POTATO_1", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_POTATO_1", "type": "item" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 60, "id": "ENCHANTED_BAKED_POTATO", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_POTATO_2", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 15, "id": "ENCHANTED_BAKED_POTATO", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 15, "id": "ENCHANTED_BAKED_POTATO", "type": "item" },
+						{ "amount": 1, "id": "THEORETICAL_HOE_POTATO_1", "type": "item" },
+						{ "amount": 15, "id": "ENCHANTED_BAKED_POTATO", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 15, "id": "ENCHANTED_BAKED_POTATO", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_POTATO_2", "type": "item" },
+				{ "amount": 256, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 240, "id": "ENCHANTED_BAKED_POTATO", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_POTATO_3", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 60, "id": "ENCHANTED_BAKED_POTATO", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 60, "id": "ENCHANTED_BAKED_POTATO", "type": "item" },
+						{ "amount": 1, "id": "THEORETICAL_HOE_POTATO_2", "type": "item" },
+						{ "amount": 60, "id": "ENCHANTED_BAKED_POTATO", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 60, "id": "ENCHANTED_BAKED_POTATO", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PUMPKIN_DICER", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "PUMPKIN_DICER", "type": "item" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 20, "id": "POLISHED_PUMPKIN", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "PUMPKIN_DICER_2", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 5, "id": "POLISHED_PUMPKIN", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 5, "id": "POLISHED_PUMPKIN", "type": "item" },
+						{ "amount": 1, "id": "PUMPKIN_DICER", "type": "item" },
+						{ "amount": 5, "id": "POLISHED_PUMPKIN", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 5, "id": "POLISHED_PUMPKIN", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "PUMPKIN_DICER_2", "type": "item" },
+				{ "amount": 256, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 80, "id": "POLISHED_PUMPKIN", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "PUMPKIN_DICER_3", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 20, "id": "POLISHED_PUMPKIN", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 20, "id": "POLISHED_PUMPKIN", "type": "item" },
+						{ "amount": 1, "id": "PUMPKIN_DICER_2", "type": "item" },
+						{ "amount": 20, "id": "POLISHED_PUMPKIN", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 20, "id": "POLISHED_PUMPKIN", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_CANE_1", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_CANE_1", "type": "item" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 40, "id": "ENCHANTED_SUGAR_CANE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_CANE_2", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "ENCHANTED_SUGAR_CANE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "ENCHANTED_SUGAR_CANE", "type": "item" },
+						{ "amount": 1, "id": "THEORETICAL_HOE_CANE_1", "type": "item" },
+						{ "amount": 10, "id": "ENCHANTED_SUGAR_CANE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "ENCHANTED_SUGAR_CANE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_CANE_2", "type": "item" },
+				{ "amount": 256, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 160, "id": "ENCHANTED_SUGAR_CANE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_CANE_3", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_SUGAR_CANE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_SUGAR_CANE", "type": "item" },
+						{ "amount": 1, "id": "THEORETICAL_HOE_CANE_2", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_SUGAR_CANE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_SUGAR_CANE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "COCO_CHOPPER", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "COCO_CHOPPER", "type": "item" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 40, "id": "ENCHANTED_COOKIE", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "COCO_CHOPPER_2", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "ENCHANTED_COOKIE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "ENCHANTED_COOKIE", "type": "item" },
+						{ "amount": 1, "id": "COCO_CHOPPER", "type": "item" },
+						{ "amount": 10, "id": "ENCHANTED_COOKIE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "ENCHANTED_COOKIE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "COCO_CHOPPER_2", "type": "item" },
+				{ "amount": 256, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 160, "id": "ENCHANTED_COOKIE", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "COCO_CHOPPER_3", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_COOKIE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_COOKIE", "type": "item" },
+						{ "amount": 1, "id": "COCO_CHOPPER_2", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_COOKIE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "ENCHANTED_COOKIE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "FUNGI_CUTTER", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FUNGI_CUTTER", "type": "item" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 10, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
+				{ "amount": 10, "id": "ENCHANTED_HUGE_MUSHROOM_2", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "FUNGI_CUTTER_2", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 5, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 5, "id": "ENCHANTED_HUGE_MUSHROOM_2", "type": "item" },
+						{ "amount": 1, "id": "FUNGI_CUTTER", "type": "item" },
+						{ "amount": 5, "id": "ENCHANTED_HUGE_MUSHROOM_2", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 5, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FUNGI_CUTTER_2", "type": "item" },
+				{ "amount": 256, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 40, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
+				{ "amount": 40, "id": "ENCHANTED_HUGE_MUSHROOM_2", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "FUNGI_CUTTER_3", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 20, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 20, "id": "ENCHANTED_HUGE_MUSHROOM_2", "type": "item" },
+						{ "amount": 1, "id": "FUNGI_CUTTER_2", "type": "item" },
+						{ "amount": 20, "id": "ENCHANTED_HUGE_MUSHROOM_2", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 20, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WARTS_1", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WARTS_1", "type": "item" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 60, "id": "MUTANT_NETHER_STALK", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WARTS_2", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 15, "id": "MUTANT_NETHER_STALK", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 15, "id": "MUTANT_NETHER_STALK", "type": "item" },
+						{ "amount": 1, "id": "THEORETICAL_HOE_WARTS_1", "type": "item" },
+						{ "amount": 15, "id": "MUTANT_NETHER_STALK", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 15, "id": "MUTANT_NETHER_STALK", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WARTS_2", "type": "item" },
+				{ "amount": 256, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 240, "id": "MUTANT_NETHER_STALK", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WARTS_3", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 60, "id": "MUTANT_NETHER_STALK", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 60, "id": "MUTANT_NETHER_STALK", "type": "item" },
+						{ "amount": 1, "id": "THEORETICAL_HOE_WARTS_2", "type": "item" },
+						{ "amount": 60, "id": "MUTANT_NETHER_STALK", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 60, "id": "MUTANT_NETHER_STALK", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_SUNFLOWER_1", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_SUNFLOWER_1", "type": "item" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 20, "id": "COMPACTED_MOONFLOWER", "type": "item" },
+				{ "amount": 20, "id": "COMPACTED_SUNFLOWER", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_SUNFLOWER_2", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "COMPACTED_MOONFLOWER", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "COMPACTED_SUNFLOWER", "type": "item" },
+						{
+							"amount": 1,
+							"id": "THEORETICAL_HOE_SUNFLOWER_1",
+							"type": "item"
+						},
+						{ "amount": 10, "id": "COMPACTED_SUNFLOWER", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "COMPACTED_MOONFLOWER", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_SUNFLOWER_2", "type": "item" },
+				{ "amount": 256, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 80, "id": "COMPACTED_MOONFLOWER", "type": "item" },
+				{ "amount": 80, "id": "COMPACTED_SUNFLOWER", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_SUNFLOWER_3", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "COMPACTED_MOONFLOWER", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "COMPACTED_SUNFLOWER", "type": "item" },
+						{
+							"amount": 1,
+							"id": "THEORETICAL_HOE_SUNFLOWER_2",
+							"type": "item"
+						},
+						{ "amount": 40, "id": "COMPACTED_SUNFLOWER", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "COMPACTED_MOONFLOWER", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WILD_ROSE_1", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WILD_ROSE_1", "type": "item" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 40, "id": "COMPACTED_WILD_ROSE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WILD_ROSE_2", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "COMPACTED_WILD_ROSE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "COMPACTED_WILD_ROSE", "type": "item" },
+						{
+							"amount": 1,
+							"id": "THEORETICAL_HOE_WILD_ROSE_1",
+							"type": "item"
+						},
+						{ "amount": 10, "id": "COMPACTED_WILD_ROSE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 10, "id": "COMPACTED_WILD_ROSE", "type": "item" },
+						{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WILD_ROSE_2", "type": "item" },
+				{ "amount": 256, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 160, "id": "COMPACTED_WILD_ROSE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "THEORETICAL_HOE_WILD_ROSE_3", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "COMPACTED_WILD_ROSE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "COMPACTED_WILD_ROSE", "type": "item" },
+						{
+							"amount": 1,
+							"id": "THEORETICAL_HOE_WILD_ROSE_2",
+							"type": "item"
+						},
+						{ "amount": 40, "id": "COMPACTED_WILD_ROSE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+						{ "amount": 40, "id": "COMPACTED_WILD_ROSE", "type": "item" },
+						{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 500, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "FARMING_TOOLKIT", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1000, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "TRADING_POST_BARN_SKIN", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 2000, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "AUTUMN_HUT_BARN_SKIN", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 7500, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BAMBOO_BARN_SKIN", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10000, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "HIVE_BARN_SKIN", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 15000, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "CASTLE_BARN_SKIN", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "gem", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "CUBE_BARN_SKIN", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "gem", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "COZY_COTTAGE_BARN_SKIN", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "gem", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "WINDMILL_BARN_SKIN", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "gem", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "TAVERN_BARN_SKIN", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 950, "id": "gem", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SF:MELON_BARN_SKIN", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 950, "id": "gem", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SF:LUCKY_BARN_SKIN", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "gem", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "COUNTRY_GREENHOUSE_SKIN", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 400, "id": "gem", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "MOON_GREENHOUSE_SKIN", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 3000, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "ORCHARD_GREENHOUSE_SKIN", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "id": "copper", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "BOTANICAL_GREENHOUSE_SKIN", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 20000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PORTABLE_WASHER", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SKYMART_VACUUM", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SKYMART_VACUUM", "type": "item" },
+				{ "amount": 200, "id": "copper", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "SKYMART_TURBO_VACUUM", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SKYMART_TURBO_VACUUM", "type": "item" },
+				{ "amount": 500, "id": "copper", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "SKYMART_HYPER_VACUUM", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SKYMART_HYPER_VACUUM", "type": "item" },
+				{ "amount": 1000, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "INFINI_VACUUM", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CHIRPING_STEREO", "type": "item" },
+				{ "amount": 1, "id": "INFINI_VACUUM", "type": "item" },
+				{ "amount": 2500, "id": "copper", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "INFINI_VACUUM_HOOVERIUS", "type": "item" }
+			],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 25, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SPRAYONATOR", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 15, "id": "copper", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PEST_REPELLENT", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "PEST_REPELLENT", "type": "item" },
+				{ "amount": 25, "id": "copper", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PEST_REPELLENT_MAX", "type": "item" }],
+			"place": [{ "id": "SKYMART", "type": "npc" }]
+		}
+	]
+}
