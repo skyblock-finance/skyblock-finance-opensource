@@ -4,7 +4,7 @@ export type ItemMetadataIds = {
 }
 
 export type ItemMetadataLinks = {
-	fandomWiki?: string
+	communityWiki?: string
 	hypixelWiki?: string
 }
 
