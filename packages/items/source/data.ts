@@ -2157,6 +2157,15 @@ export const skymartItems = new Map<string, ItemMetadata>([
 		},
 	],
 	[
+		'CHIRPING_STEREO',
+		{
+			tradesOn: AH,
+			type: 'basic',
+			ids: { skyblock: 'CHIRPING_STEREO' },
+			links: {},
+		},
+	],
+	[
 		'INFINI_VACUUM_HOOVERIUS',
 		{
 			tradesOn: AH,
