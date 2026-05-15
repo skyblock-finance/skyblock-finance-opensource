@@ -30,32 +30,32 @@ export const actionIoSchema = z.discriminatedUnion('type', [
 	actionIoItemSchema,
 ])
 
+export const npcIdSchema = z.enum([
+	'ALCHEMIST',
+	'ELIZABETH',
+	'EINARY',
+	'PHILLIP',
+	'SKYMART',
+])
+
 export const actionPlaceSchema = z.discriminatedUnion('type', [
-	z
-		.object({
-			left: actionIoItemSchema,
-			right: actionIoItemSchema,
-			type: z.literal('anvil'),
-		})
-		.strict(),
-	z
-		.object({
-			id: z.string(),
-			type: z.literal('npc'),
-		})
-		.strict(),
-	z
-		.object({
-			type: z.literal('website'),
-			url: z.url(),
-		})
-		.strict(),
-	z
-		.object({
-			grid: z.array(actionIoItemSchema.nullable()).length(9),
-			type: z.literal('workbench'),
-		})
-		.strict(),
+	z.strictObject({
+		left: actionIoItemSchema,
+		right: actionIoItemSchema,
+		type: z.literal('anvil'),
+	}),
+	z.strictObject({
+		id: npcIdSchema,
+		type: z.literal('npc'),
+	}),
+	z.strictObject({
+		type: z.literal('website'),
+		url: z.url(),
+	}),
+	z.strictObject({
+		grid: z.array(actionIoItemSchema.nullable()).length(9),
+		type: z.literal('workbench'),
+	}),
 ])
 
 export const actionSchema = z
