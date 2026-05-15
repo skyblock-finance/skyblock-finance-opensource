@@ -1,0 +1,62 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 8, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ROTTEN_FLESH", "type": "item" }],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 8, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BONE", "type": "item" }],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "STRING", "type": "item" }],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 14, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SLIME_BALL", "type": "item" }],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SULPHUR", "type": "item" }],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 500, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_TALISMAN", "type": "item" }],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 500, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SKELETON_TALISMAN", "type": "item" }],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 2500, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "VILLAGE_TALISMAN", "type": "item" }],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 2500, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "MINE_TALISMAN", "type": "item" }],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10000, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "INTIMIDATION_TALISMAN", "type": "item" }
+			],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SCAVENGER_TALISMAN", "type": "item" }],
+			"place": [{ "id": "ADVENTURER", "type": "npc" }]
+		}
+	]
+}

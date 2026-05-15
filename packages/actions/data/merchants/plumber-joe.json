@@ -1,0 +1,15 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 50, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PLUMBER_SPONGE", "type": "item" }],
+			"place": [{ "id": "PLUMBER_JOE", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 25000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SUPER_SCRUBBER", "type": "item" }],
+			"place": [{ "id": "PLUMBER_JOE", "type": "npc" }]
+		}
+	]
+}

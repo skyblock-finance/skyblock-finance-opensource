@@ -1,0 +1,32 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 3000000, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "CHEAP_TUXEDO_CHESTPLATE", "type": "item" },
+				{ "amount": 1, "id": "CHEAP_TUXEDO_LEGGINGS", "type": "item" },
+				{ "amount": 1, "id": "CHEAP_TUXEDO_BOOTS", "type": "item" }
+			],
+			"place": [{ "id": "SEYMOUR", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 20000000, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "ELEGANT_TUXEDO_CHESTPLATE", "type": "item" },
+				{ "amount": 1, "id": "ELEGANT_TUXEDO_LEGGINGS", "type": "item" },
+				{ "amount": 1, "id": "ELEGANT_TUXEDO_BOOTS", "type": "item" }
+			],
+			"place": [{ "id": "SEYMOUR", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 74999999, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "FANCY_TUXEDO_CHESTPLATE", "type": "item" },
+				{ "amount": 1, "id": "FANCY_TUXEDO_LEGGINGS", "type": "item" },
+				{ "amount": 1, "id": "FANCY_TUXEDO_BOOTS", "type": "item" }
+			],
+			"place": [{ "id": "SEYMOUR", "type": "npc" }]
+		}
+	]
+}

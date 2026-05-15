@@ -1,0 +1,65 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ANGLER_HELMET", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ANGLER_CHESTPLATE", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ANGLER_LEGGINGS", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ANGLER_BOOTS", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 50, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "DIAMOND_SWORD", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 50, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "FISHING_ROD", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 15, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "MINNOW_BAIT", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ANGLER_NECKLACE", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ANGLER_CLOAK", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ANGLER_BRACELET", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ANGLER_BELT", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "RAW_FISH", "type": "item" }],
+			"place": [{ "id": "FISHING_MERCHANT", "type": "npc" }]
+		}
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 10000, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "FRACTURED_MITHRIL_PICKAXE", "type": "item" }
+			],
+			"place": [{ "id": "BUBU", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FRACTURED_MITHRIL_PICKAXE", "type": "item" },
+				{ "amount": 2, "id": "ENCHANTED_MITHRIL", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "BANDAGED_MITHRIL_PICKAXE", "type": "item" }
+			],
+			"place": [{ "id": "BUBU", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "BANDAGED_MITHRIL_PICKAXE", "type": "item" },
+				{ "amount": 64, "id": "ENCHANTED_MITHRIL", "type": "item" },
+				{ "amount": 1, "id": "BEJEWELED_HANDLE", "type": "item" },
+				{ "amount": 32, "id": "ENCHANTED_GOLD", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_PICKAXE", "type": "item" }],
+			"place": [{ "id": "BUBU", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MITHRIL_PICKAXE", "type": "item" },
+				{ "amount": 2, "id": "REFINED_MITHRIL", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "REFINED_MITHRIL_PICKAXE", "type": "item" }
+			],
+			"place": [{ "id": "BUBU", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 50000, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "RUSTY_TITANIUM_PICKAXE", "type": "item" }
+			],
+			"place": [{ "id": "BUBU", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "RUSTY_TITANIUM_PICKAXE", "type": "item" },
+				{ "amount": 4, "id": "ENCHANTED_TITANIUM", "type": "item" },
+				{ "amount": 1, "id": "BEJEWELED_HANDLE", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_PICKAXE", "type": "item" }],
+			"place": [{ "id": "BUBU", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "TITANIUM_PICKAXE", "type": "item" },
+				{ "amount": 1, "id": "REFINED_TITANIUM", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "REFINED_TITANIUM_PICKAXE", "type": "item" }
+			],
+			"place": [{ "id": "BUBU", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 20000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BIOFUEL", "type": "item" }],
+			"place": [{ "id": "BUBU", "type": "npc" }]
+		}
+	]
+}

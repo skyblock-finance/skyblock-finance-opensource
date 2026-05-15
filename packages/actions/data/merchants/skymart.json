@@ -1,5 +1,5 @@
 {
-	"$schema": "./$schema.json",
+	"$schema": "../$schema.json",
 	"actions": [
 		{
 			"inputs": [{ "amount": 20000, "id": "coin", "type": "currency" }],

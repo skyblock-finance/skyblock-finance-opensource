@@ -1,0 +1,30 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 50000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "MOIL_LOG", "type": "item" }],
+			"place": [{ "id": "SMITHMONGER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "DIRT_BOTTLE", "type": "item" }],
+			"place": [{ "id": "SMITHMONGER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1000000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "TOIL_LOG", "type": "item" }],
+			"place": [{ "id": "SMITHMONGER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1000000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "REFINED_AMBER", "type": "item" }],
+			"place": [{ "id": "SMITHMONGER", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1000000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BLESSED_FRUIT", "type": "item" }],
+			"place": [{ "id": "SMITHMONGER", "type": "npc" }]
+		}
+	]
+}

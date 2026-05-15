@@ -31,11 +31,17 @@ export const actionIoSchema = z.discriminatedUnion('type', [
 ])
 
 export const npcIdSchema = z.enum([
+	'ADVENTURER',
 	'ALCHEMIST',
-	'ELIZABETH',
+	'BUBU',
 	'EINARY',
+	'ELIZABETH',
+	'FISHING_MERCHANT',
 	'PHILLIP',
+	'PLUMBER_JOE',
+	'SEYMOUR',
 	'SKYMART',
+	'SMITHMONGER',
 ])
 
 export const actionPlaceSchema = z.discriminatedUnion('type', [
