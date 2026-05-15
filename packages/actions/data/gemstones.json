@@ -1,0 +1,741 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_AMBER_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_AMBER_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_AMBER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_AMBER_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_AMBER_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_AMBER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_AMBER_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_AMBER_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_AMBER_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_AMBER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_AMBER_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_AMBER_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_AMBER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_AMBER_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_AMBER_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWLESS_AMBER_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_AMBER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_AMBER_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_AMBER_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_AMBER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_AMBER_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_AMETHYST_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_AMETHYST_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_AMETHYST_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_AMETHYST_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_AMETHYST_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_AMETHYST_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_AMETHYST_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_AMETHYST_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_AMETHYST_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_AMETHYST_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_AMETHYST_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_AMETHYST_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_AMETHYST_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_AMETHYST_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_AMETHYST_GEM", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "FLAWLESS_AMETHYST_GEM", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_AMETHYST_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_AMETHYST_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_AMETHYST_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_AMETHYST_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_AMETHYST_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 80, "id": "ROUGH_AQUAMARINE_GEM", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "FLAWED_AQUAMARINE_GEM", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_AQUAMARINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_AQUAMARINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_AQUAMARINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_AQUAMARINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_AQUAMARINE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 80, "id": "FLAWED_AQUAMARINE_GEM", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "FINE_AQUAMARINE_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_AQUAMARINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_AQUAMARINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_AQUAMARINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_AQUAMARINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_AQUAMARINE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_AQUAMARINE_GEM", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "FLAWLESS_AQUAMARINE_GEM", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_AQUAMARINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_AQUAMARINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_AQUAMARINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_AQUAMARINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_AQUAMARINE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_CITRINE_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_CITRINE_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_CITRINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_CITRINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_CITRINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_CITRINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_CITRINE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_CITRINE_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_CITRINE_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_CITRINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_CITRINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_CITRINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_CITRINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_CITRINE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_CITRINE_GEM", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "FLAWLESS_CITRINE_GEM", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_CITRINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_CITRINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_CITRINE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_CITRINE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_CITRINE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_JADE_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_JADE_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_JADE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_JADE_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_JADE_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_JADE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_JADE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_JADE_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_JADE_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_JADE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_JADE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_JADE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_JADE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_JADE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_JADE_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWLESS_JADE_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_JADE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_JADE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_JADE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_JADE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_JADE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_JASPER_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_JASPER_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_JASPER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_JASPER_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_JASPER_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_JASPER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_JASPER_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_JASPER_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_JASPER_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_JASPER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_JASPER_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_JASPER_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_JASPER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_JASPER_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_JASPER_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWLESS_JASPER_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_JASPER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_JASPER_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_JASPER_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_JASPER_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_JASPER_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_ONYX_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_ONYX_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_ONYX_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_ONYX_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_ONYX_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_ONYX_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_ONYX_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_ONYX_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_ONYX_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_ONYX_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_ONYX_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_ONYX_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_ONYX_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_ONYX_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_ONYX_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWLESS_ONYX_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_ONYX_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_ONYX_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_ONYX_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_ONYX_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_ONYX_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_OPAL_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_OPAL_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_OPAL_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_OPAL_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_OPAL_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_OPAL_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_OPAL_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_OPAL_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_OPAL_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_OPAL_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_OPAL_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_OPAL_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_OPAL_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_OPAL_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_OPAL_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWLESS_OPAL_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_OPAL_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_OPAL_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_OPAL_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_OPAL_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_OPAL_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_PERIDOT_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_PERIDOT_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_PERIDOT_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_PERIDOT_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_PERIDOT_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_PERIDOT_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_PERIDOT_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_PERIDOT_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_PERIDOT_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_PERIDOT_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_PERIDOT_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_PERIDOT_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_PERIDOT_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_PERIDOT_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_PERIDOT_GEM", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "FLAWLESS_PERIDOT_GEM", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_PERIDOT_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_PERIDOT_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_PERIDOT_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_PERIDOT_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_PERIDOT_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_RUBY_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_RUBY_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_RUBY_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_RUBY_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_RUBY_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_RUBY_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_RUBY_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_RUBY_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_RUBY_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_RUBY_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_RUBY_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_RUBY_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_RUBY_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_RUBY_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_RUBY_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWLESS_RUBY_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_RUBY_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_RUBY_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_RUBY_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_RUBY_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_RUBY_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_SAPPHIRE_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_SAPPHIRE_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_SAPPHIRE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_SAPPHIRE_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_SAPPHIRE_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_SAPPHIRE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_SAPPHIRE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_SAPPHIRE_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_SAPPHIRE_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_SAPPHIRE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_SAPPHIRE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_SAPPHIRE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_SAPPHIRE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_SAPPHIRE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_SAPPHIRE_GEM", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "FLAWLESS_SAPPHIRE_GEM", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_SAPPHIRE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_SAPPHIRE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_SAPPHIRE_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_SAPPHIRE_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_SAPPHIRE_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "ROUGH_TOPAZ_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWED_TOPAZ_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "ROUGH_TOPAZ_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_TOPAZ_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_TOPAZ_GEM", "type": "item" },
+						{ "amount": 16, "id": "ROUGH_TOPAZ_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "ROUGH_TOPAZ_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FLAWED_TOPAZ_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FINE_TOPAZ_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FLAWED_TOPAZ_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_TOPAZ_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_TOPAZ_GEM", "type": "item" },
+						{ "amount": 16, "id": "FLAWED_TOPAZ_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FLAWED_TOPAZ_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "FINE_TOPAZ_GEM", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "FLAWLESS_TOPAZ_GEM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "FINE_TOPAZ_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_TOPAZ_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_TOPAZ_GEM", "type": "item" },
+						{ "amount": 16, "id": "FINE_TOPAZ_GEM", "type": "item" },
+						null,
+						{ "amount": 16, "id": "FINE_TOPAZ_GEM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}

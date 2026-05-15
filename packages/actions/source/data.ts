@@ -7,6 +7,7 @@ import { actions as _einary } from '../data/merchants/einary.json'
 import { actions as _elizabeth } from '../data/merchants/elizabeth.json'
 import { actions as _fishingMerchant } from '../data/merchants/fishing-merchant.json'
 import { actions as _gems } from '../data/gems.json'
+import { actions as _gemstones } from '../data/gemstones.json'
 import { actions as _northStarsCrafts } from '../data/north-stars-crafts.json'
 import { actions as _phillip } from '../data/merchants/phillip.json'
 import { actions as _plumberJoe } from '../data/merchants/plumber-joe.json'
@@ -35,6 +36,7 @@ export const smithmonger = _smithmonger as Action[]
 export const bitsCrafts = _bitsCrafts as Action[]
 export const crimsonIsle = _crimsonIsle as Action[]
 export const gems = _gems as Action[]
+export const gemstones = _gemstones as Action[]
 export const northStarsCrafts = _northStarsCrafts as Action[]
 export const wood = _wood as Action[]
 
@@ -48,6 +50,7 @@ export const allActions = [
 	...elizabeth,
 	...fishingMerchant,
 	...gems,
+	...gemstones,
 	...northStarsCrafts,
 	...phillip,
 	...plumberJoe,
