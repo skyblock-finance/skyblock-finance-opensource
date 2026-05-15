@@ -333,14 +333,6 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "HYDRO_CAN_ULTRA_3000", "type": "item" },
-				{ "amount": 1000, "id": "copper", "type": "currency" }
-			],
-			"outputs": [{ "amount": 1, "id": "AQUAMASTER_X", "type": "item" }],
-			"place": [{ "id": "SKYMART", "type": "npc" }]
-		},
-		{
-			"inputs": [
 				{ "amount": 1, "id": "AQUAMASTER_X", "type": "item" },
 				{ "amount": 1, "id": "IRIDIUM", "type": "item" },
 				{ "amount": 2500, "id": "copper", "type": "currency" }
