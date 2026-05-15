@@ -17,7 +17,7 @@ const _npcs: Record<NpcId, NpcMetadata> = {
 		},
 	},
 	ALCHEMIST: {
-		name: 'Elizabeth',
+		name: 'Alchemist',
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Alchemist',
 			hypixelWiki: 'https://wiki.hypixel.net/Alchemist',
@@ -37,18 +37,18 @@ const _npcs: Record<NpcId, NpcMetadata> = {
 			hypixelWiki: 'https://wiki.hypixel.net/Bulvar',
 		},
 	},
+	EINARY: {
+		name: 'Einary',
+		links: {
+			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Einary',
+			hypixelWiki: 'https://wiki.hypixel.net/Einary',
+		},
+	},
 	ELIZABETH: {
 		name: 'Elizabeth',
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Elizabeth',
 			hypixelWiki: 'https://wiki.hypixel.net/Elizabeth',
-		},
-	},
-	EINARY: {
-		name: 'Elizabeth',
-		links: {
-			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Einary',
-			hypixelWiki: 'https://wiki.hypixel.net/Einary',
 		},
 	},
 	FISHING_MERCHANT: {
