@@ -30,6 +30,13 @@ const _npcs: Record<NpcId, NpcMetadata> = {
 			hypixelWiki: 'https://wiki.hypixel.net/Bubu',
 		},
 	},
+	BULVAR: {
+		name: 'Bulvar',
+		links: {
+			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Bulvar',
+			hypixelWiki: 'https://wiki.hypixel.net/Bulvar',
+		},
+	},
 	ELIZABETH: {
 		name: 'Elizabeth',
 		links: {

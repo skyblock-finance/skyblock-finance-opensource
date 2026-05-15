@@ -34,6 +34,7 @@ export const npcIdSchema = z.enum([
 	'ADVENTURER',
 	'ALCHEMIST',
 	'BUBU',
+	'BULVAR',
 	'EINARY',
 	'ELIZABETH',
 	'FISHING_MERCHANT',

@@ -1,6 +1,7 @@
 import { actions as _adventurer } from '../data/merchants/adventurer.json'
 import { actions as _bitsCrafts } from '../data/bits-crafts.json'
 import { actions as _bubu } from '../data/merchants/bubu.json'
+import { actions as _bulvar } from '../data/merchants/bulvar.json'
 import { actions as _crimsonIsle } from '../data/crimson-isle.json'
 import { actions as _einary } from '../data/merchants/einary.json'
 import { actions as _elizabeth } from '../data/merchants/elizabeth.json'
@@ -19,6 +20,7 @@ import { Action } from './types'
 
 export const adventurer = _adventurer as Action[]
 export const bubu = _bubu as Action[]
+export const bulvar = _bulvar as Action[]
 export const einary = _einary as Action[]
 export const elizabeth = _elizabeth as Action[]
 export const fishingMerchant = _fishingMerchant as Action[]
@@ -40,6 +42,7 @@ export const allActions = [
 	...adventurer,
 	...bitsCrafts,
 	...bubu,
+	...bulvar,
 	...crimsonIsle,
 	...einary,
 	...elizabeth,
