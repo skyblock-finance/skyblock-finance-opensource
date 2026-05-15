@@ -37,6 +37,7 @@ export const northStarsCrafts = _northStarsCrafts as Action[]
 export const wood = _wood as Action[]
 
 export const allActions = [
+	...adventurer,
 	...bitsCrafts,
 	...bubu,
 	...crimsonIsle,
