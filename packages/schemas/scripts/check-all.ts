@@ -1,7 +1,7 @@
 import fs from 'fs/promises'
 import path from 'path'
-import jsonStableStringify from 'json-stable-stringify'
 
+import jsonStableStringify from 'json-stable-stringify'
 import { Logger } from 'tslog'
 import { z } from 'zod/v4'
 
@@ -25,13 +25,13 @@ import {
 export const log = new Logger()
 
 const TO_CHECK: {
+	basicSchema?: z.ZodSchema<unknown>
 	file: string
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	getMessage: (result: any) => string
 	isEnabled: boolean
-	basicSchema?: z.ZodSchema<unknown>
-	strictSchema: z.ZodSchema<unknown>
 	runtimeSchema: z.ZodSchema<unknown>
+	strictSchema: z.ZodSchema<unknown>
 }[] = [
 	{
 		file: 'bazaar.json',

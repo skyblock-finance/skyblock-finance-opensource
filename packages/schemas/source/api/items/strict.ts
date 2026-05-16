@@ -1,5 +1,6 @@
 import { z } from 'zod/v4'
 
+import { apiResponseSchema } from '../../common'
 import {
 	CrimsonIsleFaction,
 	CrystalType,
@@ -13,12 +14,11 @@ import {
 	SkillType,
 	SlayerBossType,
 } from '../../enums'
+import { EasterRabbit } from '../../enums/easter'
 import { Soulbound } from '../../enums/soulbound'
 import { UPPER_SNAKE_CASE_REGEX } from '../bazaar/common'
-import { apiResponseSchema } from '../../common'
 
 import { skinSchema } from './common'
-import { EasterRabbit } from '../../enums/easter'
 
 const statsSchemaStrict = z
 	.preprocess(
@@ -48,8 +48,8 @@ const statsSchemaStrict = z
 				FISHING_SPEED: z.number().int().optional(),
 				FISHING_WISDOM: z.number().int().optional(),
 				FORAGING_WISDOM: z.number().int().optional(),
-				HEALTH_REGENERATION: z.number().int().optional(),
 				HEALTH: z.number().int().optional(),
+				HEALTH_REGENERATION: z.number().int().optional(),
 				INTELLIGENCE: z.number().int().optional(),
 				MAGIC_FIND: z.number().int().optional(),
 				MELON_FORTUNE: z.number().int().optional(),
@@ -88,13 +88,12 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 					can_burn_in_furnace: z.boolean().optional(),
 					can_have_attributes: z.boolean().optional(),
 					can_have_power_scroll: z.boolean().optional(),
-					can_interact_right_click: z.boolean().optional(),
-					can_interact_entity: z.boolean().optional(),
 					can_interact: z.boolean().optional(),
+					can_interact_entity: z.boolean().optional(),
+					can_interact_right_click: z.boolean().optional(),
 					can_place: z.boolean().optional(),
 					can_recombobulate: z.boolean().optional(),
 					can_trade: z.boolean().optional(),
-					has_uuid: z.boolean().optional(),
 					cannot_reforge: z.boolean().optional(),
 					catacombs_requirements: z
 						.array(
@@ -188,17 +187,18 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 								.strict(),
 						)
 						.optional(),
-					generator_tier: z.number().int().min(1).max(12).optional(),
 					generator: z.nativeEnum(MinionType).optional(),
+					generator_tier: z.number().int().min(1).max(12).optional(),
 					glowing: z.boolean().optional(),
+					has_uuid: z.boolean().optional(),
 					hide_from_viewrecipe_command: z.boolean().optional(),
 					id: z.string(),
 					item_durability: z.number().int().optional(),
 					item_specific: z
 						.object({
 							bonus_experience_chance: z.number().int().optional(),
-							bonus_fishing_speed_per_bucket: z.number().int().optional(),
 							bonus_fishing_speed: z.number().int().optional(),
+							bonus_fishing_speed_per_bucket: z.number().int().optional(),
 							bonus_heal: z.number().int().optional(),
 							bonus_rift_damage_vs_vampire: z.number().int().optional(),
 							bundled_amount: z.literal(9).optional(),
@@ -241,8 +241,8 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 							max_bonus_fishing_speed: z.number().int().optional(),
 							max_contacts: z.number().int().optional(), // Abiphone
 							max_musicdiscs: z.number().int().optional(), // Abiphone
-							max_players: z.number().int().optional(),
 							max_other_players: z.number().int().optional(),
+							max_players: z.number().int().optional(),
 							memorable_event_key: z
 								.enum([
 									'community_center_refurbishment',
@@ -340,7 +340,7 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 					museum: z.boolean().optional(),
 					name: z.string(),
 					npc_sell_price: z.number().optional(),
-					rarity_salvageable: z.boolean().optional(),
+					origin: z.enum(['BINGO', 'RIFT']).optional(),
 					prestige: z
 						.object({
 							costs: z.array(
@@ -360,88 +360,7 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 						.strict()
 						.optional(),
 					private_island: z.nativeEnum(PrivateIslandType).optional(),
-					origin: z.enum(['BINGO', 'RIFT']).optional(),
-					rift_transferrable: z.boolean().optional(),
-					serializable: z.boolean().optional(),
-					skin: skinSchema.optional(),
-					soulbound: z.nativeEnum(Soulbound).optional(),
-					stats: statsSchemaStrict.optional(),
-					salvage: z
-						.union([
-							z
-								.object({
-									amount: z.number().int().min(1),
-									essence_type: z.nativeEnum(EssenceType),
-								})
-								.strict(),
-							z
-								.object({
-									amount: z.number().int().min(1),
-									item_id: z.string().regex(UPPER_SNAKE_CASE_REGEX),
-								})
-								.strict(),
-						])
-						.optional(),
-					salvageable_from_recipe: z.boolean().optional(),
-					salvages: z
-						.array(
-							z.union([
-								z
-									.object({
-										amount: z.number().int().min(1),
-										essence_type: z.nativeEnum(EssenceType),
-										type: z.literal('ESSENCE'),
-									})
-									.strict(),
-								z
-									.object({
-										amount: z.number().int().min(1),
-										item_id: z.string().regex(UPPER_SNAKE_CASE_REGEX),
-										type: z.literal('ITEM'),
-									})
-									.strict(),
-							]),
-						)
-						.optional(),
-					sword_type: z
-						.enum(['AXE', 'DAGGER', 'KARAMBIT', 'KATANA', 'SCYTHE'])
-						.optional(),
-					tier: z.nativeEnum(ItemTier).optional(),
-					tiered_stats: z
-						.object({
-							ATTACK_SPEED: z.array(z.number().int()).optional(),
-							CRITICAL_CHANCE: z.array(z.number().int()).optional(),
-							CRITICAL_DAMAGE: z.array(z.number().int()).optional(),
-							DAMAGE: z.array(z.number().int()).optional(),
-							DEFENSE: z.array(z.number().int()).optional(),
-							HEALTH: z.array(z.number().int()).optional(),
-							INTELLIGENCE: z.array(z.number().int()).optional(),
-							STRENGTH: z.array(z.number().int()).optional(),
-							WALK_SPEED: z.array(z.number().int()).optional(),
-							WEAPON_ABILITY_DAMAGE: z.array(z.number().int()).optional(),
-						})
-						.strict()
-						.optional(),
-					unstackable: z.boolean().optional(),
-					upgrade_costs: z
-						.array(
-							z.array(
-								z.union([
-									z
-										.object({
-											amount: z.number().int().min(1),
-											essence_type: z.nativeEnum(EssenceType),
-											type: z.literal('ESSENCE'),
-										})
-										.strict(),
-									z.object({
-										amount: z.number().int().min(1),
-										item_id: z.string().regex(UPPER_SNAKE_CASE_REGEX),
-									}),
-								]),
-							),
-						)
-						.optional(),
+					rarity_salvageable: z.boolean().optional(),
 					requirements: z
 						.array(
 							z.discriminatedUnion('type', [
@@ -537,6 +456,87 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 									})
 									.strict(),
 							]),
+						)
+						.optional(),
+					rift_transferrable: z.boolean().optional(),
+					salvage: z
+						.union([
+							z
+								.object({
+									amount: z.number().int().min(1),
+									essence_type: z.nativeEnum(EssenceType),
+								})
+								.strict(),
+							z
+								.object({
+									amount: z.number().int().min(1),
+									item_id: z.string().regex(UPPER_SNAKE_CASE_REGEX),
+								})
+								.strict(),
+						])
+						.optional(),
+					salvageable_from_recipe: z.boolean().optional(),
+					salvages: z
+						.array(
+							z.union([
+								z
+									.object({
+										amount: z.number().int().min(1),
+										essence_type: z.nativeEnum(EssenceType),
+										type: z.literal('ESSENCE'),
+									})
+									.strict(),
+								z
+									.object({
+										amount: z.number().int().min(1),
+										item_id: z.string().regex(UPPER_SNAKE_CASE_REGEX),
+										type: z.literal('ITEM'),
+									})
+									.strict(),
+							]),
+						)
+						.optional(),
+					serializable: z.boolean().optional(),
+					skin: skinSchema.optional(),
+					soulbound: z.nativeEnum(Soulbound).optional(),
+					stats: statsSchemaStrict.optional(),
+					sword_type: z
+						.enum(['AXE', 'DAGGER', 'KARAMBIT', 'KATANA', 'SCYTHE'])
+						.optional(),
+					tier: z.nativeEnum(ItemTier).optional(),
+					tiered_stats: z
+						.object({
+							ATTACK_SPEED: z.array(z.number().int()).optional(),
+							CRITICAL_CHANCE: z.array(z.number().int()).optional(),
+							CRITICAL_DAMAGE: z.array(z.number().int()).optional(),
+							DAMAGE: z.array(z.number().int()).optional(),
+							DEFENSE: z.array(z.number().int()).optional(),
+							HEALTH: z.array(z.number().int()).optional(),
+							INTELLIGENCE: z.array(z.number().int()).optional(),
+							STRENGTH: z.array(z.number().int()).optional(),
+							WALK_SPEED: z.array(z.number().int()).optional(),
+							WEAPON_ABILITY_DAMAGE: z.array(z.number().int()).optional(),
+						})
+						.strict()
+						.optional(),
+					unstackable: z.boolean().optional(),
+					upgrade_costs: z
+						.array(
+							z.array(
+								z.union([
+									z
+										.object({
+											amount: z.number().int().min(1),
+											essence_type: z.nativeEnum(EssenceType),
+											type: z.literal('ESSENCE'),
+										})
+										.strict(),
+									z.object({
+										amount: z.number().int().min(1),
+										item_id: z.string().regex(UPPER_SNAKE_CASE_REGEX),
+									}),
+								]),
+							),
 						)
 						.optional(),
 				})

@@ -10,7 +10,8 @@
 	},
 	"description": "Skyblock Finance Shared ESLint Config",
 	"devDependencies": {
-		"@typescript-eslint/utils": "^8.35.0"
+		"@typescript-eslint/utils": "^8.35.0",
+		"eslint-plugin-perfectionist": "^5.9.0"
 	},
 	"exports": {
 		".": {

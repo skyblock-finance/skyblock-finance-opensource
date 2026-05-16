@@ -1,7 +1,7 @@
 import { z } from 'zod/v4'
 
-import { urlTransformHttps } from '../../utilities/transforms/url-transform-https'
 import { base64JsonToObject } from '../../utilities/preprocessors/base64-json-to-object'
+import { urlTransformHttps } from '../../utilities/transforms/url-transform-https'
 
 export const skinSchema = z
 	.preprocess(

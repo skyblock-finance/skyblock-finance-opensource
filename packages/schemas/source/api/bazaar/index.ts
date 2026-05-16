@@ -1,2 +1,2 @@
-export * from './strict'
 export * from './runtime'
+export * from './strict'

@@ -1,4 +1,5 @@
 import { $, semver } from 'bun'
+
 import { z } from 'zod/v4'
 
 const packagesToConsider = [

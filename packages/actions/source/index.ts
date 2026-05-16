@@ -1,4 +1,12 @@
 export * from './data'
+export { npcs } from './npcs'
+export {
+	actionIoItemSchema,
+	actionIoSchema,
+	actionPlaceSchema,
+	actionSchema,
+	npcIdSchema,
+} from './schema'
 export {
 	Action,
 	ActionCurrency,
@@ -7,11 +15,3 @@ export {
 	ActionIoItem,
 	NpcId,
 } from './types'
-export {
-	actionIoItemSchema,
-	actionIoSchema,
-	actionPlaceSchema,
-	actionSchema,
-	npcIdSchema,
-} from './schema'
-export { npcs } from './npcs'

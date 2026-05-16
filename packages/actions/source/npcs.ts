@@ -1,100 +1,100 @@
 import { NpcId } from './types'
 
 type NpcMetadata = {
-	name: string
 	links: {
 		communityWiki: `https://hypixelskyblock.minecraft.wiki/${string}` | null
 		hypixelWiki: `https://wiki.hypixel.net/${string}` | null
 	}
+	name: string
 }
 
 const _npcs: Record<NpcId, NpcMetadata> = {
 	ADVENTURER: {
-		name: 'Adventurer',
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Adventurer',
 			hypixelWiki: 'https://wiki.hypixel.net/Adventurer',
 		},
+		name: 'Adventurer',
 	},
 	ALCHEMIST: {
-		name: 'Alchemist',
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Alchemist',
 			hypixelWiki: 'https://wiki.hypixel.net/Alchemist',
 		},
+		name: 'Alchemist',
 	},
 	BUBU: {
-		name: 'Bubu',
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Bubu',
 			hypixelWiki: 'https://wiki.hypixel.net/Bubu',
 		},
+		name: 'Bubu',
 	},
 	BULVAR: {
-		name: 'Bulvar',
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Bulvar',
 			hypixelWiki: 'https://wiki.hypixel.net/Bulvar',
 		},
+		name: 'Bulvar',
 	},
 	EINARY: {
-		name: 'Einary',
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Einary',
 			hypixelWiki: 'https://wiki.hypixel.net/Einary',
 		},
+		name: 'Einary',
 	},
 	ELIZABETH: {
-		name: 'Elizabeth',
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Elizabeth',
 			hypixelWiki: 'https://wiki.hypixel.net/Elizabeth',
 		},
+		name: 'Elizabeth',
 	},
 	FISHING_MERCHANT: {
-		name: 'Fishing Merchant',
 		links: {
 			communityWiki:
 				'https://hypixelskyblock.minecraft.wiki/w/Fishing_Merchant',
 			hypixelWiki: 'https://wiki.hypixel.net/Fishing_Merchant',
 		},
+		name: 'Fishing Merchant',
 	},
 	PHILLIP: {
-		name: 'Pesthunter Phillip',
 		links: {
 			communityWiki:
 				'https://hypixelskyblock.minecraft.wiki/w/Pesthunter_Phillip',
 			hypixelWiki: 'https://wiki.hypixel.net/Pesthunter_Phillip',
 		},
+		name: 'Pesthunter Phillip',
+	},
+	PLUMBER_JOE: {
+		links: {
+			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Plumber_Joe',
+			hypixelWiki: 'https://wiki.hypixel.net/Plumber_Joe',
+		},
+		name: 'Plumber Joe',
 	},
 	SEYMOUR: {
-		name: 'Seymour',
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Seymour',
 			hypixelWiki: 'https://wiki.hypixel.net/Seymour',
 		},
+		name: 'Seymour',
 	},
 	SKYMART: {
-		name: 'SkyMart',
 		links: {
 			communityWiki:
 				'https://hypixelskyblock.minecraft.wiki/w/The_Garden#The_Desk',
 			hypixelWiki: 'https://wiki.hypixel.net/Garden#Desk',
 		},
+		name: 'SkyMart',
 	},
 	SMITHMONGER: {
-		name: 'Smithmonger',
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Smithmonger',
 			hypixelWiki: 'https://wiki.hypixel.net/Smithmonger',
 		},
-	},
-	PLUMBER_JOE: {
-		name: 'Plumber Joe',
-		links: {
-			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Plumber_Joe',
-			hypixelWiki: 'https://wiki.hypixel.net/Plumber_Joe',
-		},
+		name: 'Smithmonger',
 	},
 }
 

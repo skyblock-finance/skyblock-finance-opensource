@@ -1,6 +1,6 @@
 export type ItemMetadataIds = {
-	skyblock: string | null
 	cofl?: string
+	skyblock: string | null
 }
 
 export type ItemMetadataLinks = {

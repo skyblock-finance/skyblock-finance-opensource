@@ -1,8 +1,10 @@
-import z from 'zod/v4'
-import { actionDefinitionSchema } from '../source/schema'
 import fs from 'node:fs/promises'
 import path from 'node:path'
+
 import jsonStableStringify from 'json-stable-stringify'
+import z from 'zod/v4'
+
+import { actionDefinitionSchema } from '../source/schema'
 
 const jsonSchema = z.toJSONSchema(actionDefinitionSchema)
 

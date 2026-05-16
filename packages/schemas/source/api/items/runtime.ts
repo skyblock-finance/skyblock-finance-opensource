@@ -1,8 +1,8 @@
 import { z } from 'zod/v4'
 
+import { apiResponseSchema } from '../../common'
 import { GemSlotType } from '../../enums'
 import { Soulbound } from '../../enums/soulbound'
-import { apiResponseSchema } from '../../common'
 
 import { skinSchema } from './common'
 
@@ -33,8 +33,8 @@ const itemSchema = z.object({
 			}),
 		)
 		.optional(),
-	generator_tier: z.number().int().optional(),
 	generator: z.string().optional(),
+	generator_tier: z.number().int().optional(),
 	glowing: z.boolean().optional(),
 	id: z.string(),
 	material: z.string(),

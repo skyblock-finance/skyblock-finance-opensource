@@ -1,0 +1,8 @@
+{
+	"file_scan_exclusions": ["**/.git", "**/.DS_Store"],
+	"format_on_save": "on",
+	"hard_tabs": true,
+	"code_actions_on_format": {
+		"source.fixAll.eslint": true,
+	},
+}

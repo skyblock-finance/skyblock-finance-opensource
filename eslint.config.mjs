@@ -41,6 +41,7 @@ export default tseslint.config(
 		ignores: [
 			'**/dist/**',
 			'**/.turbo/**',
+			'.zed/**',
 			'.github/custom/cla-signatures.json',
 			'eslint.config.mjs',
 			'packages/schemas/data/*.json',

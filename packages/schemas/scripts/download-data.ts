@@ -12,12 +12,12 @@ type Common = {
 
 const FILES: (
 	| (Common & {
-			type: 'simple'
-			url: string
-	  })
-	| (Common & {
 			fetch(): Promise<unknown>
 			type: 'custom'
+	  })
+	| (Common & {
+			type: 'simple'
+			url: string
 	  })
 )[] = [
 	{
@@ -45,14 +45,14 @@ const FILES: (
 for (const file of FILES) {
 	const data = await (async () => {
 		switch (file.type) {
+			case 'custom':
+				log.info(`${file.name}: downloading with custom fetcher`)
+				return await file.fetch()
+
 			case 'simple': {
 				log.info(`${file.name}: downloading ${file.url}`)
 				return await fetch(file.url).then((request) => request.json())
 			}
-
-			case 'custom':
-				log.info(`${file.name}: downloading with custom fetcher`)
-				return await file.fetch()
 		}
 	})()
 

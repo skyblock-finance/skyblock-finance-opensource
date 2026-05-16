@@ -1,8 +1,10 @@
-import { actionSchema } from './schema'
-import { allActions } from './data'
-import { z } from 'zod/v4'
 import { describe, expect, test } from 'bun:test'
 import assert from 'node:assert'
+
+import { z } from 'zod/v4'
+
+import { allActions } from './data'
+import { actionSchema } from './schema'
 import { ActionIoItem } from './types'
 
 test('all actions follow the schema', () => {

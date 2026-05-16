@@ -75,7 +75,7 @@ export const actionSchema = z
 
 export const actionDefinitionSchema = z
 	.object({
-		actions: z.array(actionSchema),
 		$schema: z.string().optional(),
+		actions: z.array(actionSchema),
 	})
 	.strict()

@@ -1,10 +1,10 @@
 export * from './data'
 export {
 	ItemMetadata,
+	ItemMetadataBasic,
 	ItemMetadataIds,
+	ItemMetadataIncorrect,
 	ItemMetadataLinks,
 	ItemMetadataMissing,
-	ItemMetadataIncorrect,
 	ItemMetadataTradesOn,
-	ItemMetadataBasic,
 } from './types'
