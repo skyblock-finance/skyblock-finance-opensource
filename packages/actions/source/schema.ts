@@ -1,31 +1,35 @@
 import { z } from 'zod/v4'
 
-export const actionIoItemSchema = z
-	.object({
-		amount: z.number(),
-		id: z.string(),
-		type: z.literal('item'),
-	})
-	.strict()
+export const actionIoCrystalSchema = z.strictObject({
+	amount: z.number(),
+	id: z.string(),
+	type: z.literal('crystal'),
+})
 
-export const actionIoCurrencySchema = z
-	.object({
-		amount: z.number(),
-		id: z.enum([
-			'bit',
-			'coin',
-			'copper',
-			'gem',
-			'north-star',
-			'pest',
-			'second',
-			'usd',
-		]),
-		type: z.literal('currency'),
-	})
-	.strict()
+export const actionIoCurrencySchema = z.strictObject({
+	amount: z.number(),
+	id: z.enum([
+		'bit',
+		'coin',
+		'copper',
+		'gem',
+		'forge-second',
+		'north-star',
+		'pest',
+		'second',
+		'usd',
+	]),
+	type: z.literal('currency'),
+})
+
+export const actionIoItemSchema = z.strictObject({
+	amount: z.number(),
+	id: z.string(),
+	type: z.literal('item'),
+})
 
 export const actionIoSchema = z.discriminatedUnion('type', [
+	actionIoCrystalSchema,
 	actionIoCurrencySchema,
 	actionIoItemSchema,
 ])
@@ -52,6 +56,9 @@ export const actionPlaceSchema = z.discriminatedUnion('type', [
 		type: z.literal('anvil'),
 	}),
 	z.strictObject({
+		type: z.literal('forge'),
+	}),
+	z.strictObject({
 		id: npcIdSchema,
 		type: z.literal('npc'),
 	}),
@@ -65,17 +72,34 @@ export const actionPlaceSchema = z.discriminatedUnion('type', [
 	}),
 ])
 
-export const actionSchema = z
-	.object({
-		inputs: z.array(actionIoSchema),
-		outputs: z.array(actionIoSchema),
-		place: z.array(actionPlaceSchema),
-	})
-	.strict()
+/**
+ * NOTE: This schema uses uppercase to align 1-to-1 with the Skyblock Items API's requirements format.
+ */
+export const actionRequirementSchema = z.discriminatedUnion('type', [
+	z.strictObject({
+		collection: z.enum(['GEMSTONE' /* to be added as-needed */]),
+		tier: z.int().min(1).max(10),
+		type: z.literal('COLLECTION'),
+	}),
+	z.strictObject({
+		level: z.int().min(1).max(60),
+		skill: z.enum(['MINING' /* to be added as-needed */]),
+		type: z.literal('SKILL'),
+	}),
+	z.strictObject({
+		tier: z.int().min(1).max(10),
+		type: z.literal('HEART_OF_THE_MOUNTAIN'),
+	}),
+])
 
-export const actionDefinitionSchema = z
-	.object({
-		$schema: z.string().optional(),
-		actions: z.array(actionSchema),
-	})
-	.strict()
+export const actionSchema = z.strictObject({
+	inputs: z.array(actionIoSchema),
+	outputs: z.array(actionIoSchema),
+	place: z.array(actionPlaceSchema),
+	requirements: z.array(actionRequirementSchema).optional(),
+})
+
+export const actionDefinitionSchema = z.strictObject({
+	$schema: z.string().optional(),
+	actions: z.array(actionSchema),
+})

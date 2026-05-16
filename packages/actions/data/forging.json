@@ -1,0 +1,167 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_AMBER_GEM", "type": "item" },
+				{ "amount": 1, "id": "AMBER", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_AMBER_GEM", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_AMETHYST_GEM", "type": "item" },
+				{ "amount": 1, "id": "AMETHYST", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "PERFECT_AMETHYST_GEM", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_JADE_GEM", "type": "item" },
+				{ "amount": 1, "id": "JADE", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_JADE_GEM", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_JASPER_GEM", "type": "item" },
+				{ "amount": 1, "id": "JASPER", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_JASPER_GEM", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_OPAL_GEM", "type": "item" },
+				{ "amount": 1, "id": "OPAL", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_OPAL_GEM", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_RUBY_GEM", "type": "item" },
+				{ "amount": 1, "id": "RUBY", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_RUBY_GEM", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_SAPPHIRE_GEM", "type": "item" },
+				{ "amount": 1, "id": "SAPPHIRE", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "PERFECT_SAPPHIRE_GEM", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_TOPAZ_GEM", "type": "item" },
+				{ "amount": 1, "id": "TOPAZ", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_TOPAZ_GEM", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_AQUAMARINE_GEM", "type": "item" },
+				{ "amount": 1, "id": "AQUAMARINE", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "PERFECT_AQUAMARINE_GEM", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_CITRINE_GEM", "type": "item" },
+				{ "amount": 1, "id": "CITRINE", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_CITRINE_GEM", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_ONYX_GEM", "type": "item" },
+				{ "amount": 1, "id": "ONYX", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_ONYX_GEM", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "FLAWLESS_PERIDOT_GEM", "type": "item" },
+				{ "amount": 1, "id": "PERIDOT", "type": "crystal" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_PERIDOT_GEM", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [
+				{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" },
+				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
+			]
+		}
+	]
+}

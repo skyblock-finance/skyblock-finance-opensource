@@ -19,10 +19,28 @@
 											"type": "number"
 										},
 										"id": {
+											"type": "string"
+										},
+										"type": {
+											"const": "crystal",
+											"type": "string"
+										}
+									},
+									"required": ["amount", "id", "type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"amount": {
+											"type": "number"
+										},
+										"id": {
 											"enum": [
 												"bit",
 												"coin",
 												"copper",
+												"forge-second",
 												"gem",
 												"north-star",
 												"pest",
@@ -63,6 +81,23 @@
 					"outputs": {
 						"items": {
 							"anyOf": [
+								{
+									"additionalProperties": false,
+									"properties": {
+										"amount": {
+											"type": "number"
+										},
+										"id": {
+											"type": "string"
+										},
+										"type": {
+											"const": "crystal",
+											"type": "string"
+										}
+									},
+									"required": ["amount", "id", "type"],
+									"type": "object"
+								},
 								{
 									"additionalProperties": false,
 									"properties": {
@@ -162,6 +197,17 @@
 								{
 									"additionalProperties": false,
 									"properties": {
+										"type": {
+											"const": "forge",
+											"type": "string"
+										}
+									},
+									"required": ["type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
 										"id": {
 											"type": "string"
 										},
@@ -226,6 +272,63 @@
 										}
 									},
 									"required": ["grid", "type"],
+									"type": "object"
+								}
+							]
+						},
+						"type": "array"
+					},
+					"requirements": {
+						"items": {
+							"anyOf": [
+								{
+									"additionalProperties": false,
+									"properties": {
+										"collection": {
+											"enum": ["GEMSTONE"],
+											"type": "string"
+										},
+										"tier": {
+											"type": "number"
+										},
+										"type": {
+											"const": "COLLECTION",
+											"type": "string"
+										}
+									},
+									"required": ["collection", "tier", "type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"tier": {
+											"type": "number"
+										},
+										"type": {
+											"const": "HEART_OF_THE_MOUNTAIN",
+											"type": "string"
+										}
+									},
+									"required": ["tier", "type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"level": {
+											"type": "number"
+										},
+										"skill": {
+											"enum": ["MINING"],
+											"type": "string"
+										},
+										"type": {
+											"const": "SKILL",
+											"type": "string"
+										}
+									},
+									"required": ["level", "skill", "type"],
 									"type": "object"
 								}
 							]

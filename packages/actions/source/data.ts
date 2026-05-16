@@ -1,5 +1,6 @@
 import { actions as _bitsCrafts } from '../data/bits-crafts.json'
 import { actions as _crimsonIsle } from '../data/crimson-isle.json'
+import { actions as _forging } from '../data/forging.json'
 import { actions as _gems } from '../data/gems.json'
 import { actions as _gemstones } from '../data/gemstones.json'
 import { actions as _adventurer } from '../data/merchants/adventurer.json'
@@ -36,12 +37,13 @@ export const smithmonger = _smithmonger as Action[]
 
 export const bitsCrafts = _bitsCrafts as Action[]
 export const crimsonIsle = _crimsonIsle as Action[]
+export const forging = _forging as Action[]
 export const gems = _gems as Action[]
 export const gemstones = _gemstones as Action[]
 export const northStarsCrafts = _northStarsCrafts as Action[]
 export const wood = _wood as Action[]
 
-export const allActions = [
+export const allActions: Action[] = [
 	...adventurer,
 	...bitsCrafts,
 	...bubu,
@@ -50,6 +52,7 @@ export const allActions = [
 	...einary,
 	...elizabeth,
 	...fishingMerchant,
+	...forging,
 	...gems,
 	...gemstones,
 	...northStarsCrafts,
