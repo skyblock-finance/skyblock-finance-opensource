@@ -1,6 +1,7 @@
-import { describe, expect, test } from 'bun:test'
+import { expect, test } from 'bun:test'
 import assert from 'node:assert'
 
+import jsonStableStringify from 'json-stable-stringify'
 import { z } from 'zod/v4'
 
 import { allActions } from './data'
@@ -70,34 +71,57 @@ test('sumUp works', () => {
 	)
 })
 
-describe('every action’s workbench inputs match its crafing grid', () => {
+test('every action’s workbench inputs match its crafing grid', () => {
 	for (const action of allActions) {
 		for (const grid of action.place.filter((x) => x.type === 'workbench')) {
-			test(`${JSON.stringify(action.outputs)} is valid`, () => {
-				assert(grid.type === 'workbench')
+			assert(grid.type === 'workbench')
 
-				const actual = sumUp(action.inputs.filter((x) => x.type === 'item'))
+			const actual = sumUp(action.inputs.filter((x) => x.type === 'item'))
 
-				const expected = sumUp(grid.grid.filter((x) => x !== null))
+			const expected = sumUp(grid.grid.filter((x) => x !== null))
 
-				expect(actual).toEqual(expected)
-			})
+			expect(
+				actual,
+				`${JSON.stringify(action)} doesn't match its crafting grid`,
+			).toEqual(expected)
 		}
 	}
 })
 
-describe('every action’s anvil inputs match its crafing grid', () => {
+test('every action’s anvil inputs match its crafing grid', () => {
 	for (const action of allActions) {
 		for (const grid of action.place.filter((x) => x.type === 'anvil')) {
-			test(`${JSON.stringify(action.outputs)} is valid`, () => {
-				assert(grid.type === 'anvil')
+			assert(grid.type === 'anvil')
 
-				const actual = sumUp(action.inputs.filter((x) => x.type === 'item'))
+			const actual = sumUp(action.inputs.filter((x) => x.type === 'item'))
 
-				const expected = sumUp([grid.left, grid.right])
+			const expected = sumUp([grid.left, grid.right])
 
-				expect(actual).toEqual(expected)
-			})
+			expect(actual, `${JSON.stringify(action)} doesn't match`).toEqual(
+				expected,
+			)
+		}
+	}
+})
+
+test('no duplicate actions exist', () => {
+	const seen = new Set<string>()
+
+	for (const action of allActions) {
+		for (const place of action.place) {
+			const syntheticAction = {
+				...action,
+				place,
+			}
+			const json = jsonStableStringify(syntheticAction)
+
+			if (!json) throw new Error(`invalid action: ${JSON.stringify(action)}`)
+
+			if (seen.has(json)) {
+				throw new Error(`duplicate action: ${json}`)
+			} else {
+				seen.add(json)
+			}
 		}
 	}
 })
