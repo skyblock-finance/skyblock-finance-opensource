@@ -1,0 +1,262 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [
+				{ "amount": 1, "id": "WOODEN_SWORD", "type": "item" },
+				{ "amount": 80, "id": "GUNPOWDER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "CREEPER_GENERATOR_1", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 10, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 10, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 10, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 10, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "WOODEN_SWORD", "type": "item" },
+						{ "amount": 10, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 10, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 10, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 10, "id": "GUNPOWDER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_1", "type": "item" },
+				{ "amount": 160, "id": "GUNPOWDER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "CREEPER_GENERATOR_2", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 20, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 20, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 20, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 20, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "CREEPER_GENERATOR_1", "type": "item" },
+						{ "amount": 20, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 20, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 20, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 20, "id": "GUNPOWDER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_2", "type": "item" },
+				{ "amount": 320, "id": "GUNPOWDER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "CREEPER_GENERATOR_3", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 40, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 40, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 40, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 40, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "CREEPER_GENERATOR_2", "type": "item" },
+						{ "amount": 40, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 40, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 40, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 40, "id": "GUNPOWDER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_3", "type": "item" },
+				{ "amount": 512, "id": "GUNPOWDER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "CREEPER_GENERATOR_4", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "CREEPER_GENERATOR_3", "type": "item" },
+						{ "amount": 64, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "GUNPOWDER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_4", "type": "item" },
+				{ "amount": 8, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "CREEPER_GENERATOR_5", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "CREEPER_GENERATOR_4", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_5", "type": "item" },
+				{ "amount": 24, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "CREEPER_GENERATOR_6", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 3, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "CREEPER_GENERATOR_5", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 3, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_6", "type": "item" },
+				{ "amount": 64, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "CREEPER_GENERATOR_7", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 8, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "CREEPER_GENERATOR_6", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_7", "type": "item" },
+				{ "amount": 128, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "CREEPER_GENERATOR_8", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "CREEPER_GENERATOR_7", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_8", "type": "item" },
+				{ "amount": 256, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "CREEPER_GENERATOR_9", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 32, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "CREEPER_GENERATOR_8", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_9", "type": "item" },
+				{ "amount": 512, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_10", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 1, "id": "CREEPER_GENERATOR_9", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GUNPOWDER", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_GUNPOWDER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_10", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_FIREWORK_ROCKET", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "CREEPER_GENERATOR_11", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 2, "id": "ENCHANTED_FIREWORK_ROCKET", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_FIREWORK_ROCKET", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_FIREWORK_ROCKET", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_FIREWORK_ROCKET", "type": "item" },
+						{ "amount": 1, "id": "CREEPER_GENERATOR_10", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_FIREWORK_ROCKET", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_FIREWORK_ROCKET", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_FIREWORK_ROCKET", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_FIREWORK_ROCKET", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}

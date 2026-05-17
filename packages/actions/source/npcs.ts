@@ -59,6 +59,20 @@ const _npcs: Record<NpcId, NpcMetadata> = {
 		},
 		name: 'Fishing Merchant',
 	},
+	HILDA: {
+		links: {
+			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Hilda',
+			hypixelWiki: 'https://wiki.hypixel.net/Hilda',
+		},
+		name: 'Hilda',
+	},
+	MARTHOS: {
+		links: {
+			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Marthos',
+			hypixelWiki: 'https://wiki.hypixel.net/Marthos',
+		},
+		name: 'Marthos',
+	},
 	PHILLIP: {
 		links: {
 			communityWiki:

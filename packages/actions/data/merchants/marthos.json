@@ -1,0 +1,65 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GHAST_GENERATOR_11", "type": "item" },
+				{ "amount": 1024, "id": "SILVER_FANG", "type": "item" },
+				{ "amount": 2000000, "id": "coin", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GHAST_GENERATOR_12", "type": "item" }],
+			"place": [{ "id": "MARTHOS", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "QUARTZ_GENERATOR_11", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_QUARTZ_BLOCK", "type": "item" },
+				{ "amount": 2000000, "id": "coin", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "QUARTZ_GENERATOR_12", "type": "item" }],
+			"place": [{ "id": "MARTHOS", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GLOWSTONE_GENERATOR_11", "type": "item" },
+				{ "amount": 32, "id": "ENCHANTED_GLOWSTONE", "type": "item" },
+				{ "amount": 2000000, "id": "coin", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "GLOWSTONE_GENERATOR_12", "type": "item" }
+			],
+			"place": [{ "id": "MARTHOS", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "BLAZE_GENERATOR_11", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_BLAZE_ROD", "type": "item" },
+				{ "amount": 2000000, "id": "coin", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BLAZE_GENERATOR_12", "type": "item" }],
+			"place": [{ "id": "MARTHOS", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MAGMA_CUBE_GENERATOR_11", "type": "item" },
+				{ "amount": 1024, "id": "ENCHANTED_MAGMA_CREAM", "type": "item" },
+				{ "amount": 2000000, "id": "coin", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "MAGMA_CUBE_GENERATOR_12", "type": "item" }
+			],
+			"place": [{ "id": "MARTHOS", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "RED_SAND_GENERATOR_11", "type": "item" },
+				{ "amount": 32, "id": "ENCHANTED_RED_SAND_CUBE", "type": "item" },
+				{ "amount": 2000000, "id": "coin", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "RED_SAND_GENERATOR_12", "type": "item" }
+			],
+			"place": [{ "id": "MARTHOS", "type": "npc" }]
+		}
+	]
+}
