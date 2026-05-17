@@ -7,7 +7,7 @@
 				{ "amount": 80, "id": "SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_1", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_1", "type": "item" }
 			],
 			"place": [
 				{
@@ -28,11 +28,11 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_1", "type": "item" },
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_1", "type": "item" },
 				{ "amount": 160, "id": "SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_2", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_2", "type": "item" }
 			],
 			"place": [
 				{
@@ -41,7 +41,7 @@
 						{ "amount": 20, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 20, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 20, "id": "SPIDER_EYE", "type": "item" },
-						{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_1", "type": "item" },
+						{ "amount": 1, "id": "CAVESPIDER_GENERATOR_1", "type": "item" },
 						{ "amount": 20, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 20, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 20, "id": "SPIDER_EYE", "type": "item" },
@@ -53,11 +53,11 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_2", "type": "item" },
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_2", "type": "item" },
 				{ "amount": 320, "id": "SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_3", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_3", "type": "item" }
 			],
 			"place": [
 				{
@@ -66,7 +66,7 @@
 						{ "amount": 40, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 40, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 40, "id": "SPIDER_EYE", "type": "item" },
-						{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_2", "type": "item" },
+						{ "amount": 1, "id": "CAVESPIDER_GENERATOR_2", "type": "item" },
 						{ "amount": 40, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 40, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 40, "id": "SPIDER_EYE", "type": "item" },
@@ -78,11 +78,11 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_3", "type": "item" },
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_3", "type": "item" },
 				{ "amount": 512, "id": "SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_4", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_4", "type": "item" }
 			],
 			"place": [
 				{
@@ -91,7 +91,7 @@
 						{ "amount": 64, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 64, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 64, "id": "SPIDER_EYE", "type": "item" },
-						{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_3", "type": "item" },
+						{ "amount": 1, "id": "CAVESPIDER_GENERATOR_3", "type": "item" },
 						{ "amount": 64, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 64, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 64, "id": "SPIDER_EYE", "type": "item" },
@@ -103,11 +103,11 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_4", "type": "item" },
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_4", "type": "item" },
 				{ "amount": 8, "id": "ENCHANTED_SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_5", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_5", "type": "item" }
 			],
 			"place": [
 				{
@@ -116,7 +116,7 @@
 						{ "amount": 1, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 1, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 1, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
-						{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_4", "type": "item" },
+						{ "amount": 1, "id": "CAVESPIDER_GENERATOR_4", "type": "item" },
 						{ "amount": 1, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 1, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 1, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
@@ -128,11 +128,11 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_5", "type": "item" },
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_5", "type": "item" },
 				{ "amount": 24, "id": "ENCHANTED_SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_6", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_6", "type": "item" }
 			],
 			"place": [
 				{
@@ -141,7 +141,7 @@
 						{ "amount": 3, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 3, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 3, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
-						{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_5", "type": "item" },
+						{ "amount": 1, "id": "CAVESPIDER_GENERATOR_5", "type": "item" },
 						{ "amount": 3, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 3, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 3, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
@@ -153,11 +153,11 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_6", "type": "item" },
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_6", "type": "item" },
 				{ "amount": 64, "id": "ENCHANTED_SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_7", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_7", "type": "item" }
 			],
 			"place": [
 				{
@@ -166,7 +166,7 @@
 						{ "amount": 8, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 8, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 8, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
-						{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_6", "type": "item" },
+						{ "amount": 1, "id": "CAVESPIDER_GENERATOR_6", "type": "item" },
 						{ "amount": 8, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 8, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 8, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
@@ -178,11 +178,11 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_7", "type": "item" },
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_7", "type": "item" },
 				{ "amount": 128, "id": "ENCHANTED_SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_8", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_8", "type": "item" }
 			],
 			"place": [
 				{
@@ -191,7 +191,7 @@
 						{ "amount": 16, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 16, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 16, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
-						{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_7", "type": "item" },
+						{ "amount": 1, "id": "CAVESPIDER_GENERATOR_7", "type": "item" },
 						{ "amount": 16, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 16, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 16, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
@@ -203,11 +203,11 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_8", "type": "item" },
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_8", "type": "item" },
 				{ "amount": 256, "id": "ENCHANTED_SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_9", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_9", "type": "item" }
 			],
 			"place": [
 				{
@@ -216,7 +216,7 @@
 						{ "amount": 32, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 32, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 32, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
-						{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_8", "type": "item" },
+						{ "amount": 1, "id": "CAVESPIDER_GENERATOR_8", "type": "item" },
 						{ "amount": 32, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 32, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 32, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
@@ -228,11 +228,11 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_9", "type": "item" },
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_9", "type": "item" },
 				{ "amount": 512, "id": "ENCHANTED_SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_10", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_10", "type": "item" }
 			],
 			"place": [
 				{
@@ -241,7 +241,7 @@
 						{ "amount": 64, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 64, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 64, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
-						{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_9", "type": "item" },
+						{ "amount": 1, "id": "CAVESPIDER_GENERATOR_9", "type": "item" },
 						{ "amount": 64, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 64, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
 						{ "amount": 64, "id": "ENCHANTED_SPIDER_EYE", "type": "item" },
@@ -253,11 +253,11 @@
 		},
 		{
 			"inputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_10", "type": "item" },
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_10", "type": "item" },
 				{ "amount": 16, "id": "ENCHANTED_FERMENTED_SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
-				{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_11", "type": "item" }
+				{ "amount": 1, "id": "CAVESPIDER_GENERATOR_11", "type": "item" }
 			],
 			"place": [
 				{
@@ -282,7 +282,7 @@
 							"id": "ENCHANTED_FERMENTED_SPIDER_EYE",
 							"type": "item"
 						},
-						{ "amount": 1, "id": "CAVE_SPIDER_GENERATOR_10", "type": "item" },
+						{ "amount": 1, "id": "CAVESPIDER_GENERATOR_10", "type": "item" },
 						{
 							"amount": 2,
 							"id": "ENCHANTED_FERMENTED_SPIDER_EYE",
