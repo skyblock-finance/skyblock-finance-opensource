@@ -3,7 +3,7 @@
 	"actions": [
 		{
 			"inputs": [
-				{ "amount": 1, "id": "WOODEN_SWORD", "type": "item" },
+				{ "amount": 1, "id": "WOOD_SWORD", "type": "item" },
 				{ "amount": 80, "id": "BLAZE_ROD", "type": "item" }
 			],
 			"outputs": [{ "amount": 1, "id": "BLAZE_GENERATOR_1", "type": "item" }],
@@ -14,7 +14,7 @@
 						{ "amount": 10, "id": "BLAZE_ROD", "type": "item" },
 						{ "amount": 10, "id": "BLAZE_ROD", "type": "item" },
 						{ "amount": 10, "id": "BLAZE_ROD", "type": "item" },
-						{ "amount": 1, "id": "WOODEN_SWORD", "type": "item" },
+						{ "amount": 1, "id": "WOOD_SWORD", "type": "item" },
 						{ "amount": 10, "id": "BLAZE_ROD", "type": "item" },
 						{ "amount": 10, "id": "BLAZE_ROD", "type": "item" },
 						{ "amount": 10, "id": "BLAZE_ROD", "type": "item" },

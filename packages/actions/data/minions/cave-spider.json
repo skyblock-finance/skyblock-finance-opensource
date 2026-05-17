@@ -3,7 +3,7 @@
 	"actions": [
 		{
 			"inputs": [
-				{ "amount": 1, "id": "WOODEN_SWORD", "type": "item" },
+				{ "amount": 1, "id": "WOOD_SWORD", "type": "item" },
 				{ "amount": 80, "id": "SPIDER_EYE", "type": "item" }
 			],
 			"outputs": [
@@ -16,7 +16,7 @@
 						{ "amount": 10, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 10, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 10, "id": "SPIDER_EYE", "type": "item" },
-						{ "amount": 1, "id": "WOODEN_SWORD", "type": "item" },
+						{ "amount": 1, "id": "WOOD_SWORD", "type": "item" },
 						{ "amount": 10, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 10, "id": "SPIDER_EYE", "type": "item" },
 						{ "amount": 10, "id": "SPIDER_EYE", "type": "item" },
