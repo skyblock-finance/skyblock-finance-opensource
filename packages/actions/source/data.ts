@@ -3,6 +3,7 @@ import { actions as _crimsonIsle } from '../data/crimson-isle.json'
 import { actions as _forging } from '../data/forging.json'
 import { actions as _gems } from '../data/gems.json'
 import { actions as _gemstones } from '../data/gemstones.json'
+import { actions as _materialsCoal } from '../data/materials/coal.json'
 import { actions as _materialsDiamond } from '../data/materials/diamond.json'
 import { actions as _materialsMithril } from '../data/materials/mithril.json'
 import { actions as _adventurer } from '../data/merchants/adventurer.json'
@@ -35,6 +36,7 @@ import { Action } from './types'
 
 // materials
 
+export const materialsCoal = _materialsCoal as Action[]
 export const materialsDiamond = _materialsDiamond as Action[]
 export const materialsMithril = _materialsMithril as Action[]
 
@@ -91,6 +93,7 @@ export const allActions: Action[] = [
 	...gemstones,
 	...hilda,
 	...marthos,
+	...materialsCoal,
 	...materialsDiamond,
 	...materialsMithril,
 	...minionsBlaze,
