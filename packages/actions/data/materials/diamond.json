@@ -1,0 +1,95 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 9, "id": "DIAMOND", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "DIAMOND_BLOCK", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "DIAMOND", "type": "item" },
+						{ "amount": 1, "id": "DIAMOND", "type": "item" },
+						{ "amount": 1, "id": "DIAMOND", "type": "item" },
+						{ "amount": 1, "id": "DIAMOND", "type": "item" },
+						{ "amount": 1, "id": "DIAMOND", "type": "item" },
+						{ "amount": 1, "id": "DIAMOND", "type": "item" },
+						{ "amount": 1, "id": "DIAMOND", "type": "item" },
+						{ "amount": 1, "id": "DIAMOND", "type": "item" },
+						{ "amount": 1, "id": "DIAMOND", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "DIAMOND", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_DIAMOND", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 32, "id": "DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "DIAMOND", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "DIAMOND", "type": "item" },
+						null,
+						{ "amount": 32, "id": "DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "DIAMOND", "type": "item" },
+						null,
+						{ "amount": 32, "id": "DIAMOND", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "ENCHANTED_DIAMOND", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTED_DIAMOND_BLOCK", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 32, "id": "ENCHANTED_DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_DIAMOND", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "ENCHANTED_DIAMOND", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_DIAMOND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_DIAMOND", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_DIAMOND", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}

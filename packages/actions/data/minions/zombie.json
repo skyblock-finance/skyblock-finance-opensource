@@ -1,0 +1,258 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [
+				{ "amount": 1, "id": "WOOD_SWORD", "type": "item" },
+				{ "amount": 80, "id": "ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_1", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 10, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 10, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 10, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 10, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "WOOD_SWORD", "type": "item" },
+						{ "amount": 10, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 10, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 10, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 10, "id": "ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ZOMBIE_GENERATOR_1", "type": "item" },
+				{ "amount": 160, "id": "ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_2", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 20, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 20, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 20, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 20, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ZOMBIE_GENERATOR_1", "type": "item" },
+						{ "amount": 20, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 20, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 20, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 20, "id": "ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ZOMBIE_GENERATOR_2", "type": "item" },
+				{ "amount": 320, "id": "ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_3", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 40, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 40, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 40, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 40, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ZOMBIE_GENERATOR_2", "type": "item" },
+						{ "amount": 40, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 40, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 40, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 40, "id": "ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ZOMBIE_GENERATOR_3", "type": "item" },
+				{ "amount": 512, "id": "ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_4", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ZOMBIE_GENERATOR_3", "type": "item" },
+						{ "amount": 64, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ZOMBIE_GENERATOR_4", "type": "item" },
+				{ "amount": 8, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_5", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ZOMBIE_GENERATOR_4", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ZOMBIE_GENERATOR_5", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_6", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 2, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ZOMBIE_GENERATOR_5", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 2, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ZOMBIE_GENERATOR_6", "type": "item" },
+				{ "amount": 32, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_7", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 4, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ZOMBIE_GENERATOR_6", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 4, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ZOMBIE_GENERATOR_7", "type": "item" },
+				{ "amount": 64, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_8", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 8, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ZOMBIE_GENERATOR_7", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ZOMBIE_GENERATOR_8", "type": "item" },
+				{ "amount": 128, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_9", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ZOMBIE_GENERATOR_8", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 16, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ZOMBIE_GENERATOR_9", "type": "item" },
+				{ "amount": 256, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_10", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 32, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ZOMBIE_GENERATOR_9", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ZOMBIE_GENERATOR_10", "type": "item" },
+				{ "amount": 512, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ZOMBIE_GENERATOR_11", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 64, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 1, "id": "ZOMBIE_GENERATOR_10", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_ROTTEN_FLESH", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}

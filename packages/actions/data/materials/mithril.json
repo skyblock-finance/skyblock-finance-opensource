@@ -1,0 +1,39 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 160, "id": "MITHRIL_ORE", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_MITHRIL", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 32, "id": "MITHRIL_ORE", "type": "item" },
+						{ "amount": 32, "id": "MITHRIL_ORE", "type": "item" },
+						{ "amount": 32, "id": "MITHRIL_ORE", "type": "item" },
+						{ "amount": 32, "id": "MITHRIL_ORE", "type": "item" },
+						{ "amount": 32, "id": "MITHRIL_ORE", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "MITHRIL_ORE", "type": "item" },
+						null,
+						{ "amount": 32, "id": "MITHRIL_ORE", "type": "item" },
+						{ "amount": 32, "id": "MITHRIL_ORE", "type": "item" },
+						{ "amount": 32, "id": "MITHRIL_ORE", "type": "item" },
+						null,
+						{ "amount": 32, "id": "MITHRIL_ORE", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}
