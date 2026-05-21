@@ -23,6 +23,13 @@ const _npcs: Record<NpcId, NpcMetadata> = {
 		},
 		name: 'Alchemist',
 	},
+	BINGO: {
+		links: {
+			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Bingo_(NPC)',
+			hypixelWiki: 'https://wiki.hypixel.net/Bingo_(NPC)',
+		},
+		name: 'Bingo',
+	},
 	BUBU: {
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Bubu',

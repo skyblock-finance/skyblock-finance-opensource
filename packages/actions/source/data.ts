@@ -7,6 +7,7 @@ import { actions as _materialsCoal } from '../data/materials/coal.json'
 import { actions as _materialsDiamond } from '../data/materials/diamond.json'
 import { actions as _materialsMithril } from '../data/materials/mithril.json'
 import { actions as _adventurer } from '../data/merchants/adventurer.json'
+import { actions as _bingo } from '../data/merchants/bingo.json'
 import { actions as _bubu } from '../data/merchants/bubu.json'
 import { actions as _bulvar } from '../data/merchants/bulvar.json'
 import { actions as _einary } from '../data/merchants/einary.json'
@@ -43,6 +44,7 @@ export const materialsMithril = _materialsMithril as Action[]
 // merchants
 
 export const adventurer = _adventurer as Action[]
+export const bingo = _bingo as Action[]
 export const bubu = _bubu as Action[]
 export const bulvar = _bulvar as Action[]
 export const einary = _einary as Action[]
@@ -81,6 +83,7 @@ export const wood = _wood as Action[]
 
 export const allActions: Action[] = [
 	...adventurer,
+	...bingo,
 	...bitsCrafts,
 	...bubu,
 	...bulvar,

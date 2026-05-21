@@ -9,6 +9,7 @@ export const actionIoCrystalSchema = z.strictObject({
 export const actionIoCurrencySchema = z.strictObject({
 	amount: z.number(),
 	id: z.enum([
+		'bingo-point',
 		'bit',
 		'coin',
 		'copper',
@@ -37,6 +38,7 @@ export const actionIoSchema = z.discriminatedUnion('type', [
 export const npcIdSchema = z.enum([
 	'ADVENTURER',
 	'ALCHEMIST',
+	'BINGO',
 	'BUBU',
 	'BULVAR',
 	'EINARY',

@@ -37,6 +37,7 @@
 										},
 										"id": {
 											"enum": [
+												"bingo-point",
 												"bit",
 												"coin",
 												"copper",
@@ -106,6 +107,7 @@
 										},
 										"id": {
 											"enum": [
+												"bingo-point",
 												"bit",
 												"coin",
 												"copper",

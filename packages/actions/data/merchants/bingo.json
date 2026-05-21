@@ -1,0 +1,79 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 50, "id": "bingo-point", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BINGO_DISPLAY", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 30, "id": "bingo-point", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "COLLECTION_DISPLAY", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 30, "id": "bingo-point", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BONZO_STATUE", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 5, "id": "bingo-point", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BOOK_OF_STATS", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 150, "id": "bingo-point", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SPRING_BOOTS", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "bingo-point", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "GOLDEN_DANTE_STATUE", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 50, "id": "bingo-point", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "DITTO_SKULL", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "bingo-point", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BINGO_TALISMAN", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 150, "id": "bingo-point", "type": "currency" },
+				{ "amount": 1, "id": "BINGO_TALISMAN", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "BINGO_RING", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 150, "id": "bingo-point", "type": "currency" },
+				{ "amount": 1, "id": "BINGO_RING", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "BINGO_ARTIFACT", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 200, "id": "bingo-point", "type": "currency" },
+				{ "amount": 1, "id": "BINGO_ARTIFACT", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "BINGO_RELIC", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 500, "id": "bingo-point", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "DYE_BINGO_BLUE", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "bingo-point", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "DITTO_SKIN", "type": "item" }],
+			"place": [{ "id": "BINGO", "type": "npc" }]
+		}
+	]
+}
