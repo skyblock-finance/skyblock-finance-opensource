@@ -1,0 +1,107 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 80, "id": "LOTUS", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "LOTUS_SILVER", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "LOTUS", "type": "item" },
+						{ "amount": 16, "id": "LOTUS", "type": "item" },
+						{ "amount": 16, "id": "LOTUS", "type": "item" },
+						{ "amount": 16, "id": "LOTUS", "type": "item" },
+						{ "amount": 16, "id": "LOTUS", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "LOTUS", "type": "item" },
+						null,
+						{ "amount": 16, "id": "LOTUS", "type": "item" },
+						{ "amount": 16, "id": "LOTUS", "type": "item" },
+						{ "amount": 16, "id": "LOTUS", "type": "item" },
+						null,
+						{ "amount": 16, "id": "LOTUS", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 80, "id": "LOTUS_SILVER", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "LOTUS_GOLD", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 16, "id": "LOTUS_SILVER", "type": "item" },
+						{ "amount": 16, "id": "LOTUS_SILVER", "type": "item" },
+						{ "amount": 16, "id": "LOTUS_SILVER", "type": "item" },
+						{ "amount": 16, "id": "LOTUS_SILVER", "type": "item" },
+						{ "amount": 16, "id": "LOTUS_SILVER", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 16, "id": "LOTUS_SILVER", "type": "item" },
+						null,
+						{ "amount": 16, "id": "LOTUS_SILVER", "type": "item" },
+						{ "amount": 16, "id": "LOTUS_SILVER", "type": "item" },
+						{ "amount": 16, "id": "LOTUS_SILVER", "type": "item" },
+						null,
+						{ "amount": 16, "id": "LOTUS_SILVER", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 20, "id": "LOTUS_GOLD", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "LOTUS_DIAMOND", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 4, "id": "LOTUS_GOLD", "type": "item" },
+						{ "amount": 4, "id": "LOTUS_GOLD", "type": "item" },
+						{ "amount": 4, "id": "LOTUS_GOLD", "type": "item" },
+						{ "amount": 4, "id": "LOTUS_GOLD", "type": "item" },
+						{ "amount": 4, "id": "LOTUS_GOLD", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 4, "id": "LOTUS_GOLD", "type": "item" },
+						null,
+						{ "amount": 4, "id": "LOTUS_GOLD", "type": "item" },
+						{ "amount": 4, "id": "LOTUS_GOLD", "type": "item" },
+						{ "amount": 4, "id": "LOTUS_GOLD", "type": "item" },
+						null,
+						{ "amount": 4, "id": "LOTUS_GOLD", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}

@@ -6,6 +6,7 @@ import { actions as _gemstones } from '../data/gemstones.json'
 import { actions as _materialsCoal } from '../data/materials/coal.json'
 import { actions as _materialsDiamond } from '../data/materials/diamond.json'
 import { actions as _materialsLily } from '../data/materials/lily.json'
+import { actions as _materialsLotus } from '../data/materials/lotus.json'
 import { actions as _materialsMithril } from '../data/materials/mithril.json'
 import { actions as _materialsMycelium } from '../data/materials/mycelium.json'
 import { actions as _materialsRedSand } from '../data/materials/red-sand.json'
@@ -17,6 +18,7 @@ import { actions as _einary } from '../data/merchants/einary.json'
 import { actions as _elizabeth } from '../data/merchants/elizabeth.json'
 import { actions as _fishingMerchant } from '../data/merchants/fishing-merchant.json'
 import { actions as _hilda } from '../data/merchants/hilda.json'
+import { actions as _lotusEater } from '../data/merchants/lotus-eater.json'
 import { actions as _marthos } from '../data/merchants/marthos.json'
 import { actions as _phillip } from '../data/merchants/phillip.json'
 import { actions as _plumberJoe } from '../data/merchants/plumber-joe.json'
@@ -46,6 +48,7 @@ import { Action } from './types'
 export const materialsCoal = _materialsCoal as Action[]
 export const materialsDiamond = _materialsDiamond as Action[]
 export const materialsLily = _materialsLily as Action[]
+export const materialsLotus = _materialsLotus as Action[]
 export const materialsMithril = _materialsMithril as Action[]
 export const materialsMycelium = _materialsMycelium as Action[]
 export const materialsRedSand = _materialsRedSand as Action[]
@@ -60,6 +63,7 @@ export const einary = _einary as Action[]
 export const elizabeth = _elizabeth as Action[]
 export const fishingMerchant = _fishingMerchant as Action[]
 export const hilda = _hilda as Action[]
+export const lotusEater = _lotusEater as Action[]
 export const marthos = _marthos as Action[]
 export const phillip = _phillip as Action[]
 export const plumberJoe = _plumberJoe as Action[]
@@ -107,10 +111,12 @@ export const allActions: Action[] = [
 	...gems,
 	...gemstones,
 	...hilda,
+	...lotusEater,
 	...marthos,
 	...materialsCoal,
 	...materialsDiamond,
 	...materialsLily,
+	...materialsLotus,
 	...materialsMithril,
 	...materialsMycelium,
 	...materialsRedSand,
