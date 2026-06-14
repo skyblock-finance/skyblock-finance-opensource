@@ -5,7 +5,10 @@ import { actions as _gems } from '../data/gems.json'
 import { actions as _gemstones } from '../data/gemstones.json'
 import { actions as _materialsCoal } from '../data/materials/coal.json'
 import { actions as _materialsDiamond } from '../data/materials/diamond.json'
+import { actions as _materialsLily } from '../data/materials/lily.json'
 import { actions as _materialsMithril } from '../data/materials/mithril.json'
+import { actions as _materialsMycelium } from '../data/materials/mycelium.json'
+import { actions as _materialsRedSand } from '../data/materials/red-sand.json'
 import { actions as _adventurer } from '../data/merchants/adventurer.json'
 import { actions as _bingo } from '../data/merchants/bingo.json'
 import { actions as _bubu } from '../data/merchants/bubu.json'
@@ -25,13 +28,16 @@ import { actions as _minionsCaveSpider } from '../data/minions/cave-spider.json'
 import { actions as _minionsCreeper } from '../data/minions/creeper.json'
 import { actions as _minionsEnderman } from '../data/minions/enderman.json'
 import { actions as _minionsGhast } from '../data/minions/ghast.json'
+import { actions as _minionsLilyPad } from '../data/minions/lily-pad.json'
+import { actions as _minionsMycelium } from '../data/minions/mycelium.json'
+import { actions as _minionsRedSand } from '../data/minions/red-sand.json'
 import { actions as _minionsSkeleton } from '../data/minions/skeleton.json'
 import { actions as _minionsSlime } from '../data/minions/slime.json'
 import { actions as _minionsSpider } from '../data/minions/spider.json'
 import { actions as _minionsVampire } from '../data/minions/vampire.json'
 import { actions as _minionsZombie } from '../data/minions/zombie.json'
 import { actions as _northStarsCrafts } from '../data/north-stars-crafts.json'
-import { actions as _wood } from '../data/wood.json'
+import { actions as _vanilla } from '../data/vanilla.json'
 
 import { Action } from './types'
 
@@ -39,7 +45,10 @@ import { Action } from './types'
 
 export const materialsCoal = _materialsCoal as Action[]
 export const materialsDiamond = _materialsDiamond as Action[]
+export const materialsLily = _materialsLily as Action[]
 export const materialsMithril = _materialsMithril as Action[]
+export const materialsMycelium = _materialsMycelium as Action[]
+export const materialsRedSand = _materialsRedSand as Action[]
 
 // merchants
 
@@ -65,6 +74,9 @@ export const minionsCaveSpider = _minionsCaveSpider as Action[]
 export const minionsCreeper = _minionsCreeper as Action[]
 export const minionsEnderman = _minionsEnderman as Action[]
 export const minionsGhast = _minionsGhast as Action[]
+export const minionsLilyPad = _minionsLilyPad as Action[]
+export const minionsMycelium = _minionsMycelium as Action[]
+export const minionsRedSand = _minionsRedSand as Action[]
 export const minionsSkeleton = _minionsSkeleton as Action[]
 export const minionsSlime = _minionsSlime as Action[]
 export const minionsSpider = _minionsSpider as Action[]
@@ -79,7 +91,7 @@ export const forging = _forging as Action[]
 export const gems = _gems as Action[]
 export const gemstones = _gemstones as Action[]
 export const northStarsCrafts = _northStarsCrafts as Action[]
-export const wood = _wood as Action[]
+export const vanilla = _vanilla as Action[]
 
 export const allActions: Action[] = [
 	...adventurer,
@@ -98,12 +110,18 @@ export const allActions: Action[] = [
 	...marthos,
 	...materialsCoal,
 	...materialsDiamond,
+	...materialsLily,
 	...materialsMithril,
+	...materialsMycelium,
+	...materialsRedSand,
 	...minionsBlaze,
 	...minionsCaveSpider,
 	...minionsCreeper,
 	...minionsEnderman,
 	...minionsGhast,
+	...minionsLilyPad,
+	...minionsMycelium,
+	...minionsRedSand,
 	...minionsSkeleton,
 	...minionsSlime,
 	...minionsSpider,
@@ -115,5 +133,5 @@ export const allActions: Action[] = [
 	...seymour,
 	...skymart,
 	...smithmonger,
-	...wood,
+	...vanilla,
 ]

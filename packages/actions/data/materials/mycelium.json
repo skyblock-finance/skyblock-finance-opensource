@@ -1,0 +1,75 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 160, "id": "MYCEL", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_MYCELIUM", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 32, "id": "MYCEL", "type": "item" },
+						{ "amount": 32, "id": "MYCEL", "type": "item" },
+						{ "amount": 32, "id": "MYCEL", "type": "item" },
+						{ "amount": 32, "id": "MYCEL", "type": "item" },
+						{ "amount": 32, "id": "MYCEL", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "MYCEL", "type": "item" },
+						null,
+						{ "amount": 32, "id": "MYCEL", "type": "item" },
+						{ "amount": 32, "id": "MYCEL", "type": "item" },
+						{ "amount": 32, "id": "MYCEL", "type": "item" },
+						null,
+						{ "amount": 32, "id": "MYCEL", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "ENCHANTED_MYCELIUM", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTED_MYCELIUM_CUBE", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 32, "id": "ENCHANTED_MYCELIUM", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_MYCELIUM", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_MYCELIUM", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_MYCELIUM", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_MYCELIUM", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "ENCHANTED_MYCELIUM", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_MYCELIUM", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_MYCELIUM", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_MYCELIUM", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_MYCELIUM", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}

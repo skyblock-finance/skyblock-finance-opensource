@@ -1,0 +1,75 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 160, "id": "SAND:1", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTED_RED_SAND", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 32, "id": "SAND:1", "type": "item" },
+						{ "amount": 32, "id": "SAND:1", "type": "item" },
+						{ "amount": 32, "id": "SAND:1", "type": "item" },
+						{ "amount": 32, "id": "SAND:1", "type": "item" },
+						{ "amount": 32, "id": "SAND:1", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "SAND:1", "type": "item" },
+						null,
+						{ "amount": 32, "id": "SAND:1", "type": "item" },
+						{ "amount": 32, "id": "SAND:1", "type": "item" },
+						{ "amount": 32, "id": "SAND:1", "type": "item" },
+						null,
+						{ "amount": 32, "id": "SAND:1", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 160, "id": "ENCHANTED_RED_SAND", "type": "item" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTED_RED_SAND_CUBE", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 32, "id": "ENCHANTED_RED_SAND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_RED_SAND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_RED_SAND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_RED_SAND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_RED_SAND", "type": "item" },
+						null,
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				},
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "ENCHANTED_RED_SAND", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_RED_SAND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_RED_SAND", "type": "item" },
+						{ "amount": 32, "id": "ENCHANTED_RED_SAND", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_RED_SAND", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}
