@@ -22,6 +22,7 @@ import { actions as _lotusEater } from '../data/merchants/lotus-eater.json'
 import { actions as _marthos } from '../data/merchants/marthos.json'
 import { actions as _phillip } from '../data/merchants/phillip.json'
 import { actions as _plumberJoe } from '../data/merchants/plumber-joe.json'
+import { actions as _researcherBeryl } from '../data/merchants/researcher-beryl.json'
 import { actions as _seymour } from '../data/merchants/seymour.json'
 import { actions as _skymart } from '../data/merchants/skymart.json'
 import { actions as _smithmonger } from '../data/merchants/smithmonger.json'
@@ -67,6 +68,7 @@ export const lotusEater = _lotusEater as Action[]
 export const marthos = _marthos as Action[]
 export const phillip = _phillip as Action[]
 export const plumberJoe = _plumberJoe as Action[]
+export const researcherBeryl = _researcherBeryl as Action[]
 export const seymour = _seymour as Action[]
 export const skymart = _skymart as Action[]
 export const smithmonger = _smithmonger as Action[]
@@ -136,6 +138,7 @@ export const allActions: Action[] = [
 	...northStarsCrafts,
 	...phillip,
 	...plumberJoe,
+	...researcherBeryl,
 	...seymour,
 	...skymart,
 	...smithmonger,

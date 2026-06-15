@@ -102,6 +102,14 @@ const _npcs: Record<NpcId, NpcMetadata> = {
 		},
 		name: 'Plumber Joe',
 	},
+	RESEARCHER_BERYL: {
+		links: {
+			communityWiki:
+				'https://hypixelskyblock.minecraft.wiki/w/Researcher_Beryl',
+			hypixelWiki: null,
+		},
+		name: 'Researcher Beryl',
+	},
 	SEYMOUR: {
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Seymour',

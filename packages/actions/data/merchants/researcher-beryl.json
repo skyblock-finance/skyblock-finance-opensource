@@ -1,0 +1,25 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 5, "id": "ESSENCE_FOSSIL", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "CHISEL", "type": "item" }],
+			"place": [
+				{
+					"id": "RESEARCHER_BERYL",
+					"type": "npc"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "ESSENCE_FOSSIL", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "SUSPICIOUS_SCRAP", "type": "item" }],
+			"place": [
+				{
+					"id": "RESEARCHER_BERYL",
+					"type": "npc"
+				}
+			]
+		}
+	]
+}

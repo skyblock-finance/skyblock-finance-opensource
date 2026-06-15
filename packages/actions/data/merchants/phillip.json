@@ -183,7 +183,7 @@
 		},
 		{
 			"inputs": [{ "amount": 500, "id": "pest", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "SF:PET_HEDGEHOG", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "HEDGEHOG", "type": "pet" }],
 			"place": [{ "id": "PHILLIP", "type": "npc" }]
 		}
 	]

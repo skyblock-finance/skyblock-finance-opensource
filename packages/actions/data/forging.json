@@ -3,6 +3,909 @@
 	"actions": [
 		{
 			"inputs": [
+				{ "amount": 2, "id": "ENCHANTED_DIAMOND_BLOCK", "type": "item" },
+				{ "amount": 28800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "REFINED_DIAMOND", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 160, "id": "ENCHANTED_MITHRIL", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "REFINED_MITHRIL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 16, "id": "ENCHANTED_TITANIUM", "type": "item" },
+				{ "amount": 43200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "REFINED_TITANIUM", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 160, "id": "ENCHANTED_TUNGSTEN", "type": "item" },
+				{ "amount": 3600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "REFINED_TUNGSTEN", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 160, "id": "ENCHANTED_UMBER", "type": "item" },
+				{ "amount": 3600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "REFINED_UMBER", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 3, "id": "GLACITE_JEWEL", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BEJEWELED_HANDLE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 10, "id": "TREASURITE", "type": "item" },
+				{ "amount": 1, "id": "ENCHANTED_IRON_BLOCK", "type": "item" },
+				{ "amount": 3, "id": "ENCHANTED_REDSTONE_BLOCK", "type": "item" },
+				{ "amount": 1, "id": "GOLDEN_PLATE", "type": "item" },
+				{ "amount": 108000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "DRILL_ENGINE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "ENCHANTED_COAL_BLOCK", "type": "item" },
+				{ "amount": 36000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "FUEL_TANK", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "FINE_JADE_GEM", "type": "item" },
+				{ "amount": 4, "id": "FINE_AMBER_GEM", "type": "item" },
+				{ "amount": 4, "id": "FINE_AMETHYST_GEM", "type": "item" },
+				{ "amount": 4, "id": "FINE_SAPPHIRE_GEM", "type": "item" },
+				{ "amount": 320, "id": "SLUDGE_JUICE", "type": "item" },
+				{ "amount": 14400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GEMSTONE_MIXTURE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 4, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "FINE_ONYX_GEM", "type": "item" },
+				{ "amount": 4, "id": "FINE_CITRINE_GEM", "type": "item" },
+				{ "amount": 4, "id": "FINE_PERIDOT_GEM", "type": "item" },
+				{ "amount": 4, "id": "FINE_AQUAMARINE_GEM", "type": "item" },
+				{ "amount": 256, "id": "ENCHANTED_GLACITE", "type": "item" },
+				{ "amount": 14400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "GLACITE_AMALGAMATION", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "REFINED_DIAMOND", "type": "item" },
+				{ "amount": 2, "id": "ENCHANTED_GOLD_BLOCK", "type": "item" },
+				{ "amount": 5, "id": "GLACITE_JEWEL", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GOLDEN_PLATE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 5, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 1, "id": "GOLDEN_PLATE", "type": "item" },
+				{ "amount": 1, "id": "ENCHANTED_IRON_BLOCK", "type": "item" },
+				{ "amount": 64800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_PLATE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "REFINED_TUNGSTEN", "type": "item" },
+				{ "amount": 1, "id": "GLACITE_AMALGAMATION", "type": "item" },
+				{ "amount": 10800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TUNGSTEN_PLATE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "REFINED_UMBER", "type": "item" },
+				{ "amount": 1, "id": "GLACITE_AMALGAMATION", "type": "item" },
+				{ "amount": 10800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "UMBER_PLATE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "UMBER_PLATE", "type": "item" },
+				{ "amount": 1, "id": "TUNGSTEN_PLATE", "type": "item" },
+				{ "amount": 1, "id": "MITHRIL_PLATE", "type": "item" },
+				{ "amount": 1800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_PLATE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 10, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 3, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 1, "id": "FUEL_TANK", "type": "item" },
+				{ "amount": 1, "id": "DRILL_ENGINE", "type": "item" },
+				{ "amount": 14400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_DRILL_1", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MITHRIL_DRILL_1", "type": "item" },
+				{ "amount": 5, "id": "GOLDEN_PLATE", "type": "item" },
+				{ "amount": 1, "id": "MITHRIL_PLATE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_DRILL_2", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 6, "id": "FINE_RUBY_GEM", "type": "item" },
+				{ "amount": 1, "id": "FUEL_TANK", "type": "item" },
+				{ "amount": 1, "id": "DRILL_ENGINE", "type": "item" },
+				{ "amount": 14400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GEMSTONE_DRILL_1", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 4, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GEMSTONE_DRILL_1", "type": "item" },
+				{ "amount": 3, "id": "GEMSTONE_MIXTURE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GEMSTONE_DRILL_2", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 4, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GEMSTONE_DRILL_2", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_TOPAZ_GEM", "type": "item" },
+				{ "amount": 3, "id": "GEMSTONE_MIXTURE", "type": "item" },
+				{ "amount": 8, "id": "MAGMA_CORE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GEMSTONE_DRILL_3", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GEMSTONE_DRILL_3", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_JASPER_GEM", "type": "item" },
+				{ "amount": 100, "id": "TREASURITE", "type": "item" },
+				{ "amount": 16, "id": "MAGMA_CORE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GEMSTONE_DRILL_4", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 6, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "FLAWLESS_TOPAZ_GEM", "type": "item" },
+				{ "amount": 3, "id": "BEJEWELED_HANDLE", "type": "item" },
+				{ "amount": 43200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "POLISHED_TOPAZ_ROD", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 8, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 8, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 1, "id": "DRILL_ENGINE", "type": "item" },
+				{ "amount": 1, "id": "FUEL_TANK", "type": "item" },
+				{ "amount": 6, "id": "GOLDEN_PLATE", "type": "item" },
+				{ "amount": 14400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_DRILL_1", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "TITANIUM_DRILL_1", "type": "item" },
+				{ "amount": 10, "id": "REFINED_DIAMOND", "type": "item" },
+				{ "amount": 12, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 5, "id": "MITHRIL_PLATE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_DRILL_2", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "TITANIUM_DRILL_2", "type": "item" },
+				{ "amount": 20, "id": "REFINED_DIAMOND", "type": "item" },
+				{ "amount": 16, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 2, "id": "ENCHANTED_IRON_BLOCK", "type": "item" },
+				{ "amount": 10, "id": "MITHRIL_PLATE", "type": "item" },
+				{ "amount": 20, "id": "PLASMA", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_DRILL_3", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "TITANIUM_DRILL_3", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_RUBY_GEM", "type": "item" },
+				{ "amount": 30, "id": "CORLEONITE", "type": "item" },
+				{ "amount": 5, "id": "REFINED_DIAMOND", "type": "item" },
+				{ "amount": 32, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 16, "id": "GEMSTONE_MIXTURE", "type": "item" },
+				{ "amount": 10, "id": "MITHRIL_PLATE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_DRILL_4", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 6, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "TITANIUM_DRILL_4", "type": "item" },
+				{ "amount": 1, "id": "DIVAN_ALLOY", "type": "item" },
+				{ "amount": 50000000, "id": "coin", "type": "currency" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "DIVAN_DRILL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CHISEL", "type": "item" },
+				{ "amount": 2, "id": "REFINED_TUNGSTEN", "type": "item" },
+				{ "amount": 2, "id": "REFINED_UMBER", "type": "item" },
+				{ "amount": 1, "id": "BEJEWELED_HANDLE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "REINFORCED_CHISEL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 8, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "REINFORCED_CHISEL", "type": "item" },
+				{ "amount": 8, "id": "GLACITE_AMALGAMATION", "type": "item" },
+				{ "amount": 1, "id": "MITHRIL_PLATE", "type": "item" },
+				{ "amount": 1, "id": "BEJEWELED_HANDLE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GLACITE_CHISEL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 9, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GLACITE_CHISEL", "type": "item" },
+				{ "amount": 1, "id": "PERFECT_PLATE", "type": "item" },
+				{ "amount": 1, "id": "BEJEWELED_HANDLE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PERFECT_CHISEL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 10, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 3, "id": "ENCHANTED_MITHRIL", "type": "item" },
+				{ "amount": 3600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_NECKLACE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 3, "id": "ENCHANTED_MITHRIL", "type": "item" },
+				{ "amount": 3600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_CLOAK", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 3, "id": "ENCHANTED_MITHRIL", "type": "item" },
+				{ "amount": 3600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_BELT", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 3, "id": "ENCHANTED_MITHRIL", "type": "item" },
+				{ "amount": 3600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_GAUNTLET", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 16, "id": "REFINED_MINERAL", "type": "item" },
+				{ "amount": 1, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 1, "id": "MITHRIL_NECKLACE", "type": "item" },
+				{ "amount": 16200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_NECKLACE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 16, "id": "REFINED_MINERAL", "type": "item" },
+				{ "amount": 1, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 1, "id": "MITHRIL_CLOAK", "type": "item" },
+				{ "amount": 16200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_CLOAK", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 16, "id": "REFINED_MINERAL", "type": "item" },
+				{ "amount": 1, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 1, "id": "MITHRIL_BELT", "type": "item" },
+				{ "amount": 16200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_BELT", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 16, "id": "REFINED_MINERAL", "type": "item" },
+				{ "amount": 1, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 1, "id": "MITHRIL_GAUNTLET", "type": "item" },
+				{ "amount": 16200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_GAUNTLET", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 50400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_TALISMAN", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 6, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 1, "id": "TITANIUM_TALISMAN", "type": "item" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_RING", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 12, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 1, "id": "TITANIUM_RING", "type": "item" },
+				{ "amount": 129600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_ARTIFACT", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 4, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 20, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 1, "id": "TITANIUM_ARTIFACT", "type": "item" },
+				{ "amount": 259200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_RELIC", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 32, "id": "GLOSSY_GEMSTONE", "type": "item" },
+				{ "amount": 32, "id": "REFINED_MINERAL", "type": "item" },
+				{ "amount": 5, "id": "DIVAN_FRAGMENT", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_GOLD_BLOCK", "type": "item" },
+				{ "amount": 129600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "DIVAN_POWDER_COATING", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 4, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FLAWLESS_RUBY_GEM", "type": "item" },
+				{ "amount": 5, "id": "DIVAN_FRAGMENT", "type": "item" },
+				{ "amount": 10, "id": "GEMSTONE_MIXTURE", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "DIVAN_HELMET", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 6, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FLAWLESS_RUBY_GEM", "type": "item" },
+				{ "amount": 8, "id": "DIVAN_FRAGMENT", "type": "item" },
+				{ "amount": 10, "id": "GEMSTONE_MIXTURE", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "DIVAN_CHESTPLATE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 6, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FLAWLESS_RUBY_GEM", "type": "item" },
+				{ "amount": 7, "id": "DIVAN_FRAGMENT", "type": "item" },
+				{ "amount": 10, "id": "GEMSTONE_MIXTURE", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "DIVAN_LEGGINGS", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 6, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FLAWLESS_RUBY_GEM", "type": "item" },
+				{ "amount": 4, "id": "DIVAN_FRAGMENT", "type": "item" },
+				{ "amount": 10, "id": "GEMSTONE_MIXTURE", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "DIVAN_BOOTS", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 6, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 32, "id": "GLOSSY_GEMSTONE", "type": "item" },
+				{ "amount": 2, "id": "FLAWLESS_AMBER_GEM", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "AMBER_NECKLACE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 32, "id": "GLOSSY_GEMSTONE", "type": "item" },
+				{ "amount": 2, "id": "FLAWLESS_SAPPHIRE_GEM", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "SAPPHIRE_CLOAK", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 32, "id": "GLOSSY_GEMSTONE", "type": "item" },
+				{ "amount": 2, "id": "FLAWLESS_JADE_GEM", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "JADE_BELT", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 32, "id": "GLOSSY_GEMSTONE", "type": "item" },
+				{ "amount": 2, "id": "FLAWLESS_AMETHYST_GEM", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "AMETHYST_GAUNTLET", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 100, "id": "WORM_MEMBRANE", "type": "item" },
+				{ "amount": 1, "id": "GEMSTONE_MIXTURE", "type": "item" },
+				{ "amount": 25000, "id": "coin", "type": "currency" },
+				{ "amount": 14400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GEMSTONE_CHAMBER", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FLAWLESS_JADE_GEM", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_AMBER_GEM", "type": "item" },
+				{ "amount": 1, "id": "TUNGSTEN_PLATE", "type": "item" },
+				{ "amount": 1, "id": "UMBER_PLATE", "type": "item" },
+				{ "amount": 14400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "DWARVEN_HANDWARMERS", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 8, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "REFINED_UMBER", "type": "item" },
+				{ "amount": 4, "id": "REFINED_TUNGSTEN", "type": "item" },
+				{ "amount": 4, "id": "GLACITE_AMALGAMATION", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "DWARVEN_METAL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 8, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SHATTERED_PENDANT", "type": "item" },
+				{ "amount": 1, "id": "PERFECT_PLATE", "type": "item" },
+				{ "amount": 10, "id": "DIVAN_FRAGMENT", "type": "item" },
+				{ "amount": 604800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "DIVAN_PENDANT", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 10, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "POWER_ARTIFACT", "type": "item" },
+				{ "amount": 1, "id": "PERFECT_PLATE", "type": "item" },
+				{ "amount": 32, "id": "GLACITE_AMALGAMATION", "type": "item" },
+				{ "amount": 28800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "POWER_RELIC", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 10, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 3, "id": "REFINED_DIAMOND", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "DIAMONITE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "GLACITE_JEWEL", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "POCKET_ICEBERG", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 512, "id": "STARFALL", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PETRIFIED_STARFALL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PURE_MITHRIL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 128, "id": "ENCHANTED_COBBLESTONE", "type": "item" },
+				{ "amount": 64, "id": "TREASURITE", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "ROCK_GEMSTONE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_LAPIS_LAZULI", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_TESSERACT", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 32, "id": "GLOSSY_GEMSTONE", "type": "item" },
+				{ "amount": 1, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 2, "id": "REFINED_DIAMOND", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GLEAMING_CRYSTAL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 4, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 128, "id": "ENCHANTED_HARD_STONE", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_TOPAZ_GEM", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "HOT_STUFF", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 4, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 12, "id": "FINE_AMBER_GEM", "type": "item" },
+				{ "amount": 1, "id": "GOLDEN_PLATE", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "AMBER_MATERIAL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 6, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "GLACITE_AMALGAMATION", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_ONYX_GEM", "type": "item" },
+				{ "amount": 21600, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "FRIGID_HUSK", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 16, "id": "TREASURITE", "type": "item" },
+				{ "amount": 64, "id": "STARFALL", "type": "item" },
+				{ "amount": 64800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "STARFALL_SEASONING", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 96, "id": "GOBLIN_EGG", "type": "item" },
+				{ "amount": 64800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GOBLIN_OMELETTE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 96, "id": "GOBLIN_EGG_BLUE", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_SAPPHIRE_GEM", "type": "item" },
+				{ "amount": 1, "id": "GOBLIN_OMELETTE", "type": "item" },
+				{ "amount": 64800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "GOBLIN_OMELETTE_BLUE_CHEESE", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 96, "id": "GOBLIN_EGG_GREEN", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_JADE_GEM", "type": "item" },
+				{ "amount": 1, "id": "GOBLIN_OMELETTE", "type": "item" },
+				{ "amount": 64800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "GOBLIN_OMELETTE_PESTO", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 96, "id": "GOBLIN_EGG_RED", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_RUBY_GEM", "type": "item" },
+				{ "amount": 1, "id": "GOBLIN_OMELETTE", "type": "item" },
+				{ "amount": 64800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "GOBLIN_OMELETTE_SPICY", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 96, "id": "GOBLIN_EGG_YELLOW", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_TOPAZ_GEM", "type": "item" },
+				{ "amount": 1, "id": "GOBLIN_OMELETTE", "type": "item" },
+				{ "amount": 64800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "GOBLIN_OMELETTE_SUNNY_SIDE", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "PERFECT_OPAL_GEM", "type": "item" },
+				{ "amount": 5, "id": "FUEL_TANK", "type": "item" },
+				{ "amount": 5, "id": "TUNGSTEN_PLATE", "type": "item" },
+				{ "amount": 64800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TUNGSTEN_KEYCHAIN", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 8, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "DRILL_ENGINE", "type": "item" },
+				{ "amount": 1, "id": "MITHRIL_PLATE", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "MITHRIL_DRILL_ENGINE", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MITHRIL_DRILL_ENGINE", "type": "item" },
+				{ "amount": 8, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 2, "id": "DRILL_ENGINE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "TITANIUM_DRILL_ENGINE", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "TITANIUM_DRILL_ENGINE", "type": "item" },
+				{ "amount": 1, "id": "PERFECT_RUBY_GEM", "type": "item" },
+				{ "amount": 4, "id": "PRECURSOR_APPARATUS", "type": "item" },
+				{ "amount": 5, "id": "DRILL_ENGINE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "RUBY_POLISHED_DRILL_ENGINE", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "RUBY_POLISHED_DRILL_ENGINE", "type": "item" },
+				{ "amount": 3, "id": "PERFECT_SAPPHIRE_GEM", "type": "item" },
+				{ "amount": 8, "id": "PRECURSOR_APPARATUS", "type": "item" },
+				{ "amount": 5, "id": "DRILL_ENGINE", "type": "item" },
+				{ "amount": 16, "id": "PLASMA", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "SAPPHIRE_POLISHED_DRILL_ENGINE", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 8, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SAPPHIRE_POLISHED_DRILL_ENGINE", "type": "item" },
+				{ "amount": 5, "id": "PERFECT_AMBER_GEM", "type": "item" },
+				{ "amount": 16, "id": "PRECURSOR_APPARATUS", "type": "item" },
+				{ "amount": 5, "id": "DRILL_ENGINE", "type": "item" },
+				{ "amount": 32, "id": "PLASMA", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "AMBER_POLISHED_DRILL_ENGINE", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 9, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 5, "id": "REFINED_DIAMOND", "type": "item" },
+				{ "amount": 10, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 5, "id": "FUEL_TANK", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_FUEL_TANK", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MITHRIL_FUEL_TANK", "type": "item" },
+				{ "amount": 10, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 5, "id": "REFINED_DIAMOND", "type": "item" },
+				{ "amount": 5, "id": "FUEL_TANK", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_FUEL_TANK", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "TITANIUM_FUEL_TANK", "type": "item" },
+				{ "amount": 4, "id": "PRECURSOR_APPARATUS", "type": "item" },
+				{ "amount": 10, "id": "GEMSTONE_MIXTURE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GEMSTONE_FUEL_TANK", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GEMSTONE_FUEL_TANK", "type": "item" },
+				{ "amount": 16, "id": "PRECURSOR_APPARATUS", "type": "item" },
+				{ "amount": 25, "id": "GEMSTONE_MIXTURE", "type": "item" },
+				{ "amount": 32, "id": "PLASMA", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "PERFECTLY_CUT_FUEL_TANK", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 8, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
 				{ "amount": 5, "id": "FLAWLESS_AMBER_GEM", "type": "item" },
 				{ "amount": 1, "id": "AMBER", "type": "crystal" },
 				{ "amount": 72000, "id": "forge-second", "type": "currency" }
@@ -162,6 +1065,271 @@
 				{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" },
 				{ "collection": "GEMSTONE", "tier": 10, "type": "COLLECTION" }
 			]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 1, "id": "BEJEWELED_HANDLE", "type": "item" },
+				{ "amount": 7200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "SF:BEJEWELED_COLLAR", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CLAW_FOSSIL", "type": "item" },
+				{ "amount": 300000, "id": "coin", "type": "currency" },
+				{ "amount": 259200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MOLE", "type": "pet" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 4, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "HELIX", "type": "item" },
+				{ "amount": 300000, "id": "coin", "type": "currency" },
+				{ "amount": 259200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "AMMONITE", "type": "pet" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 4, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "WEBBED_FOSSIL", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_AQUAMARINE_GEM", "type": "item" },
+				{ "amount": 604800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PENGUIN", "type": "pet" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FOOTPRINT_FOSSIL", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_ONYX_GEM", "type": "item" },
+				{ "amount": 604800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TYRANNOSAURUS", "type": "pet" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "SPINE_FOSSIL", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_AQUAMARINE_GEM", "type": "item" },
+				{ "amount": 604800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "SPINOSAURUS", "type": "pet" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "UGLY_FOSSIL", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_AMBER_GEM", "type": "item" },
+				{ "amount": 604800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GOBLIN", "type": "pet" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "CLUBBED_FOSSIL", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_OPAL_GEM", "type": "item" },
+				{ "amount": 604800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "ANKYLOSAURUS", "type": "pet" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "TUSK_FOSSIL", "type": "item" },
+				{ "amount": 1, "id": "FLAWLESS_ONYX_GEM", "type": "item" },
+				{ "amount": 604800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MAMMOTH", "type": "pet" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "BEACON_1", "type": "item" },
+				{ "amount": 5, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 72000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BEACON_2", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "BEACON_2", "type": "item" },
+				{ "amount": 10, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 108000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BEACON_3", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 3, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "BEACON_3", "type": "item" },
+				{ "amount": 20, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 1, "id": "PLASMA", "type": "item" },
+				{ "amount": 144000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BEACON_4", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 4, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "BEACON_4", "type": "item" },
+				{ "amount": 40, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 5, "id": "PLASMA", "type": "item" },
+				{ "amount": 180000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "BEACON_5", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 80, "id": "TITANIUM_ORE", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_ENDER_PEARL", "type": "item" },
+				{ "amount": 48, "id": "MITHRIL_ORE", "type": "item" },
+				{ "amount": 25000, "id": "coin", "type": "currency" },
+				{ "amount": 18000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "FORGE_TRAVEL_SCROLL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FLAWLESS_ONYX_GEM", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_ENDER_PEARL", "type": "item" },
+				{ "amount": 500000, "id": "coin", "type": "currency" },
+				{ "amount": 36000, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "BASE_CAMP_TRAVEL_SCROLL", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "FLAWLESS_RUBY_GEM", "type": "item" },
+				{ "amount": 2, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 8, "id": "CORLEONITE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "SECRET_RAILROAD_PASS", "type": "item" }
+			],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "LANTERN", "type": "item" },
+				{ "amount": 1, "id": "REFINED_MITHRIL", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_EMERALD", "type": "item" },
+				{ "amount": 1800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "MITHRIL_LANTERN", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MITHRIL_LANTERN", "type": "item" },
+				{ "amount": 2, "id": "REFINED_TITANIUM", "type": "item" },
+				{ "amount": 1, "id": "ENCHANTED_EMERALD_BLOCK", "type": "item" },
+				{ "amount": 14400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TITANIUM_LANTERN", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 5, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "TITANIUM_LANTERN", "type": "item" },
+				{ "amount": 4, "id": "GLACITE_AMALGAMATION", "type": "item" },
+				{ "amount": 2, "id": "ENCHANTED_EMERALD_BLOCK", "type": "item" },
+				{ "amount": 43200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "GLACITE_LANTERN", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 8, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "GLACITE_LANTERN", "type": "item" },
+				{ "amount": 1, "id": "CAGED_WISP", "type": "item" },
+				{ "amount": 1, "id": "PERFECT_PLATE", "type": "item" },
+				{ "amount": 1, "id": "EVERBURNING_FLAME", "type": "item" },
+				{ "amount": 8, "id": "ENCHANTED_EMERALD_BLOCK", "type": "item" },
+				{ "amount": 86400, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "WILL_O_WISP", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 10, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 256, "id": "STARFALL", "type": "item" },
+				{ "amount": 7200, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "POWER_CRYSTAL", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 2, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 192, "id": "ENCHANTED_TUNGSTEN", "type": "item" },
+				{ "amount": 1, "id": "BEJEWELED_HANDLE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "TUNGSTEN_KEY", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 192, "id": "ENCHANTED_UMBER", "type": "item" },
+				{ "amount": 1, "id": "BEJEWELED_HANDLE", "type": "item" },
+				{ "amount": 30, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "UMBER_KEY", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 7, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "PERFECT_PLATE", "type": "item" },
+				{ "amount": 1, "id": "BEJEWELED_HANDLE", "type": "item" },
+				{ "amount": 1800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "SKELETON_KEY", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 10, "type": "HEART_OF_THE_MOUNTAIN" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "REFINED_UMBER", "type": "item" },
+				{ "amount": 16, "id": "MATCH_STICKS", "type": "item" },
+				{ "amount": 1800, "id": "forge-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "PORTABLE_CAMPFIRE", "type": "item" }],
+			"place": [{ "type": "forge" }],
+			"requirements": [{ "tier": 8, "type": "HEART_OF_THE_MOUNTAIN" }]
 		}
 	]
 }

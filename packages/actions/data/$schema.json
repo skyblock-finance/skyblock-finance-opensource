@@ -75,6 +75,23 @@
 									},
 									"required": ["amount", "id", "type"],
 									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"amount": {
+											"type": "number"
+										},
+										"id": {
+											"type": "string"
+										},
+										"type": {
+											"const": "pet",
+											"type": "string"
+										}
+									},
+									"required": ["amount", "id", "type"],
+									"type": "object"
 								}
 							]
 						},
@@ -140,6 +157,23 @@
 										},
 										"type": {
 											"const": "item",
+											"type": "string"
+										}
+									},
+									"required": ["amount", "id", "type"],
+									"type": "object"
+								},
+								{
+									"additionalProperties": false,
+									"properties": {
+										"amount": {
+											"type": "number"
+										},
+										"id": {
+											"type": "string"
+										},
+										"type": {
+											"const": "pet",
 											"type": "string"
 										}
 									},

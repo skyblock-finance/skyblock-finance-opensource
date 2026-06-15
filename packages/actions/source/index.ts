@@ -4,6 +4,7 @@ export {
 	actionIoCrystalSchema,
 	actionIoCurrencySchema,
 	actionIoItemSchema,
+	actionIoPetSchema,
 	actionIoSchema,
 	actionPlaceSchema,
 	actionRequirementSchema,
@@ -17,6 +18,7 @@ export {
 	ActionIoCrystal,
 	ActionIoCurrency,
 	ActionIoItem,
+	ActionIoPet,
 	ActionRequirement,
 	NpcId,
 } from './types'

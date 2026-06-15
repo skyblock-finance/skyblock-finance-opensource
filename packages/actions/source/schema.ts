@@ -30,10 +30,17 @@ export const actionIoItemSchema = z.strictObject({
 	type: z.literal('item'),
 })
 
+export const actionIoPetSchema = z.strictObject({
+	amount: z.number(),
+	id: z.string(),
+	type: z.literal('pet'),
+})
+
 export const actionIoSchema = z.discriminatedUnion('type', [
 	actionIoCrystalSchema,
 	actionIoCurrencySchema,
 	actionIoItemSchema,
+	actionIoPetSchema,
 ])
 
 export const npcIdSchema = z.enum([
@@ -50,6 +57,7 @@ export const npcIdSchema = z.enum([
 	'MARTHOS',
 	'PHILLIP',
 	'PLUMBER_JOE',
+	'RESEARCHER_BERYL',
 	'SEYMOUR',
 	'SKYMART',
 	'SMITHMONGER',

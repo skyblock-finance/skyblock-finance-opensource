@@ -43,7 +43,7 @@
 		},
 		{
 			"inputs": [{ "amount": 60, "id": "north-star", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "SF:PET_REINDEER", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "REINDEER", "type": "pet" }],
 			"place": [{ "id": "EINARY", "type": "npc" }]
 		},
 		{

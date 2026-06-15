@@ -4,6 +4,7 @@ import {
 	actionIoCrystalSchema,
 	actionIoCurrencySchema,
 	actionIoItemSchema,
+	actionIoPetSchema,
 	actionIoSchema,
 	actionRequirementSchema,
 	actionSchema,
@@ -16,5 +17,6 @@ export type ActionIo = z.output<typeof actionIoSchema>
 export type ActionIoCrystal = z.output<typeof actionIoCrystalSchema>
 export type ActionIoCurrency = z.output<typeof actionIoCurrencySchema>
 export type ActionIoItem = z.output<typeof actionIoItemSchema>
+export type ActionIoPet = z.output<typeof actionIoPetSchema>
 export type ActionRequirement = z.output<typeof actionRequirementSchema>
 export type NpcId = z.output<typeof npcIdSchema>
