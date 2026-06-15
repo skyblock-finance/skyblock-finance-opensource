@@ -1077,21 +1077,6 @@ export const northStarItems = new Map<string, ItemMetadata>([
 		},
 	],
 	[
-		'SF:PET_REINDEER',
-		{
-			ids: { cofl: 'PET_REINDEER', skyblock: 'PET' },
-			links: {},
-			metadata: {
-				description: null,
-				id: 'SF:PET_REINDEER',
-				name: 'Reindeer',
-				textureUrl: null,
-			},
-			tradesOn: AH,
-			type: 'missing',
-		},
-	],
-	[
 		'SNOW_BELT',
 		{
 			ids: { skyblock: 'SNOW_BELT' },
@@ -1380,21 +1365,6 @@ export const pestItems = new Map<string, ItemMetadata>([
 			links: {},
 			tradesOn: BZ,
 			type: 'basic',
-		},
-	],
-	[
-		'SF:PET_HEDGEHOG',
-		{
-			ids: { cofl: 'PET_HEDGEHOG', skyblock: 'PET' },
-			links: {},
-			metadata: {
-				description: null,
-				id: 'SF:PET_HEDGEHOG',
-				name: 'Hedgehog',
-				textureUrl: null,
-			},
-			tradesOn: AH,
-			type: 'missing',
 		},
 	],
 ])
