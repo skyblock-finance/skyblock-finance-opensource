@@ -87,6 +87,13 @@ const _npcs: Record<NpcId, NpcMetadata> = {
 		},
 		name: 'Marthos',
 	},
+	NEMO: {
+		links: {
+			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/Nemo',
+			hypixelWiki: 'https://wiki.hypixel.net/Nemo',
+		},
+		name: 'Nemo',
+	},
 	PHILLIP: {
 		links: {
 			communityWiki:

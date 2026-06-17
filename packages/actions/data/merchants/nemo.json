@@ -1,0 +1,37 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 50000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SNORKELING_HELMET", "type": "item" }],
+			"place": [{ "id": "NEMO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 50000, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "SNORKELING_CHESTPLATE", "type": "item" }
+			],
+			"place": [{ "id": "NEMO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 50000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SNORKELING_LEGGINGS", "type": "item" }],
+			"place": [{ "id": "NEMO", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 50000, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "SNORKELING_BOOTS", "type": "item" }],
+			"place": [{ "id": "NEMO", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4000000, "id": "coin", "type": "currency" },
+				{ "amount": 32, "id": "SEA_LUMIES", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_RESPIRATION_4", "type": "item" }
+			],
+			"place": [{ "id": "NEMO", "type": "npc" }]
+		}
+	]
+}
