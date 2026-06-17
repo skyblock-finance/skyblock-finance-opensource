@@ -115,6 +115,25 @@
 			],
 			"outputs": [{ "amount": 2, "id": "WINTER_FRAGMENT", "type": "item" }],
 			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "north-star", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "ENCHANTMENT_LUCK_6", "type": "item" }],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "north-star", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_LOOTING_4", "type": "item" }
+			],
+			"place": [{ "id": "EINARY", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "north-star", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_SCAVENGER_4", "type": "item" }
+			],
+			"place": [{ "id": "EINARY", "type": "npc" }]
 		}
 	]
 }
