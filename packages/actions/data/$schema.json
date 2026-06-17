@@ -1,4 +1,61 @@
 {
+	"$defs": {
+		"crystalInputOutput": {
+			"additionalProperties": false,
+			"properties": {
+				"amount": { "type": "number" },
+				"id": { "type": "string" },
+				"type": { "const": "crystal", "type": "string" }
+			},
+			"required": ["amount", "id", "type"],
+			"type": "object"
+		},
+		"currencyInputOutput": {
+			"additionalProperties": false,
+			"properties": {
+				"amount": { "type": "number" },
+				"id": {
+					"enum": [
+						"bingo-point",
+						"bit",
+						"coin",
+						"copper",
+						"forge-second",
+						"gem",
+						"mote",
+						"north-star",
+						"pest",
+						"second",
+						"usd"
+					],
+					"type": "string"
+				},
+				"type": { "const": "currency", "type": "string" }
+			},
+			"required": ["amount", "id", "type"],
+			"type": "object"
+		},
+		"itemInputOutput": {
+			"additionalProperties": false,
+			"properties": {
+				"amount": { "type": "number" },
+				"id": { "type": "string" },
+				"type": { "const": "item", "type": "string" }
+			},
+			"required": ["amount", "id", "type"],
+			"type": "object"
+		},
+		"petInputOutput": {
+			"additionalProperties": false,
+			"properties": {
+				"amount": { "type": "number" },
+				"id": { "type": "string" },
+				"type": { "const": "pet", "type": "string" }
+			},
+			"required": ["amount", "id", "type"],
+			"type": "object"
+		}
+	},
 	"$schema": "https://json-schema.org/draft/2020-12/schema",
 	"additionalProperties": false,
 	"properties": {
@@ -12,87 +69,10 @@
 					"inputs": {
 						"items": {
 							"anyOf": [
-								{
-									"additionalProperties": false,
-									"properties": {
-										"amount": {
-											"type": "number"
-										},
-										"id": {
-											"type": "string"
-										},
-										"type": {
-											"const": "crystal",
-											"type": "string"
-										}
-									},
-									"required": ["amount", "id", "type"],
-									"type": "object"
-								},
-								{
-									"additionalProperties": false,
-									"properties": {
-										"amount": {
-											"type": "number"
-										},
-										"id": {
-											"enum": [
-												"bingo-point",
-												"bit",
-												"coin",
-												"copper",
-												"forge-second",
-												"gem",
-												"mote",
-												"north-star",
-												"pest",
-												"second",
-												"usd"
-											],
-											"type": "string"
-										},
-										"type": {
-											"const": "currency",
-											"type": "string"
-										}
-									},
-									"required": ["amount", "id", "type"],
-									"type": "object"
-								},
-								{
-									"additionalProperties": false,
-									"properties": {
-										"amount": {
-											"type": "number"
-										},
-										"id": {
-											"type": "string"
-										},
-										"type": {
-											"const": "item",
-											"type": "string"
-										}
-									},
-									"required": ["amount", "id", "type"],
-									"type": "object"
-								},
-								{
-									"additionalProperties": false,
-									"properties": {
-										"amount": {
-											"type": "number"
-										},
-										"id": {
-											"type": "string"
-										},
-										"type": {
-											"const": "pet",
-											"type": "string"
-										}
-									},
-									"required": ["amount", "id", "type"],
-									"type": "object"
-								}
+								{ "$ref": "#/$defs/crystalInputOutput" },
+								{ "$ref": "#/$defs/currencyInputOutput" },
+								{ "$ref": "#/$defs/itemInputOutput" },
+								{ "$ref": "#/$defs/petInputOutput" }
 							]
 						},
 						"type": "array"
@@ -100,86 +80,10 @@
 					"outputs": {
 						"items": {
 							"anyOf": [
-								{
-									"additionalProperties": false,
-									"properties": {
-										"amount": {
-											"type": "number"
-										},
-										"id": {
-											"type": "string"
-										},
-										"type": {
-											"const": "crystal",
-											"type": "string"
-										}
-									},
-									"required": ["amount", "id", "type"],
-									"type": "object"
-								},
-								{
-									"additionalProperties": false,
-									"properties": {
-										"amount": {
-											"type": "number"
-										},
-										"id": {
-											"enum": [
-												"bingo-point",
-												"bit",
-												"coin",
-												"copper",
-												"gem",
-												"mote",
-												"north-star",
-												"pest",
-												"second",
-												"usd"
-											],
-											"type": "string"
-										},
-										"type": {
-											"const": "currency",
-											"type": "string"
-										}
-									},
-									"required": ["amount", "id", "type"],
-									"type": "object"
-								},
-								{
-									"additionalProperties": false,
-									"properties": {
-										"amount": {
-											"type": "number"
-										},
-										"id": {
-											"type": "string"
-										},
-										"type": {
-											"const": "item",
-											"type": "string"
-										}
-									},
-									"required": ["amount", "id", "type"],
-									"type": "object"
-								},
-								{
-									"additionalProperties": false,
-									"properties": {
-										"amount": {
-											"type": "number"
-										},
-										"id": {
-											"type": "string"
-										},
-										"type": {
-											"const": "pet",
-											"type": "string"
-										}
-									},
-									"required": ["amount", "id", "type"],
-									"type": "object"
-								}
+								{ "$ref": "#/$defs/crystalInputOutput" },
+								{ "$ref": "#/$defs/currencyInputOutput" },
+								{ "$ref": "#/$defs/itemInputOutput" },
+								{ "$ref": "#/$defs/petInputOutput" }
 							]
 						},
 						"type": "array"
@@ -190,44 +94,9 @@
 								{
 									"additionalProperties": false,
 									"properties": {
-										"left": {
-											"additionalProperties": false,
-											"properties": {
-												"amount": {
-													"type": "number"
-												},
-												"id": {
-													"type": "string"
-												},
-												"type": {
-													"const": "item",
-													"type": "string"
-												}
-											},
-											"required": ["amount", "id", "type"],
-											"type": "object"
-										},
-										"right": {
-											"additionalProperties": false,
-											"properties": {
-												"amount": {
-													"type": "number"
-												},
-												"id": {
-													"type": "string"
-												},
-												"type": {
-													"const": "item",
-													"type": "string"
-												}
-											},
-											"required": ["amount", "id", "type"],
-											"type": "object"
-										},
-										"type": {
-											"const": "anvil",
-											"type": "string"
-										}
+										"left": { "$ref": "#/$defs/itemInputOutput" },
+										"right": { "$ref": "#/$defs/itemInputOutput" },
+										"type": { "const": "anvil", "type": "string" }
 									},
 									"required": ["left", "right", "type"],
 									"type": "object"
@@ -235,10 +104,7 @@
 								{
 									"additionalProperties": false,
 									"properties": {
-										"type": {
-											"const": "forge",
-											"type": "string"
-										}
+										"type": { "const": "forge", "type": "string" }
 									},
 									"required": ["type"],
 									"type": "object"
@@ -246,13 +112,8 @@
 								{
 									"additionalProperties": false,
 									"properties": {
-										"id": {
-											"type": "string"
-										},
-										"type": {
-											"const": "npc",
-											"type": "string"
-										}
+										"id": { "type": "string" },
+										"type": { "const": "npc", "type": "string" }
 									},
 									"required": ["id", "type"],
 									"type": "object"
@@ -260,14 +121,8 @@
 								{
 									"additionalProperties": false,
 									"properties": {
-										"type": {
-											"const": "website",
-											"type": "string"
-										},
-										"url": {
-											"format": "uri",
-											"type": "string"
-										}
+										"type": { "const": "website", "type": "string" },
+										"url": { "format": "uri", "type": "string" }
 									},
 									"required": ["type", "url"],
 									"type": "object"
@@ -278,36 +133,15 @@
 										"grid": {
 											"items": {
 												"anyOf": [
-													{
-														"additionalProperties": false,
-														"properties": {
-															"amount": {
-																"type": "number"
-															},
-															"id": {
-																"type": "string"
-															},
-															"type": {
-																"const": "item",
-																"type": "string"
-															}
-														},
-														"required": ["amount", "id", "type"],
-														"type": "object"
-													},
-													{
-														"type": "null"
-													}
+													{ "$ref": "#/$defs/itemInputOutput" },
+													{ "type": "null" }
 												]
 											},
 											"maxItems": 9,
 											"minItems": 9,
 											"type": "array"
 										},
-										"type": {
-											"const": "workbench",
-											"type": "string"
-										}
+										"type": { "const": "workbench", "type": "string" }
 									},
 									"required": ["grid", "type"],
 									"type": "object"
@@ -322,17 +156,9 @@
 								{
 									"additionalProperties": false,
 									"properties": {
-										"collection": {
-											"enum": ["GEMSTONE"],
-											"type": "string"
-										},
-										"tier": {
-											"type": "number"
-										},
-										"type": {
-											"const": "COLLECTION",
-											"type": "string"
-										}
+										"collection": { "enum": ["GEMSTONE"], "type": "string" },
+										"tier": { "type": "number" },
+										"type": { "const": "COLLECTION", "type": "string" }
 									},
 									"required": ["collection", "tier", "type"],
 									"type": "object"
@@ -340,9 +166,7 @@
 								{
 									"additionalProperties": false,
 									"properties": {
-										"tier": {
-											"type": "number"
-										},
+										"tier": { "type": "number" },
 										"type": {
 											"const": "HEART_OF_THE_MOUNTAIN",
 											"type": "string"
@@ -354,17 +178,12 @@
 								{
 									"additionalProperties": false,
 									"properties": {
-										"level": {
-											"type": "number"
-										},
+										"level": { "type": "number" },
 										"skill": {
 											"enum": ["MINING"],
 											"type": "string"
 										},
-										"type": {
-											"const": "SKILL",
-											"type": "string"
-										}
+										"type": { "const": "SKILL", "type": "string" }
 									},
 									"required": ["level", "skill", "type"],
 									"type": "object"
@@ -380,6 +199,5 @@
 			"type": "array"
 		}
 	},
-	"required": ["actions"],
-	"type": "object"
+	"required": ["actions"]
 }
