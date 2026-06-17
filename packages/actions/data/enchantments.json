@@ -1,0 +1,8902 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_BIG_BRAIN_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_BIG_BRAIN_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BIG_BRAIN_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BIG_BRAIN_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_BIG_BRAIN_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_BIG_BRAIN_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BIG_BRAIN_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BIG_BRAIN_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_BUG_BLENDER_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_BUG_BLENDER_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BUG_BLENDER_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BUG_BLENDER_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_BUG_BLENDER_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_BUG_BLENDER_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BUG_BLENDER_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BUG_BLENDER_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_BUG_BLENDER_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_BUG_BLENDER_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BUG_BLENDER_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BUG_BLENDER_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_BUG_BLENDER_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_BUG_BLENDER_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BUG_BLENDER_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_BUG_BLENDER_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_CAYENNE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_CAYENNE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CAYENNE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CAYENNE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_CHARM_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_CHARM_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CHARM_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CHARM_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_CHARM_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_CHARM_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CHARM_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CHARM_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_CHARM_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_CHARM_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CHARM_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CHARM_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_CHARM_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_CHARM_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CHARM_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CHARM_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_CORRUPTION_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_CORRUPTION_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CORRUPTION_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CORRUPTION_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_CORRUPTION_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_CORRUPTION_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CORRUPTION_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CORRUPTION_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_CORRUPTION_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_CORRUPTION_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CORRUPTION_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CORRUPTION_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_CORRUPTION_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_CORRUPTION_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CORRUPTION_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_CORRUPTION_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_DEDICATION_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_DEDICATION_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_DEDICATION_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_DEDICATION_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_DEDICATION_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_DEDICATION_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_DEDICATION_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_DEDICATION_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_DIVINE_GIFT_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_DIVINE_GIFT_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_DIVINE_GIFT_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_DIVINE_GIFT_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_DIVINE_GIFT_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_DIVINE_GIFT_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_DIVINE_GIFT_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_DIVINE_GIFT_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEAST_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEAST_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEAST_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEAST_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEAST_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEAST_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEAST_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEAST_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEAST_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEAST_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEAST_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEAST_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEAST_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEAST_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEAST_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEAST_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEATHER_FALLING_6",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEATHER_FALLING_7",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEATHER_FALLING_6",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEATHER_FALLING_6",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEATHER_FALLING_7",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEATHER_FALLING_8",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEATHER_FALLING_7",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEATHER_FALLING_7",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEATHER_FALLING_8",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEATHER_FALLING_9",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEATHER_FALLING_8",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEATHER_FALLING_8",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEATHER_FALLING_9",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEATHER_FALLING_10",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEATHER_FALLING_9",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEATHER_FALLING_9",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_5",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_6",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_5",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_5",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_6",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_7",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_6",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_6",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_7",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_8",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_7",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_7",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_8",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_9",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_8",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_8",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_9",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FEROCIOUS_MANA_10",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_9",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FEROCIOUS_MANA_9",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FOREST_PLEDGE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FOREST_PLEDGE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FOREST_PLEDGE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FOREST_PLEDGE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_FOREST_PLEDGE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_FOREST_PLEDGE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FOREST_PLEDGE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_FOREST_PLEDGE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_GREEN_THUMB_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_GREEN_THUMB_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_GREEN_THUMB_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_GREEN_THUMB_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_GREEN_THUMB_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_GREEN_THUMB_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_GREEN_THUMB_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_GREEN_THUMB_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_GREEN_THUMB_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_GREEN_THUMB_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_GREEN_THUMB_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_GREEN_THUMB_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_GREEN_THUMB_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_GREEN_THUMB_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_GREEN_THUMB_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_GREEN_THUMB_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_HARDENED_MANA_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_HARDENED_MANA_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_HARDENED_MANA_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_HARDENED_MANA_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_HARDENED_MANA_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_HARDENED_MANA_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_HARDENED_MANA_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_HARDENED_MANA_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_HARDENED_MANA_5",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_HARDENED_MANA_6",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_5",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_5",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_HARDENED_MANA_6",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_HARDENED_MANA_7",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_6",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_6",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_HARDENED_MANA_7",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_HARDENED_MANA_8",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_7",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_7",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_HARDENED_MANA_8",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_HARDENED_MANA_9",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_8",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_8",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_HARDENED_MANA_9",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_HARDENED_MANA_10",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_9",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_HARDENED_MANA_9",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ICE_COLD_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ICE_COLD_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ICE_COLD_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ICE_COLD_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ICE_COLD_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ICE_COLD_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ICE_COLD_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ICE_COLD_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ICE_COLD_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ICE_COLD_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ICE_COLD_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ICE_COLD_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ICE_COLD_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ICE_COLD_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ICE_COLD_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ICE_COLD_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_INFINITE_QUIVER_5",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_INFINITE_QUIVER_6",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_INFINITE_QUIVER_5",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_INFINITE_QUIVER_5",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_INFINITE_QUIVER_6",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_INFINITE_QUIVER_7",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_INFINITE_QUIVER_6",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_INFINITE_QUIVER_6",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_INFINITE_QUIVER_7",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_INFINITE_QUIVER_8",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_INFINITE_QUIVER_7",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_INFINITE_QUIVER_7",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_INFINITE_QUIVER_8",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_INFINITE_QUIVER_9",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_INFINITE_QUIVER_8",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_INFINITE_QUIVER_8",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_INFINITE_QUIVER_9",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_INFINITE_QUIVER_10",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_INFINITE_QUIVER_9",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_INFINITE_QUIVER_9",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_LAPIDARY_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_LAPIDARY_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_LAPIDARY_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_LAPIDARY_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_LAPIDARY_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_LAPIDARY_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_LAPIDARY_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_LAPIDARY_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_LAPIDARY_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_LAPIDARY_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_LAPIDARY_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_LAPIDARY_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_LAPIDARY_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_LAPIDARY_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_LAPIDARY_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_LAPIDARY_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_STEAL_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_STEAL_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_STEAL_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_STEAL_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_STEAL_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_STEAL_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_STEAL_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_STEAL_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_5",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_6",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_5",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_5",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_6",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_7",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_6",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_6",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_7",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_8",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_7",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_7",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_8",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_9",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_8",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_8",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_9",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_MANA_VAMPIRE_10",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_9",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_MANA_VAMPIRE_9",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_OVERLOAD_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_OVERLOAD_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_OVERLOAD_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_OVERLOAD_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_OVERLOAD_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_OVERLOAD_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_OVERLOAD_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_OVERLOAD_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_OVERLOAD_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_OVERLOAD_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_OVERLOAD_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_OVERLOAD_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_OVERLOAD_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_OVERLOAD_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_OVERLOAD_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_OVERLOAD_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PALEONTOLOGIST_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PALEONTOLOGIST_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PALEONTOLOGIST_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PALEONTOLOGIST_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PALEONTOLOGIST_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PALEONTOLOGIST_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PALEONTOLOGIST_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PALEONTOLOGIST_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PALEONTOLOGIST_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PALEONTOLOGIST_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PALEONTOLOGIST_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PALEONTOLOGIST_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PALEONTOLOGIST_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PALEONTOLOGIST_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PALEONTOLOGIST_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PALEONTOLOGIST_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PESTERMINATOR_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PESTERMINATOR_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PESTERMINATOR_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PESTERMINATOR_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PESTERMINATOR_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PESTERMINATOR_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PESTERMINATOR_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PESTERMINATOR_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PESTERMINATOR_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PESTERMINATOR_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PESTERMINATOR_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PESTERMINATOR_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PESTERMINATOR_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PESTERMINATOR_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PESTERMINATOR_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PESTERMINATOR_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PRISTINE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PRISTINE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PRISTINE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PRISTINE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PRISTINE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PRISTINE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PRISTINE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PRISTINE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PRISTINE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PRISTINE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PRISTINE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PRISTINE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PRISTINE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PRISTINE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PRISTINE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PRISTINE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PROSPERITY_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PROSPERITY_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PROSPERITY_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PROSPERITY_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PROSPERITY_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PROSPERITY_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PROSPERITY_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PROSPERITY_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PROSPERITY_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PROSPERITY_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PROSPERITY_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PROSPERITY_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_PROSPERITY_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_PROSPERITY_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PROSPERITY_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_PROSPERITY_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_QUANTUM_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_QUANTUM_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUANTUM_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUANTUM_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_QUANTUM_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_QUANTUM_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUANTUM_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUANTUM_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_QUICK_BITE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_QUICK_BITE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUICK_BITE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUICK_BITE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_QUICK_BITE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_QUICK_BITE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUICK_BITE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUICK_BITE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_QUICK_BITE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_QUICK_BITE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUICK_BITE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUICK_BITE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_QUICK_BITE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_QUICK_BITE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUICK_BITE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_QUICK_BITE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_REFLECTION_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_REFLECTION_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REFLECTION_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REFLECTION_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_REFLECTION_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_REFLECTION_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REFLECTION_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REFLECTION_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_REFLECTION_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_REFLECTION_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REFLECTION_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REFLECTION_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_REFLECTION_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_REFLECTION_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REFLECTION_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REFLECTION_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_REJUVENATE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_REJUVENATE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REJUVENATE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REJUVENATE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_REJUVENATE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_REJUVENATE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REJUVENATE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REJUVENATE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_REJUVENATE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_REJUVENATE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REJUVENATE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REJUVENATE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_REJUVENATE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_REJUVENATE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REJUVENATE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_REJUVENATE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_RESPITE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_RESPITE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_RESPITE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_RESPITE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_RESPITE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_RESPITE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_RESPITE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_RESPITE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_RESPITE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_RESPITE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_RESPITE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_RESPITE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_RESPITE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_RESPITE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_RESPITE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_RESPITE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SCUBA_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SCUBA_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SCUBA_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SCUBA_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SCUBA_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SCUBA_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SCUBA_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SCUBA_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SCUBA_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SCUBA_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SCUBA_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SCUBA_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SCUBA_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SCUBA_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SCUBA_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SCUBA_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMALL_BRAIN_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMALL_BRAIN_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMALL_BRAIN_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMALL_BRAIN_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMALL_BRAIN_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMALL_BRAIN_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMALL_BRAIN_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMALL_BRAIN_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMARTY_PANTS_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMARTY_PANTS_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMARTY_PANTS_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMARTY_PANTS_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMARTY_PANTS_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMARTY_PANTS_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMARTY_PANTS_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMARTY_PANTS_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMARTY_PANTS_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMARTY_PANTS_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMARTY_PANTS_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMARTY_PANTS_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMARTY_PANTS_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMARTY_PANTS_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMARTY_PANTS_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMARTY_PANTS_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMOLDERING_0",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMOLDERING_1",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMOLDERING_0",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMOLDERING_0",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMOLDERING_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMOLDERING_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMOLDERING_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMOLDERING_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMOLDERING_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMOLDERING_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMOLDERING_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMOLDERING_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMOLDERING_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMOLDERING_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMOLDERING_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMOLDERING_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SMOLDERING_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SMOLDERING_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMOLDERING_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SMOLDERING_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_STRONG_MANA_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_STRONG_MANA_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_STRONG_MANA_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_STRONG_MANA_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_STRONG_MANA_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_STRONG_MANA_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_STRONG_MANA_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_STRONG_MANA_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_STRONG_MANA_5",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_STRONG_MANA_6",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_5",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_5",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_STRONG_MANA_6",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_STRONG_MANA_7",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_6",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_6",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_STRONG_MANA_7",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_STRONG_MANA_8",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_7",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_7",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_STRONG_MANA_8",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_STRONG_MANA_9",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_8",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_8",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_STRONG_MANA_9",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_STRONG_MANA_10",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_9",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_STRONG_MANA_9",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SUGAR_RUSH_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SUGAR_RUSH_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SUGAR_RUSH_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SUGAR_RUSH_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_SUGAR_RUSH_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_SUGAR_RUSH_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SUGAR_RUSH_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_SUGAR_RUSH_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TABASCO_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TABASCO_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TABASCO_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TABASCO_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TIDAL_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TIDAL_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TIDAL_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TIDAL_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TIDAL_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TIDAL_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TIDAL_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TIDAL_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TRANSYLVANIAN_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TRANSYLVANIAN_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TRANSYLVANIAN_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TRANSYLVANIAN_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CACTUS_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CACTUS_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CACTUS_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CACTUS_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CACTUS_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CACTUS_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CACTUS_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CACTUS_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CACTUS_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CACTUS_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CACTUS_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CACTUS_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CACTUS_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CACTUS_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CACTUS_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CACTUS_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CANE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CANE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CANE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CANE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CANE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CANE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CANE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CANE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CANE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CANE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CANE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CANE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CANE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CANE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CANE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CANE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CARROT_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CARROT_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CARROT_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CARROT_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CARROT_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CARROT_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CARROT_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CARROT_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CARROT_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CARROT_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CARROT_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CARROT_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_CARROT_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_CARROT_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CARROT_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_CARROT_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_COCO_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_COCO_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_COCO_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_COCO_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_COCO_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_COCO_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_COCO_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_COCO_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_COCO_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_COCO_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_COCO_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_COCO_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_COCO_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_COCO_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_COCO_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_COCO_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MELON_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MELON_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MELON_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MELON_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MELON_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MELON_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MELON_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MELON_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MELON_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MELON_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MELON_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MELON_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MELON_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MELON_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MELON_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MELON_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MOONFLOWER_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MOONFLOWER_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MOONFLOWER_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MOONFLOWER_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MOONFLOWER_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MOONFLOWER_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MOONFLOWER_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MOONFLOWER_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MOONFLOWER_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MOONFLOWER_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MOONFLOWER_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MOONFLOWER_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MOONFLOWER_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MOONFLOWER_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MOONFLOWER_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MOONFLOWER_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MUSHROOMS_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MUSHROOMS_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MUSHROOMS_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MUSHROOMS_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MUSHROOMS_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MUSHROOMS_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MUSHROOMS_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MUSHROOMS_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MUSHROOMS_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MUSHROOMS_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MUSHROOMS_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MUSHROOMS_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_MUSHROOMS_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_MUSHROOMS_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MUSHROOMS_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_MUSHROOMS_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_POTATO_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_POTATO_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_POTATO_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_POTATO_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_POTATO_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_POTATO_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_POTATO_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_POTATO_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_POTATO_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_POTATO_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_POTATO_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_POTATO_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_POTATO_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_POTATO_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_POTATO_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_POTATO_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_PUMPKIN_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_PUMPKIN_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_PUMPKIN_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_PUMPKIN_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_PUMPKIN_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_PUMPKIN_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_PUMPKIN_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_PUMPKIN_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_PUMPKIN_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_PUMPKIN_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_PUMPKIN_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_PUMPKIN_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_PUMPKIN_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_PUMPKIN_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_PUMPKIN_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_PUMPKIN_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_ROSE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_ROSE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_ROSE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_ROSE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_ROSE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_ROSE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_ROSE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_ROSE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_ROSE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_ROSE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_ROSE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_ROSE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_ROSE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_ROSE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_ROSE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_ROSE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_SUNFLOWER_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_SUNFLOWER_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_SUNFLOWER_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_SUNFLOWER_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_SUNFLOWER_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_SUNFLOWER_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_SUNFLOWER_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_SUNFLOWER_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_SUNFLOWER_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_SUNFLOWER_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_SUNFLOWER_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_SUNFLOWER_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_SUNFLOWER_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_SUNFLOWER_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_SUNFLOWER_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_SUNFLOWER_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_WARTS_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_WARTS_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WARTS_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WARTS_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_WARTS_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_WARTS_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WARTS_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WARTS_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_WARTS_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_WARTS_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WARTS_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WARTS_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_WARTS_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_WARTS_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WARTS_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WARTS_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_WHEAT_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_WHEAT_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WHEAT_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WHEAT_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_WHEAT_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_WHEAT_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WHEAT_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WHEAT_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_WHEAT_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_WHEAT_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WHEAT_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WHEAT_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_TURBO_WHEAT_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_TURBO_WHEAT_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WHEAT_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_TURBO_WHEAT_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_BANK_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_BANK_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BANK_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BANK_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_BANK_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_BANK_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BANK_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BANK_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_BANK_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_BANK_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BANK_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BANK_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_BANK_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_BANK_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BANK_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BANK_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_BOBBIN_TIME_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_CHIMERA_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_CHIMERA_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CHIMERA_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CHIMERA_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_CHIMERA_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_CHIMERA_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CHIMERA_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CHIMERA_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_CHIMERA_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_CHIMERA_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CHIMERA_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CHIMERA_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_CHIMERA_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_CHIMERA_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CHIMERA_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CHIMERA_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_COMBO_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_COMBO_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_COMBO_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_COMBO_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_COMBO_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_COMBO_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_COMBO_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_COMBO_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_COMBO_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_COMBO_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_COMBO_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_COMBO_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_COMBO_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_COMBO_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_COMBO_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_COMBO_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_CROP_FEVER_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FATAL_TEMPO_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FIRST_IMPRESSION_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FLASH_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FLASH_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLASH_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLASH_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FLASH_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FLASH_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLASH_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLASH_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FLASH_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FLASH_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLASH_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLASH_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FLASH_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FLASH_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLASH_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLASH_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FLOWSTATE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FLOWSTATE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLOWSTATE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLOWSTATE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_FLOWSTATE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_FLOWSTATE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLOWSTATE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_FLOWSTATE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_INFERNO_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_INFERNO_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_INFERNO_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_INFERNO_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_INFERNO_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_INFERNO_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_INFERNO_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_INFERNO_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_INFERNO_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_INFERNO_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_INFERNO_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_INFERNO_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_INFERNO_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_INFERNO_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_INFERNO_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_INFERNO_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_JERRY_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_JERRY_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_JERRY_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_JERRY_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_JERRY_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_JERRY_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_JERRY_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_JERRY_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_JERRY_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_JERRY_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_JERRY_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_JERRY_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_JERRY_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_JERRY_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_JERRY_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_JERRY_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LAST_STAND_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_LEGION_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_LEGION_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LEGION_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LEGION_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_LEGION_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_LEGION_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LEGION_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LEGION_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_LEGION_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_LEGION_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LEGION_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LEGION_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_LEGION_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_LEGION_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LEGION_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_LEGION_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_MISSILE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_MISSILE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_MISSILE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_MISSILE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_MISSILE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_MISSILE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_MISSILE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_MISSILE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_MISSILE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_MISSILE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_MISSILE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_MISSILE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_MISSILE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_MISSILE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_MISSILE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_MISSILE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_NO_PAIN_NO_GAIN_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REFRIGERATE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REITERATE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REITERATE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REITERATE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REITERATE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REITERATE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REITERATE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REITERATE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REITERATE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REITERATE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REITERATE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REITERATE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REITERATE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REITERATE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REITERATE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REITERATE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REITERATE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REND_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REND_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REND_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REND_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REND_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REND_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REND_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REND_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REND_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REND_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REND_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REND_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_REND_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_REND_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REND_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_REND_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SOUL_EATER_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SUNSET_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SUNSET_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SUNSET_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SUNSET_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SUNSET_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SUNSET_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SUNSET_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SUNSET_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SUNSET_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SUNSET_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SUNSET_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SUNSET_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SUNSET_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SUNSET_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SUNSET_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SUNSET_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SWARM_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SWARM_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SWARM_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SWARM_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SWARM_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SWARM_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SWARM_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SWARM_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SWARM_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SWARM_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SWARM_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SWARM_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_SWARM_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_SWARM_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SWARM_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_SWARM_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_THE_ONE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_THE_ONE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_THE_ONE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_THE_ONE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_WISDOM_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISDOM_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISDOM_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_WISDOM_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISDOM_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_WISDOM_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_WISDOM_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISDOM_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISDOM_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_WISDOM_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_WISDOM_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISDOM_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISDOM_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_WISE_1",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_WISE_2",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISE_1",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISE_1",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_WISE_2",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_WISE_3",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISE_2",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISE_2",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_WISE_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_WISE_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISE_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISE_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_ULTIMATE_WISE_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_WISE_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISE_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_ULTIMATE_WISE_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_VICIOUS_3",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_VICIOUS_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_VICIOUS_3",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_VICIOUS_3",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		},
+		{
+			"inputs": [
+				{
+					"amount": 2,
+					"id": "ENCHANTMENT_VICIOUS_4",
+					"type": "item"
+				}
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_VICIOUS_5",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"left": {
+						"amount": 1,
+						"id": "ENCHANTMENT_VICIOUS_4",
+						"type": "item"
+					},
+					"right": {
+						"amount": 1,
+						"id": "ENCHANTMENT_VICIOUS_4",
+						"type": "item"
+					},
+					"type": "anvil"
+				}
+			]
+		}
+	]
+}

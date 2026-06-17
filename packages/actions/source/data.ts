@@ -1,5 +1,6 @@
 import { actions as _bitsCrafts } from '../data/bits-crafts.json'
 import { actions as _crimsonIsle } from '../data/crimson-isle.json'
+import { actions as _enchantments } from '../data/enchantments.json'
 import { actions as _forging } from '../data/forging.json'
 import { actions as _gems } from '../data/gems.json'
 import { actions as _gemstones } from '../data/gemstones.json'
@@ -95,6 +96,7 @@ export const minionsZombie = _minionsZombie as Action[]
 
 export const bitsCrafts = _bitsCrafts as Action[]
 export const crimsonIsle = _crimsonIsle as Action[]
+export const enchantments = _enchantments as Action[]
 export const forging = _forging as Action[]
 export const gems = _gems as Action[]
 export const gemstones = _gemstones as Action[]
@@ -110,6 +112,7 @@ export const allActions: Action[] = [
 	...crimsonIsle,
 	...einary,
 	...elizabeth,
+	...enchantments,
 	...fishingMerchant,
 	...forging,
 	...gems,
