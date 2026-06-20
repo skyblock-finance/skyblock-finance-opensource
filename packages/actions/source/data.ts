@@ -3,6 +3,7 @@ import { actions as _agingItems } from '../data/aging-items.json'
 import { actions as _armorSorrow } from '../data/armor/sorrow.json'
 import { actions as _bitsCrafts } from '../data/bits-crafts.json'
 import { actions as _crimsonIsle } from '../data/crimson-isle.json'
+import { actions as _enchantmentCrafts } from '../data/enchantment-crafts.json'
 import { actions as _enchantments } from '../data/enchantments.json'
 import { actions as _forging } from '../data/forging.json'
 import { actions as _gems } from '../data/gems.json'
@@ -108,6 +109,7 @@ export const minionsZombie = _minionsZombie as Action[]
 export const agingItems = _agingItems as Action[]
 export const bitsCrafts = _bitsCrafts as Action[]
 export const crimsonIsle = _crimsonIsle as Action[]
+export const enchantmentCrafts = _enchantmentCrafts as Action[]
 export const enchantments = _enchantments as Action[]
 export const forging = _forging as Action[]
 export const gems = _gems as Action[]
@@ -127,6 +129,7 @@ export const allActions: Action[] = [
 	...crimsonIsle,
 	...einary,
 	...elizabeth,
+	...enchantmentCrafts,
 	...enchantments,
 	...fishingMerchant,
 	...forging,

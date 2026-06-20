@@ -1,0 +1,35 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [
+				{ "amount": 4, "id": "STUFFED_CHILI_PEPPER", "type": "item" },
+				{ "amount": 28, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
+				{ "amount": 16, "id": "ENCHANTED_RABBIT_HIDE", "type": "item" }
+			],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_4",
+					"type": "item"
+				}
+			],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 1, "id": "STUFFED_CHILI_PEPPER", "type": "item" },
+						{ "amount": 14, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
+						{ "amount": 1, "id": "STUFFED_CHILI_PEPPER", "type": "item" },
+						{ "amount": 8, "id": "ENCHANTED_RABBIT_HIDE", "type": "item" },
+						null,
+						{ "amount": 8, "id": "ENCHANTED_RABBIT_HIDE", "type": "item" },
+						{ "amount": 1, "id": "STUFFED_CHILI_PEPPER", "type": "item" },
+						{ "amount": 14, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
+						{ "amount": 1, "id": "STUFFED_CHILI_PEPPER", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}
