@@ -1,4 +1,6 @@
+import { actions as _accessoryAnguish } from '../data/accessories/anguish.json'
 import { actions as _agingItems } from '../data/aging-items.json'
+import { actions as _armorSorrow } from '../data/armor/sorrow.json'
 import { actions as _bitsCrafts } from '../data/bits-crafts.json'
 import { actions as _crimsonIsle } from '../data/crimson-isle.json'
 import { actions as _enchantments } from '../data/enchantments.json'
@@ -46,6 +48,14 @@ import { actions as _northStarsCrafts } from '../data/north-stars-crafts.json'
 import { actions as _vanilla } from '../data/vanilla.json'
 
 import { Action } from './types'
+
+// accessories
+
+export const accessoryAnguish = _accessoryAnguish as Action[]
+
+// armor
+
+export const armorSorrow = _armorSorrow as Action[]
 
 // materials
 
@@ -106,8 +116,10 @@ export const northStarsCrafts = _northStarsCrafts as Action[]
 export const vanilla = _vanilla as Action[]
 
 export const allActions: Action[] = [
+	...accessoryAnguish,
 	...adventurer,
 	...agingItems,
+	...armorSorrow,
 	...bingo,
 	...bitsCrafts,
 	...bubu,

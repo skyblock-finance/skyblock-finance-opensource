@@ -1,0 +1,85 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 15, "id": "SORROW", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "SORROW_HELMET", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						null,
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 24, "id": "SORROW", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "SORROW_CHESTPLATE", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						null,
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 21, "id": "SORROW", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "SORROW_LEGGINGS", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						null,
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						null,
+						{ "amount": 3, "id": "SORROW", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [{ "amount": 12, "id": "SORROW", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "SORROW_BOOTS", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						null,
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						null,
+						{ "amount": 3, "id": "SORROW", "type": "item" },
+						null,
+						null,
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}
