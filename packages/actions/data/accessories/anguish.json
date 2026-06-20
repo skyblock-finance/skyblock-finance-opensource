@@ -15,10 +15,10 @@
 						{ "amount": 4, "id": "SORROW", "type": "item" },
 						{ "amount": 4, "id": "PLASMA", "type": "item" },
 						null,
-						{ "amount": 4, "id": "SORROW", "type": "item" },
 						{ "amount": 4, "id": "PLASMA", "type": "item" },
 						{ "amount": 4, "id": "SORROW", "type": "item" },
-						{ "amount": 4, "id": "PLASMA", "type": "item" }
+						{ "amount": 4, "id": "PLASMA", "type": "item" },
+						{ "amount": 4, "id": "SORROW", "type": "item" }
 					],
 					"type": "workbench"
 				}
@@ -39,10 +39,10 @@
 						{ "amount": 8, "id": "SORROW", "type": "item" },
 						{ "amount": 8, "id": "PLASMA", "type": "item" },
 						{ "amount": 1, "id": "ANGUISH_TALISMAN", "type": "item" },
-						{ "amount": 8, "id": "SORROW", "type": "item" },
 						{ "amount": 8, "id": "PLASMA", "type": "item" },
 						{ "amount": 8, "id": "SORROW", "type": "item" },
-						{ "amount": 8, "id": "PLASMA", "type": "item" }
+						{ "amount": 8, "id": "PLASMA", "type": "item" },
+						{ "amount": 8, "id": "SORROW", "type": "item" }
 					],
 					"type": "workbench"
 				}
@@ -63,10 +63,10 @@
 						{ "amount": 16, "id": "SORROW", "type": "item" },
 						{ "amount": 16, "id": "PLASMA", "type": "item" },
 						{ "amount": 1, "id": "ANGUISH_RING", "type": "item" },
-						{ "amount": 16, "id": "SORROW", "type": "item" },
 						{ "amount": 16, "id": "PLASMA", "type": "item" },
 						{ "amount": 16, "id": "SORROW", "type": "item" },
-						{ "amount": 16, "id": "PLASMA", "type": "item" }
+						{ "amount": 16, "id": "PLASMA", "type": "item" },
+						{ "amount": 16, "id": "SORROW", "type": "item" }
 					],
 					"type": "workbench"
 				}
