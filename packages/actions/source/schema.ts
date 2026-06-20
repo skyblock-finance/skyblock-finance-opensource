@@ -75,8 +75,14 @@ export const actionPlaceSchema = z.discriminatedUnion('type', [
 		type: z.literal('forge'),
 	}),
 	z.strictObject({
+		type: z.literal('inventory'),
+	}),
+	z.strictObject({
 		id: npcIdSchema,
 		type: z.literal('npc'),
+	}),
+	z.strictObject({
+		type: z.literal('time-pocket'),
 	}),
 	z.strictObject({
 		type: z.literal('website'),
@@ -111,7 +117,7 @@ export const actionRequirementSchema = z.discriminatedUnion('type', [
 export const actionSchema = z.strictObject({
 	inputs: z.array(actionIoSchema),
 	outputs: z.array(actionIoSchema),
-	place: z.array(actionPlaceSchema),
+	place: z.array(actionPlaceSchema).min(1),
 	requirements: z.array(actionRequirementSchema).optional(),
 })
 
