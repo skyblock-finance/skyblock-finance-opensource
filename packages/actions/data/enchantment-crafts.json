@@ -5,7 +5,8 @@
 			"inputs": [
 				{ "amount": 4, "id": "STUFFED_CHILI_PEPPER", "type": "item" },
 				{ "amount": 28, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
-				{ "amount": 16, "id": "ENCHANTED_RABBIT_HIDE", "type": "item" }
+				{ "amount": 16, "id": "ENCHANTED_RABBIT_HIDE", "type": "item" },
+				{ "amount": 4, "id": "PLASMA", "type": "item" }
 			],
 			"outputs": [
 				{
@@ -21,7 +22,7 @@
 						{ "amount": 14, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
 						{ "amount": 1, "id": "STUFFED_CHILI_PEPPER", "type": "item" },
 						{ "amount": 8, "id": "ENCHANTED_RABBIT_HIDE", "type": "item" },
-						null,
+						{ "amount": 4, "id": "PLASMA", "type": "item" },
 						{ "amount": 8, "id": "ENCHANTED_RABBIT_HIDE", "type": "item" },
 						{ "amount": 1, "id": "STUFFED_CHILI_PEPPER", "type": "item" },
 						{ "amount": 14, "id": "ENCHANTED_HUGE_MUSHROOM_1", "type": "item" },
