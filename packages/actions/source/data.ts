@@ -1,3 +1,4 @@
+import { actions as _agingItems } from '../data/aging-items.json'
 import { actions as _bitsCrafts } from '../data/bits-crafts.json'
 import { actions as _crimsonIsle } from '../data/crimson-isle.json'
 import { actions as _enchantments } from '../data/enchantments.json'
@@ -94,6 +95,7 @@ export const minionsZombie = _minionsZombie as Action[]
 
 // other
 
+export const agingItems = _agingItems as Action[]
 export const bitsCrafts = _bitsCrafts as Action[]
 export const crimsonIsle = _crimsonIsle as Action[]
 export const enchantments = _enchantments as Action[]
@@ -105,6 +107,7 @@ export const vanilla = _vanilla as Action[]
 
 export const allActions: Action[] = [
 	...adventurer,
+	...agingItems,
 	...bingo,
 	...bitsCrafts,
 	...bubu,

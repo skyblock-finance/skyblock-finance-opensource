@@ -17,6 +17,7 @@ export const actionIoCurrencySchema = z.strictObject({
 		'forge-second',
 		'mote',
 		'north-star',
+		'online-second',
 		'pest',
 		'second',
 		'usd',

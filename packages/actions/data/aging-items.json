@@ -1,0 +1,61 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [
+				{ "amount": 1, "id": "NEW_BOTTLE_OF_JYRRE", "type": "item" },
+				{ "amount": 1080000, "id": "online-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "REFINED_BOTTLE_OF_JYRRE", "type": "item" }
+			],
+			"place": []
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "DARK_CACAO_TRUFFLE", "type": "item" },
+				{ "amount": 1080000, "id": "online-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "REFINED_DARK_CACAO_TRUFFLE", "type": "item" }
+			],
+			"place": []
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "DISCRITE", "type": "item" },
+				{ "amount": 1080000, "id": "online-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "SPOTLITE", "type": "item" }],
+			"place": []
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "MOBY_DUCK", "type": "item" },
+				{ "amount": 1080000, "id": "online-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "MOBY_DUCK_COLLECTOR_EDITION", "type": "item" }
+			],
+			"place": []
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "ROSEWATER_FLASK", "type": "item" },
+				{ "amount": 1080000, "id": "online-second", "type": "currency" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "FILLED_ROSEWATER_FLASK", "type": "item" }
+			],
+			"place": []
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "NOT_VERY_MOLDY_BREAD", "type": "item" },
+				{ "amount": 1080000, "id": "online-second", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "VERY_MOLDY_BREAD", "type": "item" }],
+			"place": []
+		}
+	]
+}
