@@ -15,23 +15,24 @@ import { actions as _materialsLotus } from '../data/materials/lotus.json'
 import { actions as _materialsMithril } from '../data/materials/mithril.json'
 import { actions as _materialsMycelium } from '../data/materials/mycelium.json'
 import { actions as _materialsRedSand } from '../data/materials/red-sand.json'
-import { actions as _adventurer } from '../data/merchants/adventurer.json'
-import { actions as _bingo } from '../data/merchants/bingo.json'
-import { actions as _bubu } from '../data/merchants/bubu.json'
-import { actions as _bulvar } from '../data/merchants/bulvar.json'
-import { actions as _einary } from '../data/merchants/einary.json'
-import { actions as _elizabeth } from '../data/merchants/elizabeth.json'
-import { actions as _fishingMerchant } from '../data/merchants/fishing-merchant.json'
-import { actions as _hilda } from '../data/merchants/hilda.json'
-import { actions as _lotusEater } from '../data/merchants/lotus-eater.json'
-import { actions as _marthos } from '../data/merchants/marthos.json'
-import { actions as _nemo } from '../data/merchants/nemo.json'
-import { actions as _phillip } from '../data/merchants/phillip.json'
-import { actions as _plumberJoe } from '../data/merchants/plumber-joe.json'
-import { actions as _researcherBeryl } from '../data/merchants/researcher-beryl.json'
-import { actions as _seymour } from '../data/merchants/seymour.json'
-import { actions as _skymart } from '../data/merchants/skymart.json'
-import { actions as _smithmonger } from '../data/merchants/smithmonger.json'
+import { actions as _merchantAdventurer } from '../data/merchants/adventurer.json'
+import { actions as _merchantAnita } from '../data/merchants/anita.json'
+import { actions as _merchantBingo } from '../data/merchants/bingo.json'
+import { actions as _merchantBubu } from '../data/merchants/bubu.json'
+import { actions as _merchantBulvar } from '../data/merchants/bulvar.json'
+import { actions as _merchantEinary } from '../data/merchants/einary.json'
+import { actions as _merchantElizabeth } from '../data/merchants/elizabeth.json'
+import { actions as _merchantFishingMerchant } from '../data/merchants/fishing-merchant.json'
+import { actions as _merchantHilda } from '../data/merchants/hilda.json'
+import { actions as _merchantLotusEater } from '../data/merchants/lotus-eater.json'
+import { actions as _merchantMarthos } from '../data/merchants/marthos.json'
+import { actions as _merchantNemo } from '../data/merchants/nemo.json'
+import { actions as _merchantPhillip } from '../data/merchants/phillip.json'
+import { actions as _merchantPlumberJoe } from '../data/merchants/plumber-joe.json'
+import { actions as _merchantResearcherBeryl } from '../data/merchants/researcher-beryl.json'
+import { actions as _merchantSeymour } from '../data/merchants/seymour.json'
+import { actions as _merchantSkymart } from '../data/merchants/skymart.json'
+import { actions as _merchantSmithmonger } from '../data/merchants/smithmonger.json'
 import { actions as _minionsBlaze } from '../data/minions/blaze.json'
 import { actions as _minionsCaveSpider } from '../data/minions/cave-spider.json'
 import { actions as _minionsCreeper } from '../data/minions/creeper.json'
@@ -70,23 +71,24 @@ export const materialsRedSand = _materialsRedSand as Action[]
 
 // merchants
 
-export const adventurer = _adventurer as Action[]
-export const bingo = _bingo as Action[]
-export const bubu = _bubu as Action[]
-export const bulvar = _bulvar as Action[]
-export const einary = _einary as Action[]
-export const elizabeth = _elizabeth as Action[]
-export const fishingMerchant = _fishingMerchant as Action[]
-export const hilda = _hilda as Action[]
-export const lotusEater = _lotusEater as Action[]
-export const marthos = _marthos as Action[]
-export const nemo = _nemo as Action[]
-export const phillip = _phillip as Action[]
-export const plumberJoe = _plumberJoe as Action[]
-export const researcherBeryl = _researcherBeryl as Action[]
-export const seymour = _seymour as Action[]
-export const skymart = _skymart as Action[]
-export const smithmonger = _smithmonger as Action[]
+export const merchantAdventurer = _merchantAdventurer as Action[]
+export const merchantAnita = _merchantAnita as Action[]
+export const merchantBingo = _merchantBingo as Action[]
+export const merchantBubu = _merchantBubu as Action[]
+export const merchantBulvar = _merchantBulvar as Action[]
+export const merchantEinary = _merchantEinary as Action[]
+export const merchantElizabeth = _merchantElizabeth as Action[]
+export const merchantFishingMerchant = _merchantFishingMerchant as Action[]
+export const merchantHilda = _merchantHilda as Action[]
+export const merchantLotusEater = _merchantLotusEater as Action[]
+export const merchantMarthos = _merchantMarthos as Action[]
+export const merchantNemo = _merchantNemo as Action[]
+export const merchantPhillip = _merchantPhillip as Action[]
+export const merchantPlumberJoe = _merchantPlumberJoe as Action[]
+export const merchantResearcherBeryl = _merchantResearcherBeryl as Action[]
+export const merchantSeymour = _merchantSeymour as Action[]
+export const merchantSkymart = _merchantSkymart as Action[]
+export const merchantSmithmonger = _merchantSmithmonger as Action[]
 
 // minions
 
@@ -119,25 +121,15 @@ export const vanilla = _vanilla as Action[]
 
 export const allActions: Action[] = [
 	...accessoryAnguish,
-	...adventurer,
 	...agingItems,
 	...armorSorrow,
-	...bingo,
 	...bitsCrafts,
-	...bubu,
-	...bulvar,
 	...crimsonIsle,
-	...einary,
-	...elizabeth,
 	...enchantmentCrafts,
 	...enchantments,
-	...fishingMerchant,
 	...forging,
 	...gems,
 	...gemstones,
-	...hilda,
-	...lotusEater,
-	...marthos,
 	...materialsCoal,
 	...materialsDiamond,
 	...materialsLily,
@@ -145,6 +137,24 @@ export const allActions: Action[] = [
 	...materialsMithril,
 	...materialsMycelium,
 	...materialsRedSand,
+	...merchantAdventurer,
+	...merchantAnita,
+	...merchantBingo,
+	...merchantBubu,
+	...merchantBulvar,
+	...merchantEinary,
+	...merchantElizabeth,
+	...merchantFishingMerchant,
+	...merchantHilda,
+	...merchantLotusEater,
+	...merchantMarthos,
+	...merchantNemo,
+	...merchantPhillip,
+	...merchantPlumberJoe,
+	...merchantResearcherBeryl,
+	...merchantSeymour,
+	...merchantSkymart,
+	...merchantSmithmonger,
 	...minionsBlaze,
 	...minionsCaveSpider,
 	...minionsCreeper,
@@ -158,13 +168,6 @@ export const allActions: Action[] = [
 	...minionsSpider,
 	...minionsVampire,
 	...minionsZombie,
-	...nemo,
 	...northStarsCrafts,
-	...phillip,
-	...plumberJoe,
-	...researcherBeryl,
-	...seymour,
-	...skymart,
-	...smithmonger,
 	...vanilla,
 ]

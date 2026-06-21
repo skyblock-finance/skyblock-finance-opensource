@@ -15,6 +15,7 @@ export const actionIoCurrencySchema = z.strictObject({
 		'copper',
 		'gem',
 		'forge-second',
+		'medal',
 		'mote',
 		'north-star',
 		'online-second',
@@ -47,6 +48,7 @@ export const actionIoSchema = z.discriminatedUnion('type', [
 export const npcIdSchema = z.enum([
 	'ADVENTURER',
 	'ALCHEMIST',
+	'ANITA',
 	'BINGO',
 	'BUBU',
 	'BULVAR',

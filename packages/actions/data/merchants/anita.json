@@ -1,0 +1,129 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 1, "id": "medal", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "INFINIDIRT_WAND", "type": "item" }],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "medal", "type": "currency" },
+				{ "amount": 2, "id": "JACOBS_TICKET", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "PRISMAPUMP", "type": "item" }],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "medal", "type": "currency" },
+				{ "amount": 10, "id": "JACOBS_TICKET", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "HOE_OF_GREAT_TILLING", "type": "item" }
+			],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "medal", "type": "currency" },
+				{ "amount": 20, "id": "JACOBS_TICKET", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "HOE_OF_GREATER_TILLING", "type": "item" }
+			],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "medal", "type": "currency" },
+				{ "amount": 20, "id": "JACOBS_TICKET", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "HOE_OF_GREATEST_TILLING", "type": "item" }
+			],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "medal", "type": "currency" },
+				{ "amount": 30, "id": "JACOBS_TICKET", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "BASKET_OF_SEEDS", "type": "item" }],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "medal", "type": "currency" },
+				{ "amount": 30, "id": "JACOBS_TICKET", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "NETHER_WART_POUCH", "type": "item" }],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "medal", "type": "currency" },
+				{ "amount": 32, "id": "JACOBS_TICKET", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTMENT_DELICATE_5", "type": "item" }
+			],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 2, "id": "medal", "type": "currency" },
+				{ "amount": 32, "id": "JACOBS_TICKET", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ANITA_TALISMAN", "type": "item" }],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 4, "id": "medal", "type": "currency" },
+				{ "amount": 64, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 1, "id": "ANITA_TALISMAN", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ANITA_RING", "type": "item" }],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 16, "id": "medal", "type": "currency" },
+				{ "amount": 100, "id": "JACOBS_TICKET", "type": "item" },
+				{ "amount": 1, "id": "ANITA_RING", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "ANITA_ARTIFACT", "type": "item" }],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 8, "id": "medal", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "MECHAMIND_GARDEN_CHIP", "type": "item" }
+			],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 16, "id": "medal", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "OVERDRIVE_GARDEN_CHIP", "type": "item" }
+			],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 1, "id": "medal", "type": "currency" }],
+			"outputs": [{ "amount": 2, "id": "JACOBS_TICKET", "type": "item" }],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 2, "id": "medal", "type": "currency" }],
+			"outputs": [{ "amount": 4, "id": "JACOBS_TICKET", "type": "item" }],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 8, "id": "medal", "type": "currency" }],
+			"outputs": [{ "amount": 16, "id": "JACOBS_TICKET", "type": "item" }],
+			"place": [{ "id": "ANITA", "type": "npc" }]
+		}
+	]
+}
