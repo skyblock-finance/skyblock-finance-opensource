@@ -1305,6 +1305,15 @@ export const pestItems = new Map<string, ItemMetadata>([
 		},
 	],
 	[
+		'PESTHUNTER_RELIC',
+		{
+			ids: { skyblock: 'PESTHUNTER_RELIC' },
+			links: {},
+			tradesOn: AH,
+			type: 'basic',
+		},
+	],
+	[
 		'PESTHUNTER_RING',
 		{
 			ids: { skyblock: 'PESTHUNTER_RING' },
