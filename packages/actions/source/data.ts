@@ -47,6 +47,7 @@ import { actions as _minionsSpider } from '../data/minions/spider.json'
 import { actions as _minionsVampire } from '../data/minions/vampire.json'
 import { actions as _minionsZombie } from '../data/minions/zombie.json'
 import { actions as _northStarsCrafts } from '../data/north-stars-crafts.json'
+import { actions as _unique } from '../data/unique.json'
 import { actions as _vanilla } from '../data/vanilla.json'
 
 import { Action } from './types'
@@ -117,6 +118,7 @@ export const forging = _forging as Action[]
 export const gems = _gems as Action[]
 export const gemstones = _gemstones as Action[]
 export const northStarsCrafts = _northStarsCrafts as Action[]
+export const unique = _unique as Action[]
 export const vanilla = _vanilla as Action[]
 
 export const allActions: Action[] = [
@@ -169,5 +171,6 @@ export const allActions: Action[] = [
 	...minionsVampire,
 	...minionsZombie,
 	...northStarsCrafts,
+	...unique,
 	...vanilla,
 ]

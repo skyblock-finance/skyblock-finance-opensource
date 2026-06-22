@@ -1,0 +1,31 @@
+{
+	"$schema": "./$schema.json",
+	"actions": [
+		{
+			"inputs": [
+				{ "amount": 64, "id": "ENCHANTED_GOLD_BLOCK", "type": "item" },
+				{ "amount": 64, "id": "ENCHANTED_REDSTONE_BLOCK", "type": "item" },
+				{ "amount": 64, "id": "HIGHLITE", "type": "item" }
+			],
+			"outputs": [
+				{ "amount": 1, "id": "ENCHANTED_TIME_CLOCK", "type": "item" }
+			],
+			"place": [
+				{
+					"grid": [
+						null,
+						{ "amount": 32, "id": "ENCHANTED_GOLD_BLOCK", "type": "item" },
+						null,
+						{ "amount": 32, "id": "HIGHLITE", "type": "item" },
+						{ "amount": 64, "id": "ENCHANTED_REDSTONE_BLOCK", "type": "item" },
+						{ "amount": 32, "id": "HIGHLITE", "type": "item" },
+						null,
+						{ "amount": 32, "id": "ENCHANTED_GOLD_BLOCK", "type": "item" },
+						null
+					],
+					"type": "workbench"
+				}
+			]
+		}
+	]
+}
