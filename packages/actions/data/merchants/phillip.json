@@ -2,27 +2,6 @@
 	"$schema": "../$schema.json",
 	"actions": [
 		{
-			"inputs": [{ "amount": 25, "id": "pest", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "PESTHUNTER_BADGE", "type": "item" }],
-			"place": [{ "id": "PHILLIP", "type": "npc" }]
-		},
-		{
-			"inputs": [
-				{ "amount": 1, "id": "PESTHUNTER_BADGE", "type": "item" },
-				{ "amount": 50, "id": "pest", "type": "currency" }
-			],
-			"outputs": [{ "amount": 1, "id": "PESTHUNTER_RING", "type": "item" }],
-			"place": [{ "id": "PHILLIP", "type": "npc" }]
-		},
-		{
-			"inputs": [
-				{ "amount": 1, "id": "PESTHUNTER_RING", "type": "item" },
-				{ "amount": 100, "id": "pest", "type": "currency" }
-			],
-			"outputs": [{ "amount": 1, "id": "PESTHUNTER_ARTIFACT", "type": "item" }],
-			"place": [{ "id": "PHILLIP", "type": "npc" }]
-		},
-		{
 			"inputs": [{ "amount": 5, "id": "RED_MUSHROOM", "type": "item" }],
 			"outputs": [{ "amount": 1, "id": "MUSHROOM_HELMET", "type": "item" }],
 			"place": [
@@ -135,6 +114,28 @@
 			"place": [{ "id": "PHILLIP", "type": "npc" }]
 		},
 		{
+			"inputs": [{ "amount": 50, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PEST_TRAP", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 200, "id": "pest", "type": "currency" },
+				{ "amount": 1, "id": "FIRE_IN_A_BOTTLE", "type": "item" },
+				{ "amount": 1, "id": "MOUSE_PEST_TRAP", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "MOUSE_PEST_TRAP", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 1, "id": "PEST_TRAP", "type": "item" },
+				{ "amount": 75, "id": "pest", "type": "currency" }
+			],
+			"outputs": [{ "amount": 1, "id": "VERMIN_PEST_TRAP", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
 			"inputs": [{ "amount": 40, "id": "pest", "type": "currency" }],
 			"outputs": [
 				{ "amount": 1, "id": "PESTHUNTERS_NECKLACE", "type": "item" }
@@ -157,24 +158,6 @@
 			"place": [{ "id": "PHILLIP", "type": "npc" }]
 		},
 		{
-			"inputs": [{ "amount": 50, "id": "pest", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "PEST_TRAP", "type": "item" }],
-			"place": [{ "id": "PHILLIP", "type": "npc" }]
-		},
-		{
-			"inputs": [
-				{ "amount": 1, "id": "PEST_TRAP", "type": "item" },
-				{ "amount": 75, "id": "pest", "type": "currency" }
-			],
-			"outputs": [{ "amount": 1, "id": "MOUSE_PEST_TRAP", "type": "item" }],
-			"place": [{ "id": "PHILLIP", "type": "npc" }]
-		},
-		{
-			"inputs": [{ "amount": 500, "id": "pest", "type": "currency" }],
-			"outputs": [{ "amount": 1, "id": "PESTHUNTING_GUIDE", "type": "item" }],
-			"place": [{ "id": "PHILLIP", "type": "npc" }]
-		},
-		{
 			"inputs": [{ "amount": 1500, "id": "pest", "type": "currency" }],
 			"outputs": [
 				{ "amount": 1, "id": "PESTHUNTERS_LAIR_BARN_SKIN", "type": "item" }
@@ -183,7 +166,41 @@
 		},
 		{
 			"inputs": [{ "amount": 500, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTING_GUIDE", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 500, "id": "pest", "type": "currency" }],
 			"outputs": [{ "amount": 1, "id": "HEDGEHOG", "type": "pet" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 25, "id": "pest", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTER_BADGE", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 50, "id": "pest", "type": "currency" },
+				{ "amount": 1, "id": "PESTHUNTER_BADGE", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTER_RING", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 100, "id": "pest", "type": "currency" },
+				{ "amount": 1, "id": "PESTHUNTER_RING", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTER_ARTIFACT", "type": "item" }],
+			"place": [{ "id": "PHILLIP", "type": "npc" }]
+		},
+		{
+			"inputs": [
+				{ "amount": 200, "id": "pest", "type": "currency" },
+				{ "amount": 1, "id": "PESTHUNTER_ARTIFACT", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "PESTHUNTER_RELIC", "type": "item" }],
 			"place": [{ "id": "PHILLIP", "type": "npc" }]
 		}
 	]
