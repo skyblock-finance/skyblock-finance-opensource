@@ -4,6 +4,63 @@ const BZ = { ah: false, bz: true } satisfies ItemMetadataTradesOn
 const AH = { ah: true, bz: false } satisfies ItemMetadataTradesOn
 const NOWHERE = { ah: false, bz: false } satisfies ItemMetadataTradesOn
 
+export const anitaItems = new Map<string, ItemMetadata>([
+	[
+		'ANITA_ARTIFACT',
+		{
+			ids: { skyblock: 'ANITA_ARTIFACT' },
+			links: {},
+			tradesOn: AH,
+			type: 'basic',
+		},
+	],
+	[
+		'ANITA_RING',
+		{
+			ids: { skyblock: 'ANITA_RING' },
+			links: {},
+			tradesOn: AH,
+			type: 'basic',
+		},
+	],
+	[
+		'ANITA_TALISMAN',
+		{
+			ids: { skyblock: 'ANITA_TALISMAN' },
+			links: {},
+			tradesOn: AH,
+			type: 'basic',
+		},
+	],
+	[
+		'HOE_OF_GREAT_TILLING',
+		{
+			ids: { skyblock: 'HOE_OF_GREAT_TILLING' },
+			links: {},
+			tradesOn: AH,
+			type: 'basic',
+		},
+	],
+	[
+		'HOE_OF_GREATER_TILLING',
+		{
+			ids: { skyblock: 'HOE_OF_GREATER_TILLING' },
+			links: {},
+			tradesOn: AH,
+			type: 'basic',
+		},
+	],
+	[
+		'HOE_OF_GREATEST_TILLING',
+		{
+			ids: { skyblock: 'HOE_OF_GREATEST_TILLING' },
+			links: {},
+			tradesOn: AH,
+			type: 'basic',
+		},
+	],
+])
+
 export const bitsItems = new Map<string, ItemMetadata>([
 	[
 		'AUTOPET_RULES_2',
@@ -1376,6 +1433,15 @@ export const pestItems = new Map<string, ItemMetadata>([
 			type: 'basic',
 		},
 	],
+	[
+		'VERMIN_PEST_TRAP',
+		{
+			ids: { skyblock: 'VERMIN_PEST_TRAP' },
+			links: {},
+			tradesOn: AH,
+			type: 'basic',
+		},
+	],
 ])
 
 export const skymartItems = new Map<string, ItemMetadata>([
@@ -2182,10 +2248,24 @@ export const skymartItems = new Map<string, ItemMetadata>([
 	],
 ])
 
+export const otherItems = new Map<string, ItemMetadata>([
+	[
+		'ENCHANTED_TIME_CLOCK',
+		{
+			ids: { skyblock: 'ENCHANTED_TIME_CLOCK' },
+			links: {},
+			tradesOn: AH,
+			type: 'basic',
+		},
+	],
+])
+
 export const allItems = new Map<string, ItemMetadata>([
+	...anitaItems.entries(),
 	...bitsItems.entries(),
 	...crimsonIsleItems.entries(),
 	...northStarItems.entries(),
+	...otherItems.entries(),
 	...pestItems.entries(),
 	...skymartItems.entries(),
 ])
