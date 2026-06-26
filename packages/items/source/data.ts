@@ -225,6 +225,15 @@ export const bitsItems = new Map<string, ItemMetadata>([
 		},
 	],
 	[
+		'EVERBURNING_FLAME',
+		{
+			ids: { skyblock: 'EVERBURNING_FLAME' },
+			links: {},
+			tradesOn: AH,
+			type: 'basic',
+		},
+	],
+	[
 		'FLOWER_SACK',
 		{
 			ids: { skyblock: 'FLOWER_SACK' },

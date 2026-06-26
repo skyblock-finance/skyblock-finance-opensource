@@ -108,6 +108,31 @@
 		},
 		{
 			"inputs": [
+				{ "amount": 2, "id": "ENCHANTED_SULPHUR_CUBE", "type": "item" },
+				{ "amount": 2, "id": "ENCHANTED_RED_SAND_CUBE", "type": "item" },
+				{ "amount": 16, "id": "FLAMES", "type": "item" },
+				{ "amount": 1, "id": "PLASMA_BUCKET", "type": "item" }
+			],
+			"outputs": [{ "amount": 1, "id": "EVERBURNING_FLAME", "type": "item" }],
+			"place": [
+				{
+					"grid": [
+						{ "amount": 4, "id": "FLAMES", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_RED_SAND_CUBE", "type": "item" },
+						{ "amount": 4, "id": "FLAMES", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_SULPHUR_CUBE", "type": "item" },
+						{ "amount": 1, "id": "PLASMA_BUCKET", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_SULPHUR_CUBE", "type": "item" },
+						{ "amount": 4, "id": "FLAMES", "type": "item" },
+						{ "amount": 1, "id": "ENCHANTED_RED_SAND_CUBE", "type": "item" },
+						{ "amount": 4, "id": "FLAMES", "type": "item" }
+					],
+					"type": "workbench"
+				}
+			]
+		},
+		{
+			"inputs": [
 				{ "amount": 1, "id": "MAGMA_BUCKET", "type": "item" },
 				{ "amount": 512, "id": "ENCHANTED_MITHRIL", "type": "item" }
 			],
