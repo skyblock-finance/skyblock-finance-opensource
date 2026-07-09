@@ -4,6 +4,7 @@ export enum SkillType {
 	FARMING = 'FARMING',
 	FISHING = 'FISHING',
 	FORAGING = 'FORAGING',
+	HUNTING = 'HUNTING',
 	MINING = 'MINING',
 	SOCIAL = 'SOCIAL',
 }

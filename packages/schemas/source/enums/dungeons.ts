@@ -7,6 +7,8 @@ export enum EssenceType {
 	CRIMSON = 'CRIMSON',
 	DIAMOND = 'DIAMOND',
 	DRAGON = 'DRAGON',
+	FOREST = 'FOREST',
+	FOSSIL = 'FOSSIL',
 	GOLD = 'GOLD',
 	ICE = 'ICE',
 	SPIDER = 'SPIDER',

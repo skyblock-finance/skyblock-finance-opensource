@@ -18,6 +18,10 @@ import {
 	itemsResponseSchemaStrict,
 } from '../source/api/items'
 import {
+	resourcePacksResponseSchemaRuntime,
+	resourcePacksResponseSchemaStrict,
+} from '../source/api/resource-packs'
+import {
 	skillsResponseSchemaRuntime,
 	skillsResponseSchemaStrict,
 } from '../source/api/skills'
@@ -52,12 +56,12 @@ const TO_CHECK: {
 		strictSchema: electionResponseSchemaStrict,
 	},
 	{
-		file: 'items.json',
-		getMessage: (result: z.output<typeof itemsResponseSchemaRuntime>) =>
-			`found ${result.items.length} items`,
+		file: 'resource-packs.json',
+		getMessage: (result: z.output<typeof resourcePacksResponseSchemaRuntime>) =>
+			`found resource packs ${JSON.stringify(Object.keys(result.packs))}`,
 		isEnabled: true,
-		runtimeSchema: itemsResponseSchemaRuntime,
-		strictSchema: itemsResponseSchemaStrict,
+		runtimeSchema: resourcePacksResponseSchemaRuntime,
+		strictSchema: resourcePacksResponseSchemaStrict,
 	},
 	{
 		file: 'skills.json',
@@ -66,6 +70,15 @@ const TO_CHECK: {
 		isEnabled: true,
 		runtimeSchema: skillsResponseSchemaRuntime,
 		strictSchema: skillsResponseSchemaStrict,
+	},
+	// changes most often
+	{
+		file: 'items.json',
+		getMessage: (result: z.output<typeof itemsResponseSchemaRuntime>) =>
+			`found ${result.items.length} items`,
+		isEnabled: true,
+		runtimeSchema: itemsResponseSchemaRuntime,
+		strictSchema: itemsResponseSchemaStrict,
 	},
 ]
 
@@ -136,12 +149,24 @@ for (const toCheck of TO_CHECK) {
 	} catch (error) {
 		const e = error as z.ZodError<unknown>
 
-		if (e.issues) {
-			log.error(e.issues.filter((_, index) => index < 3))
+		if (!e.issues) {
+			log.error(error)
+			throw error
+		}
 
-			log.info(`failed with ${e.issues.length} issues`)
-		} else log.error(error)
+		for (const issue of e.issues) {
+			let valuePointer: unknown = json
 
-		process.exit(1)
+			for (const segment of issue.path) {
+				// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-explicit-any
+				valuePointer = (valuePointer as any)?.[segment]
+			}
+
+			log.error(
+				`path=${issue.path.join('.')}\ncode=${issue.code}\nmessage=${issue.message}\nvalue=${JSON.stringify(valuePointer, null, '\t')}\n`,
+			)
+		}
+
+		throw new Error(`failed with ${e.issues.length} issues`)
 	}
 }

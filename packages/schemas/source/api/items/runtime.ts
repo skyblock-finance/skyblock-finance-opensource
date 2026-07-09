@@ -7,7 +7,9 @@ import { Soulbound } from '../../enums/soulbound'
 import { skinSchema } from './common'
 
 const itemSchema = z.object({
+	can_auction: z.boolean().optional(),
 	can_have_attributes: z.boolean().optional(),
+	can_trade: z.boolean().optional(),
 	category: z.string().optional(),
 	description: z.string().optional(),
 	dungeon_item: z.boolean().optional(),
@@ -29,7 +31,7 @@ const itemSchema = z.object({
 						]),
 					)
 					.optional(),
-				slot_type: z.nativeEnum(GemSlotType),
+				slot_type: z.enum(GemSlotType),
 			}),
 		)
 		.optional(),
@@ -37,21 +39,20 @@ const itemSchema = z.object({
 	generator_tier: z.number().int().optional(),
 	glowing: z.boolean().optional(),
 	id: z.string(),
+	item_model: z.string().optional(),
 	material: z.string(),
 	museum: z.boolean().optional(),
 	name: z.string(),
 	npc_sell_price: z.number().optional(),
 	requirements: z
 		.array(
-			z
-				.object({
-					type: z.string(),
-				})
-				.passthrough(),
+			z.looseObject({
+				type: z.string(),
+			}),
 		)
 		.optional(),
 	skin: skinSchema.optional(),
-	soulbound: z.nativeEnum(Soulbound).optional(),
+	soulbound: z.enum(Soulbound).optional(),
 	tier: z.string().optional(),
 	unstackable: z.boolean().optional(),
 })

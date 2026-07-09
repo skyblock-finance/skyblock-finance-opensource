@@ -27,7 +27,7 @@ jobs:
       - run: bun install
 
       # update npm (presumably for OIDC support)
-      - run: npm --version && npm install -g npm && npm --version
+      - run: npm --version && npm install -g npm@11 && npm --version
 
       # make extra sure this publish wouldn’t break anything
       - run: bun run build check test

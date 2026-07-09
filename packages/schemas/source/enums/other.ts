@@ -11,6 +11,7 @@ export enum PrivateIslandType {
 }
 
 export enum CrystalType {
+	CORNUCOPIA = 'CORNUCOPIA',
 	DESERT_ISLAND = 'DESERT_ISLAND',
 	FARM = 'FARM',
 	FISHING = 'FISHING',

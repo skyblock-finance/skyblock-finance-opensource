@@ -36,6 +36,11 @@ const FILES: (
 		url: 'https://api.hypixel.net/resources/skyblock/items',
 	},
 	{
+		name: 'resource-packs.json',
+		type: 'simple',
+		url: 'https://api.hypixel.net/v2/resources/packs',
+	},
+	{
 		name: 'skills.json',
 		type: 'simple',
 		url: 'https://api.hypixel.net/resources/skyblock/skills',

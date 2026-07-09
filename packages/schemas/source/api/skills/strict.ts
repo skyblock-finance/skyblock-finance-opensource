@@ -24,6 +24,7 @@ export const skillsResponseSchemaStrict = apiResponseSchema
 				FARMING: skillSchema,
 				FISHING: skillSchema,
 				FORAGING: skillSchema,
+				HUNTING: skillSchema,
 				MINING: skillSchema,
 				RUNECRAFTING: skillSchema,
 				SOCIAL: skillSchema,
