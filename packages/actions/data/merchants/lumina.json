@@ -1,0 +1,38 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 32, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{
+					"amount": 64,
+					"id": "TORCH",
+					"type": "item"
+				}
+			],
+			"place": [{ "id": "LUMINA", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10000, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "LANTERN",
+					"type": "item"
+				}
+			],
+			"place": [{ "id": "LUMINA", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100000, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{
+					"amount": 1,
+					"id": "INFINI_TORCH",
+					"type": "item"
+				}
+			],
+			"place": [{ "id": "LUMINA", "type": "npc" }]
+		}
+	]
+}
