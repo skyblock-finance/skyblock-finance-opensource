@@ -5,7 +5,6 @@ export type ItemMetadataIds = {
 
 export type ItemMetadataLinks = {
 	communityWiki?: string
-	hypixelWiki?: string
 }
 
 export type ItemMetadataTradesOn = {
