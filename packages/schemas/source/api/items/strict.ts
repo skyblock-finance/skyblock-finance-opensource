@@ -217,6 +217,7 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 			z
 				.object({
 					ability_damage_scaling: z.float32().optional(),
+					actionbar_resource: z.enum(['VITALITY']).optional(),
 					can_auction: z.boolean().optional(),
 					can_burn_in_furnace: z.boolean().optional(),
 					can_have_attributes: z.boolean().optional(),
@@ -351,6 +352,7 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 						.string()
 						.regex(/[A-Z][A-Z_]+[A-Z]/)
 						.optional(),
+					game_stage: z.literal('SKILLED').optional(), // hypixel pls use a schema... that was supposed to be museum_data.game_stage
 					gear_score: z.int().optional(),
 					gemstone_slots: z
 						.array(

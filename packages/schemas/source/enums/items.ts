@@ -38,6 +38,7 @@ export enum ItemCategory {
 	PICKAXE = 'PICKAXE',
 	PORTAL = 'PORTAL',
 	REFORGE_STONE = 'REFORGE_STONE',
+	SACK = 'SACK',
 	SALT = 'SALT',
 	SHEARS = 'SHEARS',
 	SPADE = 'SPADE',
