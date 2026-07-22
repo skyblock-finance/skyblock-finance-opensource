@@ -24,6 +24,7 @@ import { actions as _merchantEinary } from '../data/merchants/einary.json'
 import { actions as _merchantElizabeth } from '../data/merchants/elizabeth.json'
 import { actions as _merchantFishingMerchant } from '../data/merchants/fishing-merchant.json'
 import { actions as _merchantHilda } from '../data/merchants/hilda.json'
+import { actions as _merchantHusbandryMerchant } from '../data/merchants/husbandry-merchant.json'
 import { actions as _merchantLotusEater } from '../data/merchants/lotus-eater.json'
 import { actions as _merchantLumina } from '../data/merchants/lumina.json'
 import { actions as _merchantMarthos } from '../data/merchants/marthos.json'
@@ -82,6 +83,7 @@ export const merchantEinary = _merchantEinary as Action[]
 export const merchantElizabeth = _merchantElizabeth as Action[]
 export const merchantFishingMerchant = _merchantFishingMerchant as Action[]
 export const merchantHilda = _merchantHilda as Action[]
+export const merchantHusbandryMerchant = _merchantHusbandryMerchant as Action[]
 export const merchantLotusEater = _merchantLotusEater as Action[]
 export const merchantLumina = _merchantLumina as Action[]
 export const merchantMarthos = _merchantMarthos as Action[]
@@ -150,6 +152,7 @@ export const allActions: Action[] = [
 	...merchantElizabeth,
 	...merchantFishingMerchant,
 	...merchantHilda,
+	...merchantHusbandryMerchant,
 	...merchantLumina,
 	...merchantLotusEater,
 	...merchantMarthos,

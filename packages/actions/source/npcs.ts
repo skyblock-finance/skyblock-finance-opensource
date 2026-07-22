@@ -69,6 +69,13 @@ const _npcs: Record<NpcId, NpcMetadata> = {
 		},
 		name: 'Hilda',
 	},
+	HUSBANDRY_MERCHANT: {
+		links: {
+			communityWiki:
+				'https://hypixelskyblock.minecraft.wiki/w/Husbandry_Merchant',
+		},
+		name: 'Husbandry Merchant',
+	},
 	LOTUS_EATER: {
 		links: {
 			communityWiki: 'https://hypixelskyblock.minecraft.wiki/w/The_Lotus_Eater',

@@ -1,0 +1,99 @@
+{
+	"$schema": "../$schema.json",
+	"actions": [
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "RAW_BEEF", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "LEATHER", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "PORK", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "RAW_CHICKEN", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "FEATHER", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "EGG", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "MUTTON", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "WOOL", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "RABBIT", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "RABBIT_HIDE", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 10, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "RABBIT_FOOT", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BASIC_CHICKEN_AXE", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BASIC_COW_AXE", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "BASIC_MUSHROOM_COW_AXE", "type": "item" }
+			],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BASIC_PIG_AXE", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BASIC_SHEEP_AXE", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 100, "id": "coin", "type": "currency" }],
+			"outputs": [{ "amount": 1, "id": "BASIC_RABBIT_AXE", "type": "item" }],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		},
+		{
+			"inputs": [{ "amount": 250, "id": "coin", "type": "currency" }],
+			"outputs": [
+				{ "amount": 1, "id": "BEGINNER_HUSBANDRY_SACK", "type": "item" }
+			],
+			"place": [{ "id": "HUSBANDRY_MERCHANT", "type": "npc" }]
+		}
+	]
+}
