@@ -76,6 +76,9 @@ export const actionPlaceSchema = z.discriminatedUnion('type', [
 		type: z.literal('anvil'),
 	}),
 	z.strictObject({
+		type: z.literal('consume'),
+	}),
+	z.strictObject({
 		type: z.literal('forge'),
 	}),
 	z.strictObject({

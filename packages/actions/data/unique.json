@@ -26,6 +26,11 @@
 					"type": "workbench"
 				}
 			]
+		},
+		{
+			"inputs": [{ "amount": 1, "id": "LOCUST_LARVA", "type": "item" }],
+			"outputs": [{ "amount": 1, "id": "pest", "type": "currency" }],
+			"place": [{ "type": "consume" }]
 		}
 	]
 }
