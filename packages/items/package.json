@@ -6,7 +6,6 @@
 		"@types/bun": "latest"
 	},
 	"files": [
-		"data",
 		"dist",
 		"source"
 	],
