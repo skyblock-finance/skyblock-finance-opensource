@@ -25,10 +25,7 @@
 		},
 		"check:eslint": {
 			"dependsOn": ["@skyblock-finance/eslint-config#build"],
-			"inputs": [
-				"**/*.{cjs,js,mjs,json,mjs,mts,ts}",
-				"../../eslint.config.mjs"
-			],
+			"inputs": ["**/*.{cjs,js,json,mjs,mts,ts}", "../../eslint.config.mjs"],
 			"outputLogs": "new-only"
 		},
 		"check:knip": {
@@ -53,15 +50,9 @@
 		},
 		"fix:eslint": {
 			"dependsOn": ["@skyblock-finance/eslint-config#build"],
-			"inputs": [
-				"**/*.{cjs,js,mjs,json,mjs,mts,ts}",
-				"../../eslint.config.mjs"
-			],
+			"inputs": ["**/*.{cjs,js,json,mjs,mts,ts}", "../../eslint.config.mjs"],
 			"outputLogs": "new-only",
-			"outputs": [
-				"**/*.{cjs,js,mjs,json,mjs,mts,ts}",
-				"../../eslint.config.mjs"
-			]
+			"outputs": ["**/*.{cjs,js,json,mjs,mts,ts}", "../../eslint.config.mjs"]
 		},
 		"fix:prettier": {
 			"inputs": ["**/*.{css,js,json,md,scss,ts}"],
