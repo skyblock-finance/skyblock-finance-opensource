@@ -8,16 +8,24 @@
 		"sherif"
 	],
 	"workspaces": {
-		"internals/*": {
-			"entry": ["scripts/*.ts", "source/index.ts"],
+		"internals/eslint-config": {
 			"project": ["source/**/*.ts"]
 		},
 		"internals/scripts": {
-			"entry": ["source/*.ts"],
+			"entry": ["source/*.mts"],
+			"project": ["source/**/*.mts"]
+		},
+		"packages/actions": {
+			"entry": ["scripts/*.ts"],
+			"ignore": ["**/*.test.ts"],
 			"project": ["source/**/*.ts"]
 		},
-		"packages/*": {
-			"entry": ["scripts/*.ts", "source/index.ts"],
+		"packages/items": {
+			"ignore": ["**/*.test.ts"],
+			"project": ["source/**/*.ts"]
+		},
+		"packages/schemas": {
+			"entry": ["scripts/*.ts"],
 			"ignore": ["**/*.test.ts"],
 			"project": ["source/**/*.ts"]
 		}
