@@ -9,7 +9,12 @@ export const resourcePacksResponseSchemaStrict = z.strictObject({
 			versions: z.array(
 				z.strictObject({
 					hash: z.string().length(40),
-					packFormat: z.union([z.literal(75), z.literal(84), z.literal(88)]),
+					packFormat: z.union([
+						z.literal(75),
+						z.literal(84),
+						z.literal(88),
+						z.literal(97),
+					]),
 					url: z
 						.url()
 						.startsWith('https://resourcepacks.hypixel.net/')
