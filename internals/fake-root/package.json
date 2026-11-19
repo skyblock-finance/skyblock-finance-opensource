@@ -6,7 +6,7 @@
 		"check:knip": "bun run --cwd ../.. knip --exclude enumMembers",
 		"check:prettier": "bun --bun run --cwd ../.. prettier --check .",
 		"check:sherif": "bun --bun run --cwd ../.. sherif -r root-package-manager-field",
-		"fix:eslint": "yarn run check:eslint --fix",
+		"fix:eslint": "bun run check:eslint --fix",
 		"fix:prettier": "bun --bun run check:prettier --write"
 	},
 	"version": "0.0.0"
