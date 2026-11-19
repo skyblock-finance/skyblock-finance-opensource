@@ -26,7 +26,7 @@
 		"dist/index.d.ts",
 		"dist/index.js.map"
 	],
-	"homepage": "https://github.com/skyblock-finance/skyblock-finance-opensource/tree/master/packages/eslint-config",
+	"homepage": "https://github.com/skyblock-finance/skyblock-finance-opensource/tree/main/internals/eslint-config",
 	"keywords": [
 		"eslint",
 		"eslint-config"
