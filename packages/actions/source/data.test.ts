@@ -71,7 +71,7 @@ test('sumUp works', () => {
 	)
 })
 
-test('every action’s workbench inputs match its crafing grid', () => {
+test('every action’s workbench inputs match its crafting grid', () => {
 	for (const action of allActions) {
 		for (const grid of action.place.filter((x) => x.type === 'workbench')) {
 			assert(grid.type === 'workbench')
@@ -88,7 +88,7 @@ test('every action’s workbench inputs match its crafing grid', () => {
 	}
 })
 
-test('every action’s anvil inputs match its crafing grid', () => {
+test('every action’s anvil inputs match its crafting grid', () => {
 	for (const action of allActions) {
 		for (const grid of action.place.filter((x) => x.type === 'anvil')) {
 			assert(grid.type === 'anvil')
