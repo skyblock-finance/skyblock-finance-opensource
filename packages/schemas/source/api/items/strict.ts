@@ -29,6 +29,11 @@ const requirementsSchema = z.array(
 			type: z.literal('ANY_OF'), // FIXME: explain difference to ONE_OF‽‽‽
 		}),
 		z.strictObject({
+			chapter: z.enum(['bayou', 'lotus']),
+			tier: z.int().max(2),
+			type: z.literal('CHAPTER_TIER'),
+		}),
+		z.strictObject({
 			level: z.int().max(6),
 			type: z.literal('CHOCOLATE_FACTORY'),
 		}),
@@ -38,6 +43,7 @@ const requirementsSchema = z.array(
 				'COAL',
 				'GOLD_INGOT',
 				'HARD_STONE',
+				'HONEYCOMB',
 				'ICE',
 				'LOTUS',
 				'SAND',
@@ -75,6 +81,10 @@ const requirementsSchema = z.array(
 		z.strictObject({
 			level: z.int().min(1),
 			type: z.literal('GARDEN_LEVEL'),
+		}),
+		z.strictObject({
+			tier: z.int().min(1),
+			type: z.literal('HEART_OF_THE_FOREST'),
 		}),
 		z.strictObject({
 			tier: z.int().min(1),
@@ -169,6 +179,7 @@ const statsSchemaStrict = z
 				'HEALTH',
 				'HEALTH_REGENERATION',
 				'HEAT_RESISTANCE',
+				'HELIX_FORTUNE',
 				'INTELLIGENCE',
 				'MAGIC_FIND',
 				'MANGROVE_FORTUNE',
@@ -255,6 +266,15 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 					components: z
 						.array(
 							z.discriminatedUnion('type', [
+								z.strictObject({
+									type: z.literal('FORGE_RECIPE_INGREDIENT'),
+								}),
+								z.strictObject({
+									can_use_with_mass_insert: z.literal(false).optional(),
+									fuel_per_item: z.int(),
+									render_lore: z.literal(false).optional(),
+									type: z.literal('MACHINE_FUEL'),
+								}),
 								z.strictObject({
 									allow_duplicates: z.boolean().optional(),
 									excluded_items: z.array(z.string()).optional(),
@@ -418,6 +438,7 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 						.optional(),
 					item_specific: z
 						.object({
+							bonus: z.number().optional(),
 							bonus_experience_chance: z.int().optional(),
 							bonus_fishing_speed: z.int().optional(),
 							bonus_fishing_speed_per_bucket: z.int().optional(),
@@ -431,6 +452,7 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 							charges: z.int().optional(),
 							chisel_charges: z.int().optional(),
 							colors: z.array(z.string()).optional(),
+							combat_wisdom_vs_vampires: z.int().optional(),
 							consumed_item: z.string().optional(),
 							cooldown_seconds: z.int().optional(),
 							cycle_back: z.boolean().optional(),
@@ -523,6 +545,9 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 										.optional(), // API_NONSENSE: duplicates requirements
 								})
 								.strict()
+								.optional(),
+							powders: z
+								.array(z.enum(['GEMSTONE', 'GLACITE', 'MITHRIL']))
 								.optional(),
 							range: z.int().optional(),
 							range_blocks: z.int().optional(),
@@ -627,6 +652,7 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 						.optional(),
 					name: z.string(),
 					npc_sell_price: z.number().optional(),
+					obtainment: z.string().optional(),
 					origin: z.enum(['BINGO', 'RIFT']).optional(),
 					prestige: z
 						.object({
@@ -667,7 +693,9 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 						)
 						.optional(),
 					requirements: requirementsSchema.optional(),
+					rift_obtainment: z.string().optional(),
 					rift_transferrable: z.boolean().optional(),
+					safari_only: z.boolean().optional(),
 					salvage: z
 						.union([
 							z
@@ -707,6 +735,7 @@ export const itemsResponseSchemaStrict = apiResponseSchema
 						.optional(),
 					serializable: z.boolean().optional(),
 					skin: skinSchema.optional(),
+					slayer_weapon: z.boolean().optional(),
 					soulbound: z.enum(Soulbound).optional(),
 					stats: statsSchemaStrict.optional(),
 					sword_type: z
