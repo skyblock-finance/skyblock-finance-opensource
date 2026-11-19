@@ -24,5 +24,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           path-to-signatures: '.github/custom/cla-signatures.json'
-          path-to-document: 'https://github.com/skyblock-finance/skyblock-finance-opensource/blob/master/CLA.md'
+          path-to-document: 'https://github.com/skyblock-finance/skyblock-finance-opensource/blob/main/CLA.md'
           branch: 'main' # branch should not be protected
